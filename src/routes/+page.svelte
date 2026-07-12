@@ -140,7 +140,8 @@
 <style>
 	.viewtypes-list {
 		display: flex;
-		gap: var(--size-3);
+		flex-wrap: wrap;
+		gap: var(--size-2);
 		margin-block-end: var(--size-7);
 
 		img {
@@ -183,5 +184,9 @@
 
 	.folder-item {
 		margin-inline-start: var(--size-4);
+	}
+
+	.folders > .folder-item {
+		margin-inline-start: 0;
 	}
 </style>
