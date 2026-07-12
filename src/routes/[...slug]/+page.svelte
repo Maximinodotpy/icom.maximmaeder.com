@@ -14,6 +14,11 @@
 	<hgroup>
 		<h1>{data.meta.title}</h1>
 		<p>Published at {formatDate(data.meta.date)}</p>
+
+		<!-- Description -->
+		<!-- {#if data.meta.description}
+			<p>{data.meta.description}</p>
+		{/if} -->
 	</hgroup>
 
 	<div class="tags">
@@ -51,5 +56,9 @@
 				border-radius: var(--radius-round);
 			}
 		}
+	}
+
+	:global(.prose > *) {
+		margin-block-end: var(--size-4);
 	}
 </style>

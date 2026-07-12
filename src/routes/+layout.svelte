@@ -20,7 +20,7 @@
 		</PageTransition>
 	</main>
 
-	<Footer />
+	<Footer data_maximmaeder_com={data.data_maximmaeder_com} />
 </div>
 
 <style>
