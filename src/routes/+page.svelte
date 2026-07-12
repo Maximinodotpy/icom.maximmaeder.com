@@ -21,7 +21,14 @@
 		}
 	]
 	let current_viewtype = $state(viewtypes[2])
+	let searchQuery = $state('')
 
+	let filteredPosts = $derived.by(() => {
+		return data.posts.filter((post) => {
+			const query = searchQuery.toLowerCase()
+			return post.title.toLowerCase().includes(query) || post.description.toLowerCase().includes(query)
+		})
+	})
 
 	interface Item {
 		name: string
@@ -77,25 +84,34 @@
 
 <section>
 	<!-- Viewtypes -->
-	<div class="viewtypes-list">
-		{#each viewtypes as viewtype}
-			{@const Icon = viewtype.icon}
-			<button class="viewtype {current_viewtype.name == viewtype.name ? 'brand' : 'surface-4'}" onclick={() => {
-				console.log('active viewtype ...');
-				console.log(viewtype);
-				current_viewtype = viewtype
-			}}>
-				<Icon></Icon>
-				{ viewtype.name }
-			</button>
-		{/each}
+	<div class="search-bar">
+		<input type="text" placeholder="Search posts..." class="surface-4" bind:value={searchQuery} />
+		
+		<div class="viewtypes-list">
+			{#each viewtypes as viewtype}
+				{@const Icon = viewtype.icon}
+				<button class="viewtype {current_viewtype.name == viewtype.name ? 'brand' : 'surface-4'}" onclick={() => {
+					console.log('active viewtype ...');
+					console.log(viewtype);
+					current_viewtype = viewtype
+				}}>
+					<Icon></Icon>
+					{ viewtype.name }
+				</button>
+			{/each}
+		</div>
 	</div>
+	
 
-	{#if data.posts.length === 0}
+	{#if filteredPosts.length === 0}
 		<p>No posts found.</p>
+
+		{#if searchQuery}
+			<p>Try searching for something else.</p>
+		{/if}
 	{:else if current_viewtype.name === 'Grid'}
 		<div class="posts grid">
-			{#each data.posts as post}
+			{#each filteredPosts as post}
 				<div class="post">
 					<a href={post.slug} class="title">{post.title}</a>
 					<p class="date">{formatDate(post.date)}</p>
@@ -122,11 +138,11 @@
 				{/each}
 			{/snippet}
 
-			{@render folder(formatPostsIntoRecursiveFolders(data.posts))}
+			{@render folder(formatPostsIntoRecursiveFolders(filteredPosts))}
 		</div>
 	{:else if current_viewtype.name === 'List'}
 		<ul class="posts">
-			{#each data.posts as post}
+			{#each filteredPosts as post}
 				<li class="post">
 					<a href={post.slug} class="title">{post.title}</a>
 					<p class="date">{formatDate(post.date)}</p>
@@ -138,17 +154,25 @@
 </section>
 
 <style>
-	.viewtypes-list {
+	.search-bar {
 		display: flex;
+		justify-content: space-between;
+		align-items: center;
 		flex-wrap: wrap;
-		gap: var(--size-2);
+		gap: var(--size-4);
 		margin-block-end: var(--size-7);
 
-		img {
-			/* filter: invert(1); */
-			/* opacity: 0.5; */
+		input {
+			padding: var(--size-2) var(--size-4);
+		}
+		
+		.viewtypes-list {
+			display: flex;
+			flex-wrap: wrap;
+			gap: var(--size-2);
 		}
 	}
+	
 
 	.posts {
 		display: grid;
