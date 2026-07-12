@@ -48,6 +48,12 @@
 </footer>
 
 <style>
+	:global([color-scheme="dark"]) {
+		.social-icon {
+			filter: invert(1);
+		}
+	}
+
 	footer {
 		padding-block: var(--size-7);
 		border-top: 1px solid var(--border);
@@ -75,9 +81,7 @@
 					user-select: none;
 
 					/* Invert the icon in darkmode */
-					@media (prefers-color-scheme: dark) {
-						filter: invert(1);
-					}
+					
 				}
 			}
 			

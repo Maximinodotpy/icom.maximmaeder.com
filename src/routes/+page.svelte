@@ -1,24 +1,74 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
+	import { List, Grid, Folder } from 'lucide-svelte'
+	import type { Post } from '$lib/types.js';
 
 	let { data } = $props()
 
 	const viewtypes = [
 		{
 			name: 'List',
-			icon: 'https://api.iconify.design/material-symbols:format-list-bulleted.svg',
+			icon: List,
 		},
 		{
 			name: 'Grid',
-			icon: 'https://api.iconify.design/material-symbols:grid-view.svg',
+			icon: Grid,
 		},
 		{
-			name: 'Folders',
-			icon: 'https://api.iconify.design/material-symbols:folder.svg',
+			name: 'Folders',	
+			icon: Folder,
 		}
 	]
-	let current_viewtype = $state(viewtypes[0])
+	let current_viewtype = $state(viewtypes[2])
+
+
+	interface Item {
+		name: string
+		type: 'folder' | 'file'
+		children?: Item[]
+		post?: Post
+	}
+
+	const formatPostsIntoRecursiveFolders = (posts: Post[]) => {
+		const folders: Item[] = []
+
+		// The slug may look like this /subfolder/hello-world, we want to split it into parts and create a nested structure
+		posts.forEach((post) => {
+			const parts = post.slug.split('/').filter(Boolean)
+			let currentFolder = folders
+
+			parts.forEach((part, index) => {
+				const isLastPart = index === parts.length - 1
+				const existingFolder = currentFolder.find((item) => item.name === part && item.type === 'folder')
+
+				if (isLastPart) {
+					// If it's the last part, we add the post as a file
+					currentFolder.push({
+						name: part,
+						type: 'file',
+						post: post,
+					})
+				} else {
+					if (existingFolder) {
+						// If the folder already exists, we move into it
+						currentFolder = existingFolder.children!
+					} else {
+						// If the folder doesn't exist, we create it and move into it
+						const newFolder: Item = {
+							name: part,
+							type: 'folder',
+							children: [],
+						}
+						currentFolder.push(newFolder)
+						currentFolder = newFolder.children!
+					}
+				}
+			})
+		})
+
+		return folders
+	}
 </script>
 
 <svelte:head>
@@ -29,12 +79,13 @@
 	<!-- Viewtypes -->
 	<div class="viewtypes-list">
 		{#each viewtypes as viewtype}
-			<button class="viewtype {current_viewtype.name == viewtype.name ? 'active' : ''}" onclick={() => {
+			{@const Icon = viewtype.icon}
+			<button class="viewtype {current_viewtype.name == viewtype.name ? 'brand' : 'surface-4'}" onclick={() => {
 				console.log('active viewtype ...');
 				console.log(viewtype);
 				current_viewtype = viewtype
 			}}>
-				<img src={viewtype.icon} alt={viewtype.name} />
+				<Icon></Icon>
 				{ viewtype.name }
 			</button>
 		{/each}
@@ -53,14 +104,25 @@
 			{/each}
 		</div>
 	{:else if current_viewtype.name === 'Folders'}
-		<div class="posts folders">
-			{#each data.posts as post}
-				<div class="post">
-					<a href={post.slug} class="title">{post.title}</a>
-					<p class="date">{formatDate(post.date)}</p>
-					<p class="description">{post.description}</p>
-				</div>
-			{/each}
+		<div class="folders">
+			{#snippet folder(items: Item[])}
+				{#each items as item}
+					<div class="folder-item">
+						{#if item.type === 'folder'}
+							<p>{item.name}</p>
+							{@render folder(item?.children ?? [])}
+						{:else if item.type === 'file'}
+							<div class="post">
+								<a href={item?.post?.slug} class="title">{item?.post?.title}</a>
+								<!-- <p class="date">{formatDate(item?.post?.date)}</p> -->
+								<!-- <p class="description">{item?.post?.description}</p> -->
+							</div>
+						{/if}
+					</div>
+				{/each}
+			{/snippet}
+
+			{@render folder(formatPostsIntoRecursiveFolders(data.posts))}
 		</div>
 	{:else if current_viewtype.name === 'List'}
 		<ul class="posts">
@@ -84,22 +146,6 @@
 		img {
 			/* filter: invert(1); */
 			/* opacity: 0.5; */
-		}
-
-		.viewtype.active {
-			background-color: var(--blue-2);
-		}
-
-		button {
-			color: var(--blue-9);
-			background-color: var(--blue-0);
-			border: 1px solid var(--blue-3);
-			box-shadow: none;
-			text-shadow: none;
-
-			&:hover {
-				background-color: var(--blue-1);
-			}
 		}
 	}
 
@@ -132,5 +178,10 @@
 		&.grid {
 			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		}
+
+	}
+
+	.folder-item {
+		margin-inline-start: var(--size-4);
 	}
 </style>
