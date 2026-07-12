@@ -1,10 +1,7 @@
 ---
-title: Subfolder Post
-description: Subfolder Post.
+title: Deepest Post
+description: Deepest Post.
 date: '2023-4-14'
-categories:
-  - sveltekit
-  - svelte
 published: true
 ---
 
