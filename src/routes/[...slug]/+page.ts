@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 
-const posts = import.meta.glob('../../posts/*.md');
+const posts = import.meta.glob('../../posts/**/*.md');
 
 export async function load({ params }) {
     const slug = params.slug.replace(/^\/|\/$/g, '');
