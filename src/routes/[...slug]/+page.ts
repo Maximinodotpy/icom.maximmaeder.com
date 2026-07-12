@@ -1,21 +1,22 @@
-import { error } from '@sveltejs/kit'
+import { error } from '@sveltejs/kit';
+
+const posts = import.meta.glob('../../posts/*.md');
 
 export async function load({ params }) {
-	try {
-		let slug = params.slug
-		// trim any trailing or starting slashes from the slug
-		slug = slug.replace(/^\/|\/$/g, '')
+    const slug = params.slug.replace(/^\/|\/$/g, '');
 
-		const import_url = `../../posts/${slug}.md`
-		console.log(`import_url: ${import_url}`);
-		
-		const post = await import(import_url)
+    const path = `../../posts/${slug}.md`;
 
-		return {
-			content: post.default,
-			meta: post.metadata
-		}
-	} catch (e) {
-		error(404, `Could not find ${params.slug}`)
-	}
+    const loader = posts[path];
+
+    if (!loader) {
+        throw error(404, `Could not find ${slug}`);
+    }
+
+    const post = await loader();
+
+    return {
+        content: post.default,
+        meta: post.metadata
+    };
 }
