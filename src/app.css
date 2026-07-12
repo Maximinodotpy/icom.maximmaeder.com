@@ -166,3 +166,17 @@ li {
 		tab-size: 2;
 	}
 }
+
+button, .button {
+	background-color: var(--brand);
+	color: var(--text-1);
+	border: none;
+	/* padding: var(--size-3) var(--size-5); */
+	border-radius: var(--radius-2);
+	cursor: pointer;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: var(--brand-hover);
+	}
+}
