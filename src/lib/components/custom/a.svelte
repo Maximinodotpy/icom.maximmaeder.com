@@ -14,9 +14,9 @@
 	const id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
 	const is_external = href.startsWith('http') || href.startsWith('https') || href.startsWith('mailto') || href.startsWith('tel')
 
-	let post: Post | null = null
+	let post: Post | null = $state(null)
 
-	onMount(() => {
+	/* onMount(() => {
 		const link = document.getElementById(`link-${id}`)
 		const tooltip = document.getElementById(`tooltip-${id}`)
 
@@ -33,7 +33,6 @@
 					.catch(error => {
 						console.error('Error fetching post data:', error)
 					})
-			} else {
 			}
 
 			link.addEventListener('mouseenter', async () => {
@@ -49,15 +48,16 @@
 				tooltip.style.display = 'none'
 			})
 		}
-	})
+	}) */
 </script>
 
 <span>
 	<a {href} {target} id="link-{id}" rel="noopener noreferrer" class="link">
-		{@render children?.()}{#if is_external}↗️{/if}
+		{@render children?.()}
+		{is_external ? '🔗' : ''}
 	</a>
 	
-	<div
+	<!-- <div
 		id="tooltip-{id}"
 		class="tooltip"
 		style="width: max-content;
@@ -82,5 +82,5 @@
 				<p>No preview available</p>
 			</div>
 		{/if}
-	</div>
+	</div> -->
 </span>
