@@ -52,7 +52,7 @@
 </script>
 
 <span>
-	<a {href} {target} id="link-{id}" rel="noopener noreferrer" class="link">
+	<a {href} target="{is_external ? '_blank': ''}" id="link-{id}" rel="noopener noreferrer" class="link">
 		{@render children?.()}
 		{is_external ? '🔗' : ''}
 	</a>
