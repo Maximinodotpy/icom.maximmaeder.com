@@ -164,8 +164,9 @@ li {
 	}
 
 	:is(ul, ol) {
-		list-style-type: '🔥';
-		padding-left: var(--size-5);
+		/* list-style-type: '🔥'; */
+		list-style-type: '•';
+		padding-left: var(--size-2);
 	}
 
 	:is(ul, ol) li {

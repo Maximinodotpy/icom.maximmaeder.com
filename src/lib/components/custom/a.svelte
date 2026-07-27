@@ -16,6 +16,12 @@
 
 	let post: Post | null = $state(null)
 
+	onMount(() => {
+		if (href.endsWith('.md')) {
+			href = href.slice(0, -3)
+		}
+	})
+
 	/* onMount(() => {
 		const link = document.getElementById(`link-${id}`)
 		const tooltip = document.getElementById(`tooltip-${id}`)

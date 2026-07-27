@@ -23,6 +23,21 @@ async function getPosts() {
 		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
 	)
 
+	// Also sort it so that index files are at the top of their respective folders
+	posts = posts.sort((first, second) => {
+		const firstSlugParts = first.slug.split('/')
+		const secondSlugParts = second.slug.split('/')
+		if (firstSlugParts.length === secondSlugParts.length) {
+			if (firstSlugParts[firstSlugParts.length - 1] === 'index') {
+				return -1
+			} else if (secondSlugParts[secondSlugParts.length - 1] === 'index') {
+				return 1
+			}
+			return 0
+		}
+		return firstSlugParts.length - secondSlugParts.length
+	})
+
 	return posts
 }
 
