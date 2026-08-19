@@ -3,7 +3,7 @@
 	import * as config from '$lib/config'
 </script>
 
-<nav>
+<nav class="hidden_in_print">
 	<a href="/" class="title">
 		<b>{config.title}</b>
 	</a>

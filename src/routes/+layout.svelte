@@ -38,6 +38,16 @@
 
 		main {
 			padding-block: var(--size-9);
+
+			@media print {
+				padding-block: 0;
+			}
+		}
+
+		/* In print show it in full width */
+		@media print {
+			padding-inline: 0;
+			max-inline-size: 100%;
 		}
 	}
 </style>

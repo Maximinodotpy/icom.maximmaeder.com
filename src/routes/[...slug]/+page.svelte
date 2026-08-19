@@ -2,6 +2,7 @@
 	import { dev } from '$app/environment'
 	import { formatDate } from '$lib/utils';
 	import { onMount } from 'svelte'
+	import { Printer } from 'lucide-svelte';
 
 	let { data } = $props();
 
@@ -50,8 +51,19 @@
 			{/if}
 			
 			{#if dev}
-				<span>•</span>
-				<p>word count: {wordCount}</p>
+				<span class="hidden_in_print">•</span>
+				<p class="hidden_in_print">word count: {wordCount}</p>
+			{/if}
+
+			{#if dev}
+				<span class="hidden_in_print">•</span>
+				<a class="hidden_in_print print" onclick={(e) => {
+					e.preventDefault();
+					window.print();
+				}} href="#_">
+					<Printer class="hidden_in_print" />
+					<span class="hidden_in_print">Print</span>
+				</a>
 			{/if}
 		</div>
 
@@ -76,6 +88,11 @@
 	article {
 		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
+		
+		@media print {
+			max-inline-size: 100%;
+			margin-inline: 0;
+		}
 
 		h1 {
 			text-transform: capitalize;
@@ -86,6 +103,19 @@
 			color: var(--text-2);
 			display: flex;
 			gap: var(--size-2);
+			flex-wrap: wrap;
+
+			.print {
+				display: flex;
+				align-items: center;
+				gap: var(--size-1);
+				color: var(--text-2);
+				text-decoration: none;
+
+				&:hover {
+					color: var(--text-1);
+				}
+			}
 		}
 
 		.tags {
@@ -102,5 +132,12 @@
 
 	:global(.prose > *) {
 		margin-block-end: var(--size-4);
+
+		/* reset on print */
+		@media print {
+			margin-block-end: 0;
+
+			color: black;
+		}
 	}
 </style>

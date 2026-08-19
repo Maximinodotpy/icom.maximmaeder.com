@@ -8,7 +8,7 @@
 	} = $props()
 </script>
 
-<footer>
+<footer class="hidden_in_print">
 	<p>{config.title} &copy {new Date().getFullYear()}</p>
 
 	<div>

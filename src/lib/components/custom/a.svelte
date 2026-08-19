@@ -58,10 +58,7 @@
 </script>
 
 <span>
-	<a {href} target="{is_external ? '_blank': ''}" id="link-{id}" rel="noopener noreferrer" class="link">
-		{@render children?.()}
-		{is_external ? '🔗' : ''}
-	</a>
+	<a {href} target="{is_external ? '_blank': ''}" id="link-{id}" rel="noopener noreferrer" class="link">{@render children?.()}<!-- <span class="hidden_in_print">{is_external ? '🔗' : ''}</span> --><span class="show_in_print">({href})</span></a>
 	
 	<!-- <div
 		id="tooltip-{id}"

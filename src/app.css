@@ -161,6 +161,12 @@ li {
 	:is(h2, h3, h4, h5, h6) {
 		margin-top: var(--size-8);
 		margin-bottom: var(--size-3);
+		
+		@media print {
+			font-size: var(--font-size-3);
+			margin-top: var(--size-5);
+			margin-bottom: var(--size-2);
+		}
 	}
 
 	:is(ul, ol) {
@@ -172,6 +178,10 @@ li {
 	:is(ul, ol) li {
 		margin-block: var(--size-2);
 		padding-inline-start: var(--size-2);
+
+		max-inline-size: 100%;
+		/* @media print {
+		} */
 	}
 
 	pre {
@@ -179,6 +189,10 @@ li {
 		padding: var(--size-3);
 		border-radius: 8px;
 		tab-size: 2;
+
+		@media print {
+			padding-inline: 0;
+		}
 	}
 }
 
@@ -225,5 +239,19 @@ button, .button {
 [color-scheme="dark"] {
 	.is-dark-icon {
 		filter: invert(1);
+	}
+}
+
+.hidden_in_print {
+	@media print {
+		display: none;
+	}
+}
+
+.show_in_print {
+	display: none;
+
+	@media print {
+		display: inline;
 	}
 }
