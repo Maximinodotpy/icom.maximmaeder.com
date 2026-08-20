@@ -2,6 +2,7 @@
 	import { onMount } from "svelte"
 	import { computePosition } from "@floating-ui/dom";
 	import type { Post } from "$lib/types";
+	import { ExternalLink } from "lucide-svelte";
 
 	type Props = {
 		href: string,
@@ -13,13 +14,22 @@
 
 	const id = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
 	const is_external = href.startsWith('http') || href.startsWith('https') || href.startsWith('mailto') || href.startsWith('tel')
+	let contentIdenticalToHref = $state(false)
+	let thisEl = $state<HTMLElement | null>(null)
 
-	let post: Post | null = $state(null)
+	/* let post: Post | null = $state(null) */
 
 	onMount(() => {
 		if (href.endsWith('.md')) {
 			href = href.slice(0, -3)
 		}
+
+		// Check if the content of the link is identical to the href
+		const linkContent = thisEl?.textContent?.trim() || '';
+		
+		contentIdenticalToHref = linkContent === href || linkContent === href.replace(/^\//, '');
+
+		console.log(contentIdenticalToHref);
 	})
 
 	/* onMount(() => {
@@ -58,7 +68,19 @@
 </script>
 
 <span>
-	<a {href} target="{is_external ? '_blank': ''}" id="link-{id}" rel="noopener noreferrer" class="link">{@render children?.()}<!-- <span class="hidden_in_print">{is_external ? '🔗' : ''}</span> --><span class="show_in_print">({href})</span></a>
+	<a {href} target="{is_external ? '_blank': ''}" id="link-{id}" rel="noopener noreferrer" class="link">
+		<span bind:this={thisEl}>{@render children?.()}</span>
+		
+		{#if is_external}
+			<span class="hidden_in_print">
+				<ExternalLink size=18 />
+			</span>
+		{/if}
+		
+		{#if !contentIdenticalToHref}
+			<span class="show_in_print">({href})</span>
+		{/if}
+	</a>
 	
 	<!-- <div
 		id="tooltip-{id}"
@@ -87,3 +109,16 @@
 		{/if}
 	</div> -->
 </span>
+
+<style>
+	.link {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.2rem;
+		margin-block: 0;
+		
+		span {
+			margin-block: 0;
+		}
+	}
+</style>
