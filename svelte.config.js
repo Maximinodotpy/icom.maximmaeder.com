@@ -1,16 +1,21 @@
 import adapter from '@sveltejs/adapter-vercel'
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
 
 import { mdsvex, escapeSvelte } from 'mdsvex'
 import { createHighlighter } from 'shiki'
 import remarkToc from 'remark-toc'
 import rehypeSlug from 'rehype-slug'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
 	layout: {
-		_: './src/mdsvex.svelte'
+		_: path.join(__dirname, 'src/mdsvex.svelte')
 	},
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
