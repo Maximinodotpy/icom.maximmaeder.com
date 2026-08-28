@@ -55,7 +55,7 @@
 				<p class="hidden_in_print">word count: {wordCount}</p>
 			{/if}
 
-			{#if dev}
+			{#if dev || true}
 				<span class="hidden_in_print">•</span>
 				<a class="hidden_in_print print" onclick={(e) => {
 					e.preventDefault();
