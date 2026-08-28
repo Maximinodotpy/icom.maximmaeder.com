@@ -60,7 +60,7 @@
 				<a class="hidden_in_print print" onclick={(e) => {
 					e.preventDefault();
 					window.print();
-				}} href="#_">
+				}} href="#">
 					<Printer class="hidden_in_print" />
 					<span class="hidden_in_print">Print</span>
 				</a>
