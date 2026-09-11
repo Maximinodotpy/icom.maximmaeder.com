@@ -76,6 +76,29 @@
 
 		return folders
 	}
+
+	function getFolderName(item: Item) {
+		// If this is a folder try to find the index name and show that instead
+		const index = getIndexFileInFolder(item)
+
+		if (index) {
+			return index.post?.title
+		}
+
+		return item.name
+	}
+
+	function getIndexFileInFolder(item: Item) {
+		if (item.children?.length != 0) {
+			const index = item.children?.find(p => {
+				return p.name == 'index'
+			})
+
+			if (index) {
+				return index
+			}
+		}
+	}
 </script>
 
 <svelte:head>
@@ -125,14 +148,25 @@
 				{#each items as item}
 					<div class="folder-item">
 						{#if item.type === 'folder'}
-							<p>{item.name}</p>
+							{@const indexFile = getIndexFileInFolder(item)}
+							{#if indexFile}
+								<a href={indexFile?.post?.slug}>{getFolderName(item)}</a>
+							{:else}
+								<p>{getFolderName(item)}</p>
+							{/if}
+
 							{@render folder(item?.children ?? [])}
 						{:else if item.type === 'file'}
-							<div class="post">
-								<a href={item?.post?.slug} class="title">{item?.post?.title}</a>
-								<!-- <p class="date">{formatDate(item?.post?.date)}</p> -->
-								<!-- <p class="description">{item?.post?.description}</p> -->
-							</div>
+							{@const name = item?.post?.title}
+							{#if item?.post?.slug.endsWith('index')}
+								<!-- <div class="post">
+									<a href={item?.post?.slug} class="title">{name}</a> INDEX
+								</div> -->
+							{:else}
+								<div class="post">
+									<a href={item?.post?.slug} class="title">{name}</a>
+								</div>
+							{/if}
 						{/if}
 					</div>
 				{/each}

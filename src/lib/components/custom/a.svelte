@@ -120,5 +120,9 @@
 		span {
 			margin-block: 0;
 		}
+
+		.lucide-icon {
+			margin: 0 !important;
+		}
 	}
 </style>
