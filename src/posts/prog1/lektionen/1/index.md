@@ -1,5 +1,5 @@
 ---
-title: Lektion 1
+title: PROG1 Lektion 1
 date: '2026-09-14'
 published: true
 ---
