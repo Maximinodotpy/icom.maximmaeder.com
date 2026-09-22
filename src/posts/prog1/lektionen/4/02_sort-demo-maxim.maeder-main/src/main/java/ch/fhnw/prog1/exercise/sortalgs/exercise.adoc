@@ -1,0 +1,13 @@
+# Programmieren im SortDemo
+Wir haben ein Programmierprojekt Sort Demo vorbereitet, mit dem sich Sortieralgorithmen ausführen und visuell darstellen lassen. Programmiere eine Lösung und probiere sie aus.
+
+Programmiere Deine Lösung in die vorbereiteten Klassen `ch.fhnw.prog1.sortalgs.InsertionSort` und `ch.fhnw.prog1.sortalgs.SelectionSort`.
+
+SortDemo gibt keinen Zugriff auf konkrete Elemente, sondern stellt drei Operationen zur Verfügung:
+
+- `int data.size()`: Gibt die Anzahl der zu sortierenden Elemente an. Gültige Indexwerte sind 0 bis `data.size() - 1`.
+
+
+- `boolean data.less(int i, int j)`: Gibt an, ob das Element mit Index i (echt) kleiner als das Element mit Index j ist. `!data.less(j, i)`: ist übrigens gerade dann wahr, wenn das Element mit Index i kleiner oder gleich dem Element mit Index j ist.
+
+- void `data.swap(int i, int j)`: Vertauscht die beiden Elemente mit Index i und j miteinander. `data.swap(i, i)` hat keine Wirkung.
