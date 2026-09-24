@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "e65d3d3b5f5e0c48",
+    "type": "split",
+    "children": [
+      {
+        "id": "969ca96515d6fc41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f94b544a70c89179",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "mgli/lektionen/3/Aufgabe 1.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Aufgabe 1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4eb7882109ae2e3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d20d765e6a563df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22b7e54043537512",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7f21efaa96917304",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "68122ebc3ed4e07e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bb5f7559b17672d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "db53a00b15b7ae5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5bb02c5f31eb64d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "design-system.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for design-system"
+            }
+          },
+          {
+            "id": "fee6152cc59cbad7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "design-system.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from design-system"
+            }
+          },
+          {
+            "id": "d405c7bb22c14379",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "46d1256d241d0f21",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ed362f6d71a9ba38",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "design-system.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of design-system"
+            }
+          },
+          {
+            "id": "405dd1d36083a62d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "22b7e54043537512",
+  "lastOpenFiles": [
+    "mgli/lektionen/3",
+    "Excalidraw/Drawing 2026-09-24 14.51.00.excalidraw.md",
+    "mgli/lektionen/3/Aufgabe 1.md",
+    "mgli/lektionen/2.md",
+    "mgli/lektionen/1.md",
+    "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md",
+    "Excalidraw",
+    "design-system.md",
+    "introduction-to-programming/index.md",
+    "introduction-to-programming/procedural-programming.md"
+  ]
+}
