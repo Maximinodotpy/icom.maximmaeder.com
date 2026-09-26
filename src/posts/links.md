@@ -10,3 +10,4 @@ published: true
 - [modulplaner.technik.fhnw.ch](https://modulplaner.technik.fhnw.ch/)
 - [FHNW Hochschulsport](https://www.fhnw.ch/de/die-fhnw/hochschulsport)
 - [makerverse.fhnw.ch](https://makerverse.fhnw.ch/)
+- [Studenthub](https://studenthub.technik.fhnw.ch/student)
