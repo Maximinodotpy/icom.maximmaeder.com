@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "969ca96515d6fc41",
+        "id": "681c8275e4a65f84",
         "type": "tabs",
         "children": [
           {
-            "id": "f94b544a70c89179",
+            "id": "009fb24b0582a2e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "links.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "links"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 14.32.52.excalidraw"
             }
           }
         ]
@@ -158,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "design-system.md",
+                "file": "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of design-system"
+              "title": "Outline"
             }
           },
           {
@@ -173,26 +171,17 @@
             "state": {
               "type": "excalidraw-sidepanel",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "excalidraw-sidepanel"
-            }
-          },
-          {
-            "id": "48c291f0b84ca2ca",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 479.9000244140625
+    "width": 479.9000244140625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22b7e54043537512",
+  "active": "009fb24b0582a2e4",
   "lastOpenFiles": [
+    "links.md",
+    "Untitled.md",
     "mgli/lektionen/3/Aufgabe 1.md",
     "mgli/lektionen/3",
     "Excalidraw/Drawing 2026-09-24 14.51.00.excalidraw.md",
