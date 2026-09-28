@@ -14,3 +14,11 @@ Weil eine schlange von Implikationen wahr sein muss wenn es am anfang mal wahr w
 
 ### Teilbarkeit
 beweisen wir dass 6 keine Primzahl ist.
+
+
+## Beweise durch Kontraposition
+
+%%FASDFa%%
+
+
+## Indirekter Beweis
