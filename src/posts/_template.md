@@ -1,8 +1,5 @@
 ---
-title: Template
-description: Template for a new Post
-date: '2026-09-21'
+title: Title
+date: 2026-09-28
 published: false
 ---
-
-Template content
