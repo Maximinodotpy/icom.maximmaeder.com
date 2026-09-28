@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0c3b3dc62da70a4",
+        "id": "289f4a3f1e134d6f",
         "type": "tabs",
         "children": [
           {
-            "id": "f4431c545b53a4ba",
+            "id": "d7f9df9643be1f55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ucdre/lektionen/5.md",
+                "file": "mgli/lektionen/2-praedikate-und-quantoren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5"
+              "title": "2-praedikate-und-quantoren"
             }
           }
         ]
@@ -195,10 +195,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f4431c545b53a4ba",
+  "active": "d7f9df9643be1f55",
   "lastOpenFiles": [
-    "ucdre/lektionen/4.md",
+    "mgli/lektionen/3/üa_lektion.excalidraw.md",
+    "mgli/lektionen/2-praedikate-und-quantoren.md",
+    "mgli/lektionen/1-aussagen.md",
+    "mgli/lektionen/3/Aufgabe 1.md",
+    "mgli/index.md",
+    "mgli/formelblatt.md",
+    "mgli/lektionen/4/Untitled/Drawing 2026-09-28 16.17.09.excalidraw.md",
+    "mgli/lektionen/4/Untitled",
+    "mgli/lektionen/4",
     "ucdre/lektionen/5.md",
+    "ucdre/lektionen/4.md",
     "_template.md",
     "ucdre/index.md",
     "prog1/lektionen/4/index.md",
@@ -211,17 +220,12 @@
     "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production",
     "prog1/lektionen/5/ModuleDedupPassedConstructor/src",
     "prog1/lektionen/5/ModuleDedupPassedConstructor/out",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/Module.iml",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor",
     "prog1/lektionen/5/20min kommentar.md",
     "prog1/lektionen/5/netflix structure.md",
     "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md",
     "links.md",
     "Untitled.md",
-    "mgli/lektionen/3/Aufgabe 1.md",
     "Excalidraw/Drawing 2026-09-24 14.51.00.excalidraw.md",
-    "mgli/lektionen/2.md",
-    "mgli/lektionen/1.md",
     "design-system.md",
     "introduction-to-programming/index.md",
     "introduction-to-programming/procedural-programming.md"

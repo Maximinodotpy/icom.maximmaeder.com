@@ -69,6 +69,10 @@ A ∧ ¬A
 
 ## Normalformen
 
+<!-- -->
+
 ### Konjunktive Normalform
+<!-- -->
 
 ### Disjunktive Normalform
+<!-- -->

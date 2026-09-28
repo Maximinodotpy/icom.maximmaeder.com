@@ -3,7 +3,6 @@ title: "MGLI Lektion 2: Prädikate und Quantoren"
 date: '2026-09-21'
 published: true
 ---
-
 ## Prädikate
 
 **Definition**
@@ -19,14 +18,14 @@ Ein Satz `A(x1, ..., xn)` der durch Einsetzen von Elementen für die `n` Variabl
 
 ## Quantoren
 
-**Definition ∃**
+**Definition ∃ (Existenzquantor)**
 Es se A(x) ein 1-stelliges Prädikat und M eine Menge. Dann ist (∃x ∈ M: A(x)) eine Aussage, die genau dann wahr ist, wenn ein Element in M existiert, so das A(x) warh wird, wenn man dieses Element für x einsetzt. ∃ heisst *Existenzquantor*.
 
 **Beispiel**
 Es sei A(x): "x ist ein Land in Europa"
 <!--  -->
 
-**Defintion ∀**
+**Defintion ∀ (Allquantor)**
 für den *Allquantor* müssen alle Aussagen mit den Werten aus der Menge wahr sein.
 <!--  -->
 
@@ -58,8 +57,8 @@ Umgekehrt dann
 Es gibt (mindestens) einen spezifischen Film, welchen alle gesehen haben.
 oder anders gesagt: "Für ein (mindestens) ein x müssen alle y stimmen."
 
-## Genauer Quantoren
-Wollen wir sicherstellen dass es **genau** ein Element gibt mit dem die Aussage stimmt gibt es mehrere möglichkeiten:
+## Genaue Quantoren
+Wollen wir sicherstellen dass es **genau** ein Element gibt mit dem die Aussage stimmt gibt es mehrere Möglichkeiten:
 <!-- 1. Beispiel -->
 <!-- 2. Beispiel -->
 <!-- 3. Beispiel -->
