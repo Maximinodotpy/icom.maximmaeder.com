@@ -64,7 +64,7 @@ Wollen wir sicherstellen dass es **genau** ein Element gibt mit dem die Aussage 
 <!-- 3. Beispiel -->
 
 
-
+	
 ## Negation quantifzierter Prädikate
 x ist ein Land in Europa
 
