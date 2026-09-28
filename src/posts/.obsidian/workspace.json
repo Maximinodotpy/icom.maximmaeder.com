@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "17af9fa211717687",
+        "id": "d0c3b3dc62da70a4",
         "type": "tabs",
         "children": [
           {
-            "id": "56f73fb0f1843a01",
+            "id": "f4431c545b53a4ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_template.md",
+                "file": "ucdre/lektionen/5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_template"
-            }
-          },
-          {
-            "id": "16bdaa03be7f771f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prog1/lektionen/4/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
+              "title": "5"
             }
           }
         ]
@@ -209,10 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56f73fb0f1843a01",
+  "active": "f4431c545b53a4ba",
   "lastOpenFiles": [
-    "prog1/lektionen/4/index.md",
+    "ucdre/lektionen/4.md",
+    "ucdre/lektionen/5.md",
     "_template.md",
+    "ucdre/index.md",
+    "prog1/lektionen/4/index.md",
     "prog1/lektionen/5/index.md",
     "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production/Module/Module.class",
     "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production/Module/Main.class",
