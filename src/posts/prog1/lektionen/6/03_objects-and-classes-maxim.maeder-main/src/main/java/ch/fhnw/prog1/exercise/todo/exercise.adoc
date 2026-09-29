@@ -1,0 +1,61 @@
+# To-do-App
+
+In dieser Aufgabe programmierst Du eine Konsolen-Applikation, welche es Dir erlaubt, 
+To-dos zu notieren, aufzulisten und als erledigt zu markieren. Die To-dos modellierst 
+Du als Objekte einer Klasse Task. Die Applikation soll am Ende so funktionieren:
+
+Beispiel der Nutzung:
+```
+---------
+ToDoApp
+---------
+Available commands:
+    list all            Prints all tasks
+    list to do          Prints the tasks that are not done yet
+    add <description>   Adds a new task with the given description
+    mark done <id>      Marks the task with the given id as done
+    exit                Eyits the app. Warning: Tasks with be lost
+
+todo> list all
+(No tasks)
+todo> add Waschen
+todo> add Lernen
+todo> list all
+   [0] Waschen
+   [1] Lernen
+todo> add Einkaufen
+todo> mark done 0
+todo> list all
+ ✓ [0] Waschen
+   [1] Lernen
+   [2] Einkaufen
+todo> mark done 1
+todo> mark done 2
+todo> list all
+ ✓ [0] Waschen
+ ✓ [1] Lernen
+ ✓ [2] Einkaufen
+ todo> list to do
+ (No tasks)
+ todo> exit
+
+ Process finished with exit code 0
+```
+
+Entwerfe das Programm so, dass z. B. nach folgenden vier Eingaben:
+
+```
+add Waschen
+add Lernen
+add Einkaufen
+mark done 
+```
+
+folgende Objekte vorhanden sind wie im folgenden Bild:
+image link: https://prog1.pages.fhnw.ch/2026fs/docs/w03-objekte-klassen/resources/todo-app-objekte.png
+
+Das Grundgerüst, welches die Befehle vom User einliest und parst, ist im Package ….todo 
+bereits vorhanden. Deine Aufgabe ist es, die Task-Klasse zu implementieren, in ToDoApp 
+ein Array für Task-Objekte zu erstellen und drei vorgegebene Methoden zu implementieren. 
+Folge dazu den // TODOs im Programm und beachte die Methodenkommentare, welche Dir 
+Hinweise darauf geben, was die Methoden tun sollen.

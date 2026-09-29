@@ -1,0 +1,27 @@
+# Energy Meter
+
+Um das Programmieren von Objektmethoden zu üben, implementierst Du in dieser Aufgabe eine kleine Komponente, 
+die in einem Adventure-Spiel verwendet werden könnte: einen Energy-Meter, der einen Player-Zustand wie Leben, 
+Magie oder Ausdauer verwaltet. Ein bekanntes Beispiel ist der Magic-Meter in verschiedenen Zelda-Spielen:
+image link: https://prog1.pages.fhnw.ch/2026fs/docs/w03-objekte-klassen/resources/magic-meter.png
+
+Es bietet sich an, den Zustand des Meters (Kapazität und aktueller Füllstand) zusammen mit Zugriffsmethoden wie 
+fill und consume in ein Objekt zu packen. So kann man an einem Ort im Programm definieren, wie der Energy-Meter funktioniert, 
+z. B. in einer EnergyMeter-Klasse, und die verschiedenen Teile des Programms, die den Energy-Meter verwenden, können sich auf die 
+Implementation dieser Klasse verlassen.
+
+Um die Aufgabe überschaubar zu halten, implementierst Du nur die EnergyMeter-Klasse selbst, nicht ein komplettes Adventure-Spiel.😉 
+Der einzige Client-Code der Klasse sind die vorgegebenen Unit-Tests.
+
+Ergänze die EnergyMeter-Klasse im Package ….energymeter um folgende Elemente. Den Konstruktor und die Methoden kannst Du vorerst noch leer lassen (bzw. mit einem Dummy-return).
+
+[cols="4*", options="header"]
+|===================================================================================
+| Element       | Art         | Parameter                              | Rückgabetyp
+| `capacity`    | Attribut    | —                                      | —          
+| `level`       | Attribut    | —                                      | —          
+| `EnergyMeter` | Konstruktor | Kapazität (`double`)                   | —          
+| `fill`        | Methode     | Energie (`double`)                     | `void`     
+| `consume`     | Methode     | Kapazität (`double`), Dauer (`double`) | `void`     
+| `percentFull` | Methode     | keine                                  | `double`   
+|===================================================================================

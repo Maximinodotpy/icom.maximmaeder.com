@@ -1,0 +1,58 @@
+# Prog
+
+In dieser Aufgabe baust Du den Klassiker Pong von 1972 nach.
+
+Das Spiel besteht aus Bällen (zu Beginn nur aus einem) und aus zwei Playern, welche 
+je einen vertikalen Balken kontrollieren und versuchen, den Ball im Spiel zu halten. 
+Wenn der Ball das Spiel seitlich verlässt, erhält der gegenüberliegende Player einen 
+Punkt. Wenn der Ball hingegen die Wände oben und unten oder einen Player-Balken berührt, 
+prallt er ab. Um den Spielzustand zu verwalten, bietet es sich an, Bälle und 
+Player(‑Balken) als Objekte zu modellieren.
+
+Für das User-Interface kommt eine einfache GUI-Bibliothek ch.trick17.gui zum Zug 
+(https://gui.pages.fhnw.ch/gui/apidocs/), welche eine Reihe 
+von Methoden bietet, um Grafiken in ein Fenster zu zeichnen und um Input von Maus 
+und Tastatur aufzunehmen. Dieselbe Code-Vorlage, die Du für die Vertiefungsaufgaben 
+verwendet hast, enthält im Package ….pong bereits etwas Code, der ein Fenster öffnet 
+und eine einfache Spielschleife implementiert.
+
+a) Lies kurz den vorhandenen Code in der Klasse `PongGame` durch und prüfe, dass das 
+Programm läuft. Es sollte ein Fenster mit einem Rechteck und einem Kreis erscheinen.
+
+Erstelle zwei Klassen `Player` und `Ball`. Ein `Player` hat eine (px,py)-Position 
+(in Pixel), eine Balkenlänge und einen Punktestand. Ein Ball hat ebenfalls 
+eine Position und zusätzlich eine (vx,vy)-Geschwindigkeit (in Pixel pro Spielschritt).
+
+Ergänze dann den Code in `PongGame`, dass er zwei `Player`-Objekte und ein `Ball`-Objekt 
+erstellt, diese sinnvoll initialisiert und in Variablen speichert. Der Ball soll zu 
+Beginn des Spiels in der Mitte starten und eine zufällige Geschwindigkeit haben. 
+Beachte, dass (bei ausreichender Rechenleistung) ungefähr 50 Spielschritte pro 
+Sekunde ausgeführt werden (50 FPS).
+
+b) Ergänze den Code unten in der Spielschleife in `PongGame` so, dass Ball und Balken 
+angezeigt werden. Die Dinge bewegen sich zwar noch nicht, aber Du solltest sehen, ob 
+die Startpositionen und Grössen stimmen.
+
+c) Ergänze den Code oben in der Spielschleife, sodass sich die Balken entsprechend den 
+Tastatureingaben bewegen und auch der Ball sich entsprechend seiner Geschwindigkeit 
+bewegt (noch ohne Kollisionen). Starte das Programm und überprüfe, ob sich Balken und 
+Ball wie erwartet bewegen.
+
+d) Fange jetzt die Kollisionen des Balls und der Balken mit den Wänden oben und unten 
+ab. Für den Ball gilt «Einfallswinkel = Ausfallswinkel»; da die Wände genau horizontal 
+sind, ändert sich hier nur die y-Komponente der Geschwindigkeit. Bei den Player-Balken 
+soll einfach sichergestellt werden, dass sie das Spielfeld nicht verlassen können.
+
+e) Stelle die Grundversion des Spiels fertig, indem Du auch Kollisionen zwischen Ball 
+und Balken abfängst. Wenn der Ball eine Seitenwand berührt, gibt es einen Punkt für den 
+gegenüberliegenden Player und der Ball startet von Neuem in der Mitte des Feldes. 
+Um den Punktestand zu zeichnen, kannst Du die `drawString`- oder 
+`drawStringCentered`-Methode von `Gui` verwenden.
+
+f) Erweitere das Spiel zum Schluss so, dass mehrere Bälle gleichzeitig im Spiel sind. 
+Immer nach einer bis zwei Sekunden soll ein neuer Ball hinzukommen; entfernt wird er, 
+sobald er das Spielfeld verlässt. Verwende dafür ein Ball-Array, welches eine maximale 
+Anzahl Bälle speichert. Überlege Dir, wie Du die Bälle im Array am besten verwaltest, 
+sodass das Hinzufügen und Entfernen von Bällen effizient funktioniert. 
+Findest Du eine nützliche Invariante, welche Du während des Spiels aufrechterhalten 
+kannst?

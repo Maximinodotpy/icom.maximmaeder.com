@@ -22,20 +22,21 @@
             }
           },
           {
-            "id": "eb00946e087a66e3",
+            "id": "84342551bddfea0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Pascale.md",
+                "file": "mgli/lektionen/1-aussagen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview Pascale"
+              "title": "1-aussagen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 243.10000610351562
   },
   "right": {
     "id": "bb5f7559b17672d2",
@@ -210,33 +210,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16d2bb78e14aab24",
+  "active": "84342551bddfea0d",
   "lastOpenFiles": [
-    "mgli/lektionen/3-korrekte-argumentation.md",
-    "Interview Pascale.md",
-    "ucdre/interview_notizen",
     "mgli/lektionen/2-praedikate-und-quantoren.md",
-    "mgli/lektionen/3/üa_lektion.excalidraw.md",
     "mgli/lektionen/1-aussagen.md",
+    "Interview Pascale.md",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/PongGame.class",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong/Player.class",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong/Ball.class",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/src/main/java/ch/fhnw/prog1/exercise/pong/Ball.java",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/src/main/java/ch/fhnw/prog1/exercise/pong/Player.java",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/todo/Task.class",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/todo",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ToDoApp.class",
+    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/energymeter/EnergyMeter.class",
+    "mgli/lektionen/3-korrekte-argumentation.md",
+    "mgli/lektionen/3/üa_lektion.excalidraw.md",
     "mgli/lektionen/3/Aufgabe 1.md",
     "mgli/index.md",
     "mgli/formelblatt.md",
     "mgli/lektionen/4/Untitled/Drawing 2026-09-28 16.17.09.excalidraw.md",
-    "mgli/lektionen/4/Untitled",
-    "mgli/lektionen/4",
     "ucdre/lektionen/5.md",
     "ucdre/lektionen/4.md",
     "_template.md",
     "ucdre/index.md",
     "prog1/lektionen/4/index.md",
     "prog1/lektionen/5/index.md",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production/Module/Module.class",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production/Module/Main.class",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production/Module",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/src/Module.java",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/src/Main.java",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/out/production",
-    "prog1/lektionen/5/ModuleDedupPassedConstructor/src",
     "prog1/lektionen/5/20min kommentar.md",
     "prog1/lektionen/5/netflix structure.md",
     "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md",

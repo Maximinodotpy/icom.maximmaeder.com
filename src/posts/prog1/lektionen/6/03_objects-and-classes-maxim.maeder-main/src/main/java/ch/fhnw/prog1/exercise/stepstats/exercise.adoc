@@ -1,0 +1,23 @@
+# Stepstats
+
+Im Package ….stepstats in der Code-Vorlage für diese Woche findest 
+Du ein fertiges Programm, das Schrittdaten vom User einliest und auswertet. 
+Bisher ist das Programm prozedural geschrieben, d. h. es werden keine Objekte 
+(von eigenen Klassen) erstellt. Deine Aufgabe ist es, dieses Programm objektorientiert 
+umzuschreiben.
+
+b) Schreibe die Klasse `StepStatistics` um, sodass sie objektorientiert ist. Sie soll 
+folgendermassen verwendet werden können:
+```java
+StepStatistics stats = new StepStatistics(steps, goal);
+int successDays = stats.successDays;
+double avgSteps = stats.averageSteps;
+int min = stats.minSteps;
+int max = stats.maxSteps;
+```
+Die Berechnungen werden also im Konstruktor von `StepStatistics` durchgeführt und 
+anschliessend kann man über die Attribute auf die Resultate zugreifen.
+
+c) Passe den Client-Code in `StepTracker` an, sodass er mit der neuen Version von 
+`StepStatistics` funktioniert. Überprüfe, dass das Programm wieder gleich funktioniert 
+wie zuvor.

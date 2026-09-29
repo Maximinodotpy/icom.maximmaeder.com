@@ -7,7 +7,7 @@ video: https://tube.switch.ch/videos/OBnsdSWRgx
 ## Prädikate
 
 **Definition**
-Ein Satz `A(x1, ..., xn)` der durch Einsetzen von Elementen für die `n` Variablen zu einer Aussage wird, heisst *n-stelliges Prädikat* oder *Aussageform*.
+Ein Satz `A(x1, ..., xn)` der durch Einsetzen von Elementen für die `n` Variablen zu einer [Aussage](./1-aussagen) wird, heisst *n-stelliges Prädikat* oder *Aussageform*.
 
 **Beispiele**
 
@@ -82,9 +82,35 @@ oder anders gesagt: "Für ein (mindestens) ein x müssen alle y stimmen."
 
 ## Genaue Quantoren
 Wollen wir sicherstellen dass es **genau** ein Element gibt mit dem die Aussage stimmt gibt es mehrere Möglichkeiten:
-<!-- 1. Beispiel -->
-<!-- 2. Beispiel -->
-<!-- 3. Beispiel -->
+
+### 1. Beispiel
+
+```
+∃x ∈ M: (P(x) ∧ ∀y ∈ M: (P(y) ⇒ (x = y)))
+```
+
+gesprochen: Es existiert ein x aus M sodass P(x) gilt und auch für alle y aus M sodass P(y) impliziert x ist gleich y
+
+Die letztere Überprüfung mit dem Allquantor schaut mithilfe der Implikation dass auch wirklich nur dieses eine x zur Richtigkeit für
+### 2. Beispiel
+
+```
+∃x ∈ M: P(x) ∧ ∀x,y ∈ M: ((P(x) ∧ P(y)) ⇒ (x = y))
+```
+Hier wird ebenfalls die Implikation mit einem Allquantor genutzt, der zweite Teil besagt wenn es eine 2er Kombination gibt dann ging das nur weil es die selbe Zahl wahr.
+
+### 3. Beispiel
+
+```
+∃x ∈ M ∀y ∈ M: (P(y) ⇔ (y = x)
+```
+
+Das ist die am wenigsten offensichtliche. 
+
+<!-- ∪ ∩ ∖ △ ᶜ × 𝒫
+∈ ∉ ⊆ ⊂ ⊄ ⊇ ⊃
+∅ ℕ ℤ ℚ ℝ ℂ
+∀ ∃ ¬ ∧ ∨ ⇒ ⇔ -->
 ## Negation quantifzierter Prädikate
 x ist ein Land in Europa
 
