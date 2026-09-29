@@ -1,8 +1,9 @@
 ---
 title: KOMA Lektion 1
 description: Konvergente Mathematik
-date: '2026-09-15'
+date: 2026-09-15
 published: true
+moodle_section: https://moodle.fhnw.ch/course/section.php?id=703179
 ---
 
 ## Repetition Therme

@@ -4,39 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "86a303954c4dd268",
+        "id": "cdc4ff57272d1fac",
         "type": "tabs",
         "children": [
           {
-            "id": "16d2bb78e14aab24",
+            "id": "7690cf0ac4afe24e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mgli/lektionen/2-praedikate-und-quantoren.md",
+                "file": "koma/formelblatt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2-praedikate-und-quantoren"
+              "title": "formelblatt"
             }
           },
           {
-            "id": "84342551bddfea0d",
+            "id": "7e1cdca83609bae1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "mgli/lektionen/1-aussagen.md",
-                "mode": "source",
-                "source": false
+                "file": "koma/lektionen/2/Minitest.md"
               },
-              "icon": "lucide-file",
-              "title": "1-aussagen"
+              "icon": "excalidraw-icon",
+              "title": "Minitest"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.10000610351562
+    "width": 304.70001220703125,
+    "collapsed": true
   },
   "right": {
     "id": "bb5f7559b17672d2",
@@ -210,21 +208,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84342551bddfea0d",
+  "active": "7690cf0ac4afe24e",
   "lastOpenFiles": [
+    "koma/lektionen/2/Minitest.md",
+    "koma/formelblatt.md",
+    "Pasted Image 20260929164831_218.png",
+    "Pasted Image 20260929164127_023.png",
+    "koma/lektionen/3/lsg-ueb1-koma-2026.pdf",
+    "koma/lektionen/3/ueb1-koma-2026.pdf",
+    "koma/lektionen/2/lsg-ueb0b-koma-2026.pdf",
+    "koma/1liste-lernvideos-koma-20260911154505-f5lo5y1mqn.pdf",
+    "koma/index.md",
+    "koma/lektionen/1/index.md",
+    "koma/lektionen/2/index.md",
+    "koma/lektionen/2/lsg-ueb0b-koma-2026-20260921152436-xjpjylnxvi (1).pdf",
+    "koma/lektionen/2/lsg-ueb0b-koma-2026-20260921152436-xjpjylnxvi (1).pdf.crdownload",
+    "koma/lektionen/2/ueb0b_koma_2026.pdf.crdownload",
+    "koma/lektionen/4",
+    "koma/lektionen/3/lektionsnotizen.md",
+    "koma/lektionen/1/lsg_ueb0a_koma_2026.pdf",
+    "koma/lektionen/1/lsg_ueb0a_koma_2026.pdf.crdownload",
     "mgli/lektionen/2-praedikate-und-quantoren.md",
     "mgli/lektionen/1-aussagen.md",
     "Interview Pascale.md",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/PongGame.class",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong/Player.class",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong/Ball.class",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/pong",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/src/main/java/ch/fhnw/prog1/exercise/pong/Ball.java",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/src/main/java/ch/fhnw/prog1/exercise/pong/Player.java",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/todo/Task.class",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/todo",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ToDoApp.class",
-    "prog1/lektionen/6/03_objects-and-classes-maxim.maeder-main/target/classes/ch/fhnw/prog1/exercise/energymeter/EnergyMeter.class",
     "mgli/lektionen/3-korrekte-argumentation.md",
     "mgli/lektionen/3/üa_lektion.excalidraw.md",
     "mgli/lektionen/3/Aufgabe 1.md",
@@ -240,10 +246,6 @@
     "prog1/lektionen/5/20min kommentar.md",
     "prog1/lektionen/5/netflix structure.md",
     "Excalidraw/Drawing 2026-09-23 14.32.52.excalidraw.md",
-    "links.md",
-    "Excalidraw/Drawing 2026-09-24 14.51.00.excalidraw.md",
-    "design-system.md",
-    "introduction-to-programming/index.md",
-    "introduction-to-programming/procedural-programming.md"
+    "links.md"
   ]
 }
