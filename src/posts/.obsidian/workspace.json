@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mgli/lektionen/3-korrekte-argumentation.md",
+                "file": "mgli/lektionen/2-praedikate-und-quantoren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-korrekte-argumentation"
+              "title": "2-praedikate-und-quantoren"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Interview Pascale"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bb5f7559b17672d2",
@@ -210,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb00946e087a66e3",
+  "active": "16d2bb78e14aab24",
   "lastOpenFiles": [
     "mgli/lektionen/3-korrekte-argumentation.md",
     "Interview Pascale.md",
