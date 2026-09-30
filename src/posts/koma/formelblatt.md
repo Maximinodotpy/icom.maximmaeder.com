@@ -5,7 +5,7 @@ published: true
 moodle_section:
 ---
 
-### Binomische Formeln
+## Binomische Formeln
 
 **Plus-Formel**
 ```
@@ -26,7 +26,7 @@ Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen 
 
 **Zwei Klammern Ansatz**
 %%EINFÜGEN%%
-### Mitternachtsformel (abc-formel)
+## Mitternachtsformel (abc-formel)
 Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind).
 $$
 x =\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
@@ -42,7 +42,7 @@ D < 0: keine reele Lösung
 ```
 Möchte man zb. wissen mit welchem bestimmten Parameter es genau eine Lösung gäbe kann man man Diskriminanten formell auch etwas umbauen. (In diesem Beispiel würde man für D; 0 einsetzen.)
 
-### Gleichungssysteme
+## Gleichungssysteme
 $$
 \begin{align}
 mx + 4y = 3 \\
@@ -56,15 +56,17 @@ Eine Lösungsweg wäre es sich für eine der beiden Variablen zu entscheiden und
 Hier rechnet man auch wieder eines aus, und man kann dann die andere Seite bei der anderen Gleichung einsetzen. Dies ist bevorzugt weil nur das möglich ist bei Gleichungssystem mit mehr als zwei Gleichungen.
 
 ## Funktionen
+Eine Funktion wird folgendermassen dargestellt, damit finden wir heraus wo das y eines gegeben x ist oder auch umgekehrt. das $q$ ist die Verschiebung der gesamten Linie in der Höhe um 0. Ohne $q$ würde die Linie durch den 0/0 punkt gehen.
+
+$$
+y = mx + q
+$$
+
+damit könnte man auch jeweils die fehlenden Informationen herausfinden zb $q$.
+
 ### Steigung anhand von zwei Punkten herausfinden
 
 $$
 \frac{yb - ya}{xb - xa}
 $$
 Also Höhenunterschied geteilt durch Breitenunterschied
-
-## Funktionen und der Y-Achsenabschnitt
-Eine Funktion wird folgendermassen dargestellt, damit könnte man auch jeweils die fehlenden Informationen herausfinden zb $q$.
-$$
-y = mx + q
-$$
