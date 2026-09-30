@@ -4,24 +4,12 @@ date: 2026-09-15
 published: true
 moodle_section:
 ---
-
 ## Binomische Formeln
-
-**Plus-Formel**
-```
-(a + b)^2 = a^2 + 2ab + b^2
-```
-
-**Minus-Formel**
-```
-(a - b)^2 = a^2 - 2ab + b^2
-```
-
-**Plus-Minus-Formel**
-```
-(a + b) * (a - b) = a^2 - b^2
-```
-
+| Name              | Formel                          |
+| ----------------- | ------------------------------- |
+| Plus-Formel       | $(a + b)^2 = a^2 + 2ab + b^2$   |
+| Plus-Minus-Formel | $(a - b)^2 = a^2 - 2ab + b^2$   |
+| Minus-Formel      | $(a + b) * (a - b) = a^2 - b^2$ |
 Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen auf den selben Nenner zu bringen zb: $\frac{x}{x-3} - \frac{10}{x+3} = \frac{18}{x^2 - 9}$ Hier können wir bei $x^2 - 9$ die Plus-Minus-Formel anwenden und so dann relativ einfach die anderen Brüche erweitern.
 
 **Zwei Klammern Ansatz**
@@ -57,15 +45,12 @@ Hier rechnet man auch wieder eines aus, und man kann dann die andere Seite bei d
 
 ## Funktionen
 Eine Funktion wird folgendermassen dargestellt, damit finden wir heraus wo das y eines gegeben x ist oder auch umgekehrt. das $q$ ist die Verschiebung der gesamten Linie in der Höhe um 0. Ohne $q$ würde die Linie durch den 0/0 punkt gehen.
-
 $$
 y = mx + q
 $$
-
 damit könnte man auch jeweils die fehlenden Informationen herausfinden zb $q$.
 
 ### Steigung anhand von zwei Punkten herausfinden
-
 $$
 \frac{yb - ya}{xb - xa}
 $$
