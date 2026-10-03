@@ -4,4 +4,4 @@ date: '2026-09-21'
 published: true
 ---
 
-## Gesetze im Zusammenhang mit Aussagen
+![[koma/formelblatt#Grundlegende Gesetze der Algebra#Kommutativ-, Distributiv- und Assoziativgesetz|formelblatt]]
