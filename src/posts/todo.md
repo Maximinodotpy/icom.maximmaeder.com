@@ -1,0 +1,3 @@
+- [ ] KNF und DNF dokumentieren im [[1-aussagen]]
+- [ ] [[3-korrekte-argumentation]] dokumentieren
+- [ ] koma [[formelblatt]] erweitern

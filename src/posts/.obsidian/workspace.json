@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "022bf338d76fcb33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo"
+            }
+          },
+          {
             "id": "efbbee09514963ff",
             "type": "leaf",
             "state": {
@@ -47,6 +61,16 @@
               },
               "icon": "lucide-file",
               "title": "3-korrekte-argumentation"
+            }
+          },
+          {
+            "id": "dcf6b3e97e40a08c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -213,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mgli/lektionen/3-korrekte-argumentation.md",
+                "file": "todo.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -250,13 +274,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efbbee09514963ff",
+  "active": "022bf338d76fcb33",
   "lastOpenFiles": [
-    "mgli/uebungen/serie03-loesung.pdf",
     "mgli/lektionen/3-korrekte-argumentation.md",
     "koma/formelblatt.md",
+    "todo.md",
     "mgli/lektionen/1-aussagen.md",
     "latex.md",
+    "mgli/uebungen/serie03-loesung.pdf",
     "ucdre/interview_notizen/Interview Pascale.md",
     "mgli/formelblatt.md",
     "mgli/lektionen/6-funktionen.md",
@@ -279,7 +304,6 @@
     "koma/lektionen/2/ueb0b_koma_2026.pdf.crdownload",
     "koma/lektionen/4",
     "koma/lektionen/3/lektionsnotizen.md",
-    "koma/lektionen/1/lsg_ueb0a_koma_2026.pdf",
     "mgli/lektionen/2-praedikate-und-quantoren.md",
     "mgli/lektionen/3/üa_lektion.excalidraw.md",
     "mgli/lektionen/3/Aufgabe 1.md",
