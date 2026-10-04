@@ -19,8 +19,8 @@ Ein Satz `A(x1, ..., xn)` der durch Einsetzen von Elementen für die `n` Variabl
 
 ## Quantoren
 
-### Definition ∃ (Existenzquantor)
-Es sei `A(x)` ein 1-stelliges Prädikat und `M` eine Menge. Dann ist `∃x ∈ M: A(x)` eine Aussage, die genau dann wahr ist, wenn ein Element in `M` existiert, so das `A(x)` wahr wird, wenn man dieses Element für x einsetzt. ∃ heisst *Existenzquantor*.
+### Definition $\exists$ (Existenzquantor)
+Es sei `A(x)` ein 1-stelliges Prädikat und $M$ eine Menge. Dann ist `∃x ∈ M: A(x)` eine Aussage, die genau dann wahr ist, wenn ein Element in $\exists$ existiert, so das `A(x)` wahr wird, wenn man dieses Element für x einsetzt. $\exists$ heisst *Existenzquantor*.
 
 **Beispiel**
 Es sei A(x): "x ist ein Land in Europa"
@@ -33,7 +33,7 @@ M2 = {Kenia, Japan, USA}
 Dann ist die Aussage `∃x ∈ M1: A(x)` (Es existiert ein x aus M1) **wahr**, weil es hier mindestens eine Sache in der Liste gibt die Stimmt.
 Dann ist die Aussage `∃x ∈ M2: A(x)` (Es existiert ein x aus M2) **falsch**, weil es hier keine einzige Sache gibt in der Liste mit der das Prädikat stimmt.
 
-### Defintion ∀ (Allquantor)
+### Definition $\forall$ (Allquantor)
 für den *Allquantor* müssen **alle** Aussagen mit den Werten aus der Menge wahr sein.
 
 **Beispiel**

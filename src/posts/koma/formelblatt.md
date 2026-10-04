@@ -13,6 +13,7 @@ Die verschiedenen grundlegenden Zahlenmengen, jede nächste beinhaltet alle vorh
 | Ganze Zahlen      | $\mathbb{Z}$ | ..., -2, -1, 0, 1, 3, ...                                                | Alle ganzen Zahlen (einschliesslich Negativen Zahlen)          |
 | Rationale Zahlen  | $\mathbb{Q}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\frac{13}{6}$, 5, ...                    | Alle Dezimalzahlen/Brüche                                      |
 | Reele Zahlen      | $\mathbb{R}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\sqrt{2}$, $\frac{13}{6}$, $\pi$, 5, ... | Hier kommen auch noch Zahlen hinzu welche kein Ende haben.     |
+| Primzahlen        | $\mathbb{P}$ | 1, 2, 3, 5, 7 ...                                                        | Alle Primzahlen                                                |
 ## Grundlegende Gesetze der Algebra
 
 ### Kommutativ-, Distributiv- und Assoziativgesetz
@@ -45,7 +46,7 @@ Potenzieren ist weder [[koma/formelblatt#^Assoziativgesetz|Kommutativ]] noch [[k
 | Minus-Formel      | $(a + b) * (a - b) = a^2 - b^2$ |
 Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen auf den selben Nenner zu bringen zb: $\frac{x}{x-3} - \frac{10}{x+3} = \frac{18}{x^2 - 9}$ Hier können wir bei $x^2 - 9$ die Plus-Minus-Formel anwenden und so dann relativ einfach die anderen Brüche erweitern.
 ## Mitternachtsformel (abc-formel)
-Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind).
+Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind). 
 $$
 x =\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
@@ -71,7 +72,7 @@ Eine Lösungsweg wäre es sich für eine der beiden Variablen zu entscheiden und
 #### Einsetzen (Bevorzugt)
 Hier rechnet man auch wieder eines aus, und man kann dann die andere Seite bei der anderen Gleichung einsetzen. Dies ist bevorzugt weil nur das möglich ist bei Gleichungssystem mit mehr als zwei Gleichungen.
 ## Funktionen
-Eine Funktion wird folgendermassen dargestellt, damit finden wir heraus wo das y eines gegeben x ist oder auch umgekehrt. das $q$ ist die Verschiebung der gesamten Linie in der Höhe um 0. Ohne $q$ würde die Linie durch den 0/0 punkt gehen.
+Eine Funktion wird folgendermassen dargestellt, damit finden wir heraus wo das y eines gegeben x ist oder auch umgekehrt. das $q$ ist die Verschiebung der gesamten Linie in der Höhe um $0$. Ohne $q$ würde die Linie durch den $0/0$ punkt gehen.
 $$
 y = mx + q
 $$

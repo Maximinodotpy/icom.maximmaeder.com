@@ -3,6 +3,8 @@ title: Latex
 date: 2026-09-28
 published: true
 description: Latex Notes
+sources:
+  - https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 ---
 Start a inline latex block with \$ ... \$ or a full latex block with double \$\$ ... \$\$.
 
