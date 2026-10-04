@@ -18,16 +18,17 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 
 ## Logische Operatoren
 
-| Befehl             | Symbol            | Bedeutung         |
-| ------------------ | ----------------- | ----------------- |
-| `\wedge` / `\land` | $\wedge$          | Und               |
-| `\lor`             | $\lor$            | Oder              |
-| `\neg`             | $\neg$            | Negation          |
-| `\Rightarrow`      | $\Rightarrow$     | Impliziert (Kurz) |
-| `\implies`         | $\implies$        | Impliziert (Lang) |
-| `\iff`             | $\iff$            | Äquivalenz (Lang) |
-| `\Leftrightarrow`  | $\Leftrightarrow$ | Äquivalenz (Kurz) |
-|                    |                   |                   |
+| Befehl             | Symbol            | Bedeutung                           |
+| ------------------ | ----------------- | ----------------------------------- |
+| `\wedge` / `\land` | $\wedge$          | Und                                 |
+| `\lor`             | $\lor$            | Oder                                |
+| `\neg`             | $\neg$            | Negation                            |
+| `\bar{A}`          | $\bar{A}$         | Negation direkt über dem Buchstaben |
+| `\Rightarrow`      | $\Rightarrow$     | Impliziert (Kurz)                   |
+| `\implies`         | $\implies$        | Impliziert (Lang)                   |
+| `\iff`             | $\iff$            | Äquivalenz (Lang)                   |
+| `\Leftrightarrow`  | $\Leftrightarrow$ | Äquivalenz (Kurz)                   |
+|                    |                   |                                     |
 ### [[2-praedikate-und-quantoren|Quantoren]]
 
 | Befehl    | Symbol    | Bedeutung                                                                   |

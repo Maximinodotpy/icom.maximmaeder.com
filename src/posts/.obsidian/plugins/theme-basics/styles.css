@@ -1,0 +1,38 @@
+.theme-basics-settings .theme-basics-intro {
+  margin: 0 0 1rem;
+  max-width: 62ch;
+}
+
+.theme-basics-settings .setting-group {
+  margin-top: 1rem;
+}
+
+.theme-basics-settings .theme-basics-profile-button {
+  min-width: 5rem;
+}
+
+.theme-basics-settings .extra-setting-button.is-disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.theme-basics-settings .setting-items > .setting-item-heading:first-child {
+  padding-top: 1.5rem;
+}
+
+.theme-basics-settings .theme-basics-base16-textarea {
+  min-width: 22rem;
+  font-family: var(--font-monospace);
+  font-size: var(--font-smaller);
+  resize: vertical;
+}
+
+.theme-basics-offscreen {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
