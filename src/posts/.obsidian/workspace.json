@@ -127,7 +127,8 @@
               "title": "formelblatt"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -186,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.70001220703125
+    "width": 304.70001220703125,
+    "collapsed": true
   },
   "right": {
     "id": "bb5f7559b17672d2",
@@ -264,7 +266,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "latex.md",
+                "file": "koma/formelblatt.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -301,15 +303,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4a5c19a62d078e",
+  "active": "3d489533f2916f21",
   "lastOpenFiles": [
-    "mgli/lektionen/1-aussagen.md",
-    "todo.md",
+    "mgli/uebungen/serie03-loesung.pdf",
     "mgli/lektionen/2-praedikate-und-quantoren.md",
+    "todo.md",
+    "mgli/lektionen/1-aussagen.md",
+    "latex.md",
     "mgli/lektionen/3-korrekte-argumentation.md",
     "koma/formelblatt.md",
-    "latex.md",
-    "mgli/uebungen/serie03-loesung.pdf",
     "ucdre/interview_notizen/Interview Pascale.md",
     "mgli/formelblatt.md",
     "mgli/lektionen/6-funktionen.md",
@@ -339,7 +341,6 @@
     "ucdre/lektionen/5.md",
     "ucdre/lektionen/4.md",
     "ucdre/index.md",
-    "prog1/lektionen/4/index.md",
-    "prog1/lektionen/5/index.md"
+    "prog1/lektionen/4/index.md"
   ]
 }

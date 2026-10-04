@@ -10,10 +10,11 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 
 ## Basis
 
-| Befehl | Symbol | Bedeutung    |
-| ------ | ------ | ------------ |
-| `=`    | $=$    | Gleich       |
-| `\neq` | $\neq$ | Nicht gleich |
+| Befehl   | Symbol   | Bedeutung                    |
+| -------- | -------- | ---------------------------- |
+| `=`      | $=$      | Gleich                       |
+| `\neq`   | $\neq$   | Nicht gleich                 |
+| `\equiv` | $\equiv$ | Semantisch gleich/äquivalent |
 
 ## Logische Operatoren
 
