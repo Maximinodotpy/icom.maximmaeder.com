@@ -12,7 +12,7 @@ drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmateri
 #### Und $\wedge$
 Wenn beides (/alles) richtig ist ...
 
-#### Oder $\lor$ 
+#### Oder $\lor$
 Wenn mindestens eines richtig ist ...
 
 #### Implikation $\Rightarrow$
@@ -48,7 +48,6 @@ Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, resp
 ## Weitere Begriffe
 ### Logische Formel
 Etwas wie das hier $(\neg A \lor B) \land C$ nennen wir **logische Formel**.
-
 ### Belegungen
 Weisen wir jeder Variabel einer [[#Logische Formel|logischen Formel]] einen Wert zu nennt man das eine **Belegung**. Führt diese dazu dass die logischer Formel wahr wird nennen wir sie **erfüllende Belegung** (oder natürlich andersherum **nicht erfüllende Belegung**)
 Bei grossen logischen Formeln kann es je nachdem sehr lange gehen herauszufinden ob sie eine erfüllende Belegung haben (Erfüllbarkeitsproblem).
@@ -97,12 +96,12 @@ Damit können wir logische Formeln vereinfachen: zb.
 3. $A \lor 0$ -> Identitätsgesetz
 4. $A$
 ## Normalformen
-Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine logische Formel zu analysieren. 
+Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine logische Formel zu analysieren.
 Aus Übersichtlichkeitsgründen schreiben wir für die Negation $\neg A$ lieber $\bar{A}$.
 ### Konjunktive Normalform
 Und-Verknüpfungen aus Oder-Verknüpfungen welcher wiederum aus Variablen und negierte Variablen bestehen.
 
-$f = f_1 \land f_2 \land ... \land f_m$ 
+$f = f_1 \land f_2 \land ... \land f_m$
 $f_i = (l_1 \lor l_2 ... \lor f_{i,n})$
 
 die $f$'s nennt man *Klauseln* und die $l$'s *Literale*.
@@ -147,7 +146,7 @@ Um die DNF zu bilden schauen wir alle erfüllenden Belegungen an und bilden anal
 ### DNF und KNF zusammengefasst
 KNF bestimmen:
 * Zeilen mit 0 anschauen
-* Eingänge mit 1 negieren 
+* Eingänge mit 1 negieren
 * und mit $\lor$ verknüpfen pro Zeile
 * resultierende Klauseln mit $\land$ verknüpfen.
 DNF bestimmen:

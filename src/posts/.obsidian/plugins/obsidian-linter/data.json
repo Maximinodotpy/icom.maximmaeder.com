@@ -158,7 +158,7 @@
       "enabled": false
     },
     "remove-empty-list-markers": {
-      "enabled": false
+      "enabled": true
     },
     "remove-hyphenated-line-breaks": {
       "enabled": false
@@ -245,7 +245,7 @@
       "english-symbols-punctuation-after": "-+'\"([¥$"
     },
     "trailing-spaces": {
-      "enabled": false,
+      "enabled": true,
       "two-space-line-break": false
     },
     "add-blockquote-indentation-on-paste": {
@@ -273,15 +273,15 @@
       "enabled": false
     }
   },
-  "lintOnSave": false,
+  "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "suppressMessageWhenNoChange": false,
   "enableDiffPreviewView": true,
   "suppressLintAllFilesConfirmationModal": false,
   "suppressLintAllFilesInFolderConfirmationModal": false,
-  "lintOnFileChange": false,
-  "displayLintOnFileChangeNotice": false,
+  "lintOnFileChange": true,
+  "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "additionalFileExtensions": [],
   "foldersToIgnore": [],

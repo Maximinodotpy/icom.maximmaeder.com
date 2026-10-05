@@ -41,13 +41,15 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 | ------------ | ------------ | ---------------------------------------------- |
 | `\mathbb{N}` | $\mathbb{N}$ | [[koma/formelblatt#Zahlen\|Natürliche Zahlen]] |
 | `\mathbb{Z}` | $\mathbb{Z}$ | [[koma/formelblatt#Zahlen\|Ganze Zahlen]]      |
-| f            |              |                                                |
-| f            |              |                                                |
-| f            |              |                                                |
+|              |              |                                                |
+|              |              |                                                |
+| `\emptyset`  | $\emptyset$  | Leere Menge                                    |
 | `\in`        | $\in$        | In                                             |
 | `\notin`     | $\notin$     | Nicht in                                       |
 | `\cup`       | $\cup$       | [[4-mengen\|Vereinigung]]                      |
 | `\cap`       | $\cap$       | [[4-mengen\|Schnitt]]                          |
+| `\subseteq`  | $\subseteq$  | [[4-mengen\|Teilmenge]] (Subset)               |
+| `\supseteq`  | $\supseteq$  | [[4-mengen\|Obermenge]] (Superset)             |
 ## Sonstiges
 
 | Befehl | Beispiel/Symbol |

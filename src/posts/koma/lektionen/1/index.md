@@ -73,7 +73,7 @@ Checkliste:
 4. Drei Summanden x^2 + px + g: Zweiklammeransatz
    mit a*b = q und (a+b) = p
 5. Jeden neuen Faktor wieder ab Schritt 1 prüfen.
-   
+
 Bsp:
 
 ```

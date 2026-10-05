@@ -14,6 +14,7 @@ Die verschiedenen grundlegenden Zahlenmengen, jede nächste beinhaltet alle vorh
 | Rationale Zahlen  | $\mathbb{Q}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\frac{13}{6}$, 5, ...                    | Alle Dezimalzahlen/Brüche                                      |
 | Reele Zahlen      | $\mathbb{R}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\sqrt{2}$, $\frac{13}{6}$, $\pi$, 5, ... | Hier kommen auch noch Zahlen hinzu welche kein Ende haben.     |
 | Primzahlen        | $\mathbb{P}$ | 1, 2, 3, 5, 7 ...                                                        | Alle Primzahlen                                                |
+siehe: [[4-mengen|Mengen]]
 ## Grundlegende Gesetze der Algebra
 
 ### Kommutativ-, Distributiv- und Assoziativgesetz
@@ -46,7 +47,7 @@ Potenzieren ist weder [[koma/formelblatt#^Assoziativgesetz|Kommutativ]] noch [[k
 | Minus-Formel      | $(a + b) * (a - b) = a^2 - b^2$ |
 Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen auf den selben Nenner zu bringen zb: $\frac{x}{x-3} - \frac{10}{x+3} = \frac{18}{x^2 - 9}$ Hier können wir bei $x^2 - 9$ die Plus-Minus-Formel anwenden und so dann relativ einfach die anderen Brüche erweitern.
 ## Mitternachtsformel (abc-formel)
-Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind). 
+Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind).
 $$
 x =\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
