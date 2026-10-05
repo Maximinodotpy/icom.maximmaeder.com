@@ -1,0 +1,4 @@
+
+> [!example]+ Beispiel
+> Content
+
