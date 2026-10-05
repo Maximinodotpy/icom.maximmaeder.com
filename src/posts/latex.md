@@ -6,15 +6,21 @@ description: Latex Notes
 sources:
   - https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 ---
+gesprochen: latek
+
 Start a inline latex block with \$ ... \$ or a full latex block with double \$\$ ... \$\$.
 
 ## Basis
 
-| Befehl   | Symbol   | Bedeutung                    |
-| -------- | -------- | ---------------------------- |
-| `=`      | $=$      | Gleich                       |
-| `\neq`   | $\neq$   | Nicht gleich                 |
-| `\equiv` | $\equiv$ | Semantisch gleich/äquivalent |
+| Befehl         | Symbol         | Bedeutung                    |
+| -------------- | -------------- | ---------------------------- |
+| `=`            | $=$            | Gleich                       |
+| `\neq`         | $\neq$         | Nicht gleich                 |
+| `\equiv`       | $\equiv$       | Semantisch gleich/äquivalent |
+| `\sqrt{4}`     | $\sqrt{4}$     | (Quadrat)Wurzel              |
+| `\sqrt[3]{16}` | $\sqrt[3]{16}$ | N-te Wurzel                  |
+| `\pm`          | $\pm$          | Plus-Minus (bevorzugen)      |
+| `\mp`          | $\mp$          | Minus-Plus                   |
 
 ## Logische Operatoren
 
@@ -28,7 +34,7 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 | `\implies`         | $\implies$        | Impliziert (Lang)                   |
 | `\iff`             | $\iff$            | Äquivalenz (Lang)                   |
 | `\Leftrightarrow`  | $\Leftrightarrow$ | Äquivalenz (Kurz)                   |
-|                    |                   |                                     |
+
 ### [[2-praedikate-und-quantoren|Quantoren]]
 
 | Befehl    | Symbol    | Bedeutung                                                                   |

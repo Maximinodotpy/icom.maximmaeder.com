@@ -20,37 +20,46 @@ Ist nur falsch wenn A wahr ist und B falsch sonst richtig
 
 In Zahlen ausgedrückt muss also die rechte Seite mindestens gleich oder mehr sein als links. Oder anders gesagt wenn links richtig ist dann muss es rechts auch richtig sein.
 
-| $A$ | $B$ | $A \Rightarrow B$          |
-| --- | --- | -------------------------- |
-| 0   | 0   | 1                          |
-| 0   | 1   | 1                          |
-| 1   | 0   | 0 (Einziger falscher Fall) |
-| 1   | 1   | 1                          |
+> [!example]+ Wahrheitstabelle
+>
+>
+> | $A$ | $B$ | $A \Rightarrow B$          |
+> | --- | --- | -------------------------- |
+> | 0   | 0   | 1                          |
+> | 0   | 1   | 1                          |
+> | 1   | 0   | 0 (Einziger falscher Fall) |
+> | 1   | 1   | 1                          |
+
 Wird beim [[3-korrekte-argumentation|Argumentieren respektive beweisen]] gebraucht weil eine Schlange aus Implikationen immer Wahr sein muss wenn nur die erste Instanz wahr war.
+
 #### Logische Äquivalenz $\Leftrightarrow$
 Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sind ...
 
-| $A$ | $B$ | $A \Leftrightarrow B$ |
-| --- | --- | --------------------- |
-| 0   | 0   | 1                     |
-| 0   | 1   | 0                     |
-| 1   | 0   | 0                     |
-| 1   | 1   | 1                     |
+> [!example]+ Wahrheitstabelle
+> | $A$ | $B$ | $A \Leftrightarrow B$ |
+> | --- | --- | --------------------- |
+> | 0   | 0   | 1                     |
+> | 0   | 1   | 0                     |
+> | 1   | 0   | 0                     |
+> | 1   | 1   | 1                     |
+
 ### Einstellige Operatoren
 #### Negation $\neg$
 Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, respektive wird als erstes evaluiert
 
-| $A$ | $\neg A$ |
-| --- | -------- |
-| 1   | 0        |
-| 0   | 1        |
+
+> [!example]+ Wahrheitstabelle
+> | $A$ | $\neg A$ |
+> | --- | -------- |
+> | 1   | 0        |
+> | 0   | 1        |
 
 ## Weitere Begriffe
 ### Logische Formel
 Etwas wie das hier $(\neg A \lor B) \land C$ nennen wir **logische Formel**.
 ### Belegungen
 Weisen wir jeder Variabel einer [[#Logische Formel|logischen Formel]] einen Wert zu nennt man das eine **Belegung**. Führt diese dazu dass die logischer Formel wahr wird nennen wir sie **erfüllende Belegung** (oder natürlich andersherum **nicht erfüllende Belegung**)
-Bei grossen logischen Formeln kann es je nachdem sehr lange gehen herauszufinden ob sie eine erfüllende Belegung haben (Erfüllbarkeitsproblem).
+Bei grossen logischen Formeln kann es je nachdem sehr lange gehen herauszufinden ob sie eine erfüllende Belegung haben ([Erfüllbarkeitsproblem](https://de.wikipedia.org/wiki/Erf%C3%BCllbarkeitsproblem_der_Aussagenlogik)).
 ## Syntaxbaum
 Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene Belegungen zu prüfen.
 ```mermaid
@@ -143,7 +152,7 @@ Was vorher Klauseln waren sind nun die **Minterme**.
 zb. $(A \land \bar{B}) \lor (C \land D)$
 Um die DNF zu bilden schauen wir alle erfüllenden Belegungen an und bilden analog zu dem KNF (negation zur Wahrheit) die Klauseln.
 
-### DNF und KNF zusammengefasst
+### Konjunktive- und Disjunktive Normalform zusammengefasst
 KNF bestimmen:
 * Zeilen mit 0 anschauen
 * Eingänge mit 1 negieren
