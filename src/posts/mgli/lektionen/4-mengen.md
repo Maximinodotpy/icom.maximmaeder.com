@@ -3,10 +3,12 @@ title: "MGLI Lektion 4: Mengen"
 date: 2026-10-05
 published: true
 video: https://tube.switch.ch/videos/iejBHx1P1a
+übungs_serie: "[[serie04.pdf]]"
+schriftliche_notizen: "[[4-mengen-übungen]]"
 ---
 ## Definition
 
-Eine Menge ist eine Liste aus **verschiedenen** Objekten.
+Eine Menge ist eine Liste aus **verschiedenen** (keine Duplikate) Objekten.
 
 $x \in M$ bedeutet $x$ ist ein Element in $M$
 $x \notin M$ bedeutet $x$ ist kein Element in $M$

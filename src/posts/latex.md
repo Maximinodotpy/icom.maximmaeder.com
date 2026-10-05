@@ -52,13 +52,17 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 | `\emptyset`  | $\emptyset$  | Leere Menge                                    |
 | `\in`        | $\in$        | In                                             |
 | `\notin`     | $\notin$     | Nicht in                                       |
-| `\cup`       | $\cup$       | [[4-mengen\|Vereinigung]]                      |
-| `\cap`       | $\cap$       | [[4-mengen\|Schnitt]]                          |
+| `\cup`       | $\cup$       | [[4-mengen\|Vereinigung]] (Union)              |
+| `\cap`       | $\cap$       | [[4-mengen\|Schnitt]] (Überschneidung)         |
 | `\subseteq`  | $\subseteq$  | [[4-mengen\|Teilmenge]] (Subset)               |
 | `\supseteq`  | $\supseteq$  | [[4-mengen\|Obermenge]] (Superset)             |
+| `\setminus`  | $\setminus$  | Differenz                                      |
+|              | $\|A\|$      | Kardinalität (**FALSCH**)                      |
 ## Sonstiges
 
 | Befehl | Beispiel/Symbol |
 | ------ | --------------- |
 | `_n`   | $b_1$           |
 
+
+ges
