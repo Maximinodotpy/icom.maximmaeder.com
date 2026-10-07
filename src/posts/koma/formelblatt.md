@@ -14,6 +14,8 @@ Die verschiedenen grundlegenden Zahlenmengen, jede nächste beinhaltet alle vorh
 | Rationale Zahlen  | $\mathbb{Q}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\frac{13}{6}$, 5, ...                    | Alle Dezimalzahlen/Brüche                                      |
 | Reele Zahlen      | $\mathbb{R}$ | ..., -2, $-\frac{2}{1}$, 0, 1, $\sqrt{2}$, $\frac{13}{6}$, $\pi$, 5, ... | Hier kommen auch noch Zahlen hinzu welche kein Ende haben.     |
 | Primzahlen        | $\mathbb{P}$ | 1, 2, 3, 5, 7 ...                                                        | Alle Primzahlen                                                |
+| Lösungsmenge      | $\mathbb{L}$ |                                                                          | Die Tatsächlich validen Lösungen einer Gleichung               |
+| Definitionmenge   | $\mathbb{D}$ |                                                                          | Die Möglichen Lösungen einer Gleichung                         |
 siehe: [[4-mengen|Mengen]]
 ## Grundlegende Gesetze der Algebra
 
