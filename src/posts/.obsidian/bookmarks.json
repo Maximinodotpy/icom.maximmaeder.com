@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1791282573919,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1791282560651,
+          "path": "mgli/lektionen/4-mengen/4-mengen.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1791282560651,
+          "path": "latex.md"
+        }
+      ],
+      "title": "mgli mengen"
+    }
+  ]
+}

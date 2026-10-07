@@ -1,1 +1,1 @@
-gesprochen: %%cursor%%
+gesprochen: %%cursor%%%%textSelection%%

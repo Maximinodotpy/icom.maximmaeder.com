@@ -1,1 +1,1 @@
-<span style='color: green'>%%cursor%%</span>
+<span style='color: green'>%%textSelection%%%%cursor%%</span>

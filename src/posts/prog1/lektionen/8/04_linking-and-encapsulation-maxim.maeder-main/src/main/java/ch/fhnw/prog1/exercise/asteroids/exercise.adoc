@@ -1,0 +1,34 @@
+# Asteroids
+
+In dieser Übung implementierst Du ein kleines Game, wo man mit einem Raumschiff Asteroiden ausweichen muss und übst nochmals den Umgang mit Objekten, Klassen und Invarianten.
+
+Es ist bereits eine minimale Implementation vorhanden, im Package ….asteroids. Studiere die vorhandenen Klassen AsteroidsGame und Falcon. Führe das Programm aus und verwende die Pfeiltasten, um den Falcon zu bewegen.
+
+[loweralpha]
+. Wie Du siehst, funktioniert die Bedienung, aber Du kannst den Falcon beliebig weit aus dem Spielfeld bewegen. Erweiter die Klasse Falcon so, dass der Falcon immer im Spielfeld bleibt. Füge dazu zusätzliche Attribute für die Spielfeldbegrenzung hinzu und definiere eine Klasseninvariante, welche die Position des Falcons einschränkt.
+
+. Erstelle eine neue Klasse `Asteroid`, welche ebenfalls eine `x`- und `y`-Position und eine `vx` und `vy`-Geschwindigkeit hat, ähnlich dem `Falcon`. Zusätzlich hat ein Asteroid einen «Typ» (ein `int`, entweder `0`, `1` oder `2`, entspricht dem Bild, das für den Asteroiden verwendet wird) und eine Grösse (einen `double` zwischen `0.1` und `1.0`). Füge einen entsprechenden Konstruktor hinzu und implementiere eine `move`- und eine `draw`-Methode, analog zum Falcon. Im Gegensatz zum Falcon bleibt die Geschwindigkeit eines Asteroiden immer konstant und ein Asteroid kann sich auch aus dem Spielfeld bewegen. Füge in `AsteroidsGame` zum Testen mal ein Asteroid-Objekt zum Spiel hinzu und lasse es sich bewegen und zeichnen.
++
+Tipps: Die draw-Methode soll gemäss dem Typ und der Grösse des Asteroiden eines von drei Bildern zeichnen (siehe «asteroid-0.png», «asteroid-1.png» und «asteroid-2.png» im «resources»-Ordner). Verwende dazu die Methode drawImageCentered mit vier Parametern; der letzte entspricht der Grösse (Skalierung) des Bilds.
+
+. Erweitere den Code in AsteroidsGame, sodass immer wieder neue Asteroiden von oben ins Spielfeld fliegen. Wenn ein Asteroid unten aus dem Spielfeld herausfliegt, soll er entfernt werden.
++
+Tipps: Erstelle z.B. ein Array mit Platz für 20 Asteroiden. Im Verlauf vom Spiel soll dieses mit zufällig generierten Asteroiden gefüllt werden, z.B. immer nach einer bestimmten oder zufälligen Anzahl von Spielschritten. Verwende die Random-Klasse, um zufällige Werte für die Position, Geschwindigkeit, Typ und Grösse zu generieren. Mit geschickten Parametern für nextDouble(min, max) kannst Du dafür sorgen, dass die Asteroiden immer von oben nach unten durch das Spielfeld fliegen. In der Hauptschleife sollen dann alle Asteroiden bewegt und gezeichnet werden. Jetzt solltest Du das Spiel starten können und Asteroiden sehen. Allerdings fliegen sie irgendwann alle aus dem Spielfeld. Erweitere das Programm deshalb noch um einen Mechanismus, der erkennt, wenn ein Asteroid das Spielfeld gegen unten verlassen hat und ihn dann aus dem Array entfernt. Dadurch gibt es wieder Platz für neue Asteroiden.
+
+. Zum Schluss implementierst Du eine einfache Kollisionserkennung zwischen dem Falcon und den Asteroiden. Sobald der Falcon mit einem Asteroiden kollidiert, ist das Spiel vorbei.
++
+Tipps: Eine Kollision liegt vor, wenn die Distanz zwischen der Position des Falcons, (x1,y1), und der Position eines Asteroiden, (x2,y2) , kleiner ist als die Summe der Grössen (Radien) von Falcon und Asteroid. Modelliere also den Falcon und die Asteroiden einfach als Kreise:
++
+link zum Bild: https://prog1.pages.fhnw.ch/2026fs/docs/w04-objekte-verbinden-kapseln/resources/collision.png
++
+Implementiere diese Logik mithilfe der `https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Math.html[Math]`-Klasse z. B. in einer Methode `collidesWith`, entweder in `Asteroid` mit einem Parameter für den `Falcon` oder umgekehrt. In der Hauptschleifen muss dann in jedem Spielschritt überprüft werden, ob zwischen dem Falcon und irgendeinem der Asteroiden eine Kollision vorliegt. Wenn ja, wird die Hauptschleife beendet und der Game-Over-Schriftzug, welcher sich ebenfalls im «resources»-Ordner befindet, gezeichnet.
++
+Es gelten folgende Gleichungen:
+[stem]
+++++
+\begin{align*}
+\Delta x &= x_1 - x_2 \\
+\Delta y &= y_1 - y_2 \\
+d &= \sqrt{\Delta x^2 + \Delta y^2}
+\end{align*}
+++++
