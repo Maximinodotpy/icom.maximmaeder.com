@@ -61,7 +61,7 @@ Also folgende Gleichungsumformungen verändern die Lösungsmenge **nicht**:
 	   (x - 1)(x - 3) &= 0 & & | T \\
 	   x_1 &= 1 \quad \text{oder} \quad x_2 = 3 & & | T \\
 	   \end{alignat*}
-   $$Wenn nun eine dieser Klammern $0$ ergibt wird das ganze $0$ und daher können wir ablesen dass die erste Klammer $0$ wäre wenn $x = 1$ und die zweite wenn $x = 3$ somit kennen wir die Lösungsmenge.
+   $$Wenn nun eine dieser Klammern $0$ ergibt wird das ganze $0$ und daher können wir ablesen dass die erste Klammer $0$ wäre wenn $x = 1$ und die zweite wenn $x = 3$ somit kennen wir die Lösungsmenge. ^produktgleichnull
 
 > [!NOTE] Übrigens
 > Hier im vierten Schritt wurde bereits eine [[koma/formelblatt#Binomische Formeln|Binomische Formel]] respektive der [[koma/formelblatt#PQ-Formel und Zwei-Klammer-Ansatz|Zwei Klammer Ansatz verwendet]].
@@ -90,5 +90,58 @@ x &= \frac{-b}{a} &\quad & \\
 * Wenn $a = 0$ gibt es zwei weitere Fälle. (<span style='color: green'>Singulär</span>)
 	* $a=0$ und $b=0$ (<span style='color: green'>Unterbestimmt</span>)
 	  In diesem Fall kann man jede beliebige Zahl einsetzen also $\mathbb{L} = \mathbb{R}$
-	* $a = 0$ und $b \neq 0$ (<span style='color: green'>Wiedersprüchlich</span>)
+	* $a = 0$ und $b \neq 0$ (§)
 	  Hier ergibt sich immer eine Falsche Aussage also $\mathbb{L} = \{\}$
+
+#### graphische Interpretation
+Bei einer regulären linearen Gleichung würde dann so aussehen.
+$$
+y = 2x - 4
+$$
+```desmos-graph
+y = 2x - 4
+(2,0)|label:Unsere Lösung=2
+```
+
+Wir suchen also die sogenannte <span style='color: green'>Nullstelle</span> (Dort wo die Linie die X-Achse auf Höhe $0$ schneidet). Wie wir sehen gibt es genau einen solchen Punkt (nämlich $2$).
+
+Bei einem <span style='color: green'>singulär widersprüchlichen</span> Beispiel sehen wir dass die Linie die X-Achse nie schneidet, sie verläuft Parallel dazu.
+$$
+y = 0x + 5
+$$
+```desmos-graph
+y = 0x + 3
+```
+
+Und bei einem <span style='color: green'>singulär unterbestimmten</span> Beispiel sehen wir dass die Linie auf der X-Achse verläuft was uns dann $\mathbb{L} = \mathbb{R}$
+$$
+y = 0x + 0
+$$
+```desmos-graph
+y = 0x + 0
+```
+
+## [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 3)](https://tube.switch.ch/videos/lZWt8mJz0m)
+
+Jetzt kommen wir zu den <span style='color: green'>quadratischen Gleichungen</span>.
+
+Form: $ax^2 + bx + c = 0$ wobei $a,b,c \in \mathbb{R}$ und $a\neq0$ und $x$ ist die unbekannte.
+
+Hier können wir in der Regel nicht die Umformungstechniken anwenden.
+
+Es gibt aber zwei spezielle Situationen.
+
+1. $x^2 + 3x - 10 = 0$
+   können wir faktorisieren zu $(x + 5)(x - 2) = 0$
+   Und so sehen wir wieder welche Werte wir einfügen müssen damit es null gibt (siehe [[#^produktgleichnull|Produkt gleich Null]])
+   Graphisch dargestellt sehen wir auch warum es zwei Werte gibt.
+```desmos-graph
+left=-10;
+right=10;
+top=20;
+bottom=-20
+---
+	y = x^2 + 3x - 10
+```
+
+2. 
