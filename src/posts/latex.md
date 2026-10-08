@@ -87,20 +87,38 @@ which looks like this
 |               |                 |           |
 
 ### Mehrstufige Gleichung
+```latex
 $$
 \begin{alignat*}{3}
 x &= y &\quad & | -y \\ 
 x - y &= 0 &\quad & \\
 \end{alignat*}
 $$
-
-## Gleichungssysteme
+```
 $$
 \begin{alignat*}{3}
-\begin{cases}
-& x+y &= 700 \\
-& x+\frac{y}{2} &= 500
-\end{cases}
+x &= y &\quad & | -y \\ 
+x - y &= 0 &\quad & \\
 \end{alignat*}
 $$
+## Gleichungssysteme
+```latex
+$$
+\begin{alignat*}{3}
+	\begin{cases}
+		& x+y &= 700 \\
+		& x+\frac{y}{2} &= 500
+	\end{cases}
+\end{alignat*}
+$$
+```
+$$
+\begin{alignat*}{3}
+	\begin{cases}
+		& x+y &= 700 \\
+		& x+\frac{y}{2} &= 500
+	\end{cases}
+\end{alignat*}
+$$
+
 

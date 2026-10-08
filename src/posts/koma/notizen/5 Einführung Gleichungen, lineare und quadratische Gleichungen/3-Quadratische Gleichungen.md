@@ -32,7 +32,7 @@ bottom=-20
 ```
 
 2. $x^2 - 16 = 0$ ($b$ ist also $0$)
-   Könnte man so umforen $x^2= 16$
+   Könnte man so umformen $x^2= 16$
    würden wir nun aber die Wurzel ziehen ginge uns wieder ein Ergebnis verloren.
    Graphisch sehen wir aber es gäbe wieder zwei Lösungen.
 

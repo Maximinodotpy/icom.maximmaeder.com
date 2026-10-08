@@ -12,3 +12,4 @@ This Website is a Fork of a Joy of Code Website. The original code can be found 
 This means I can write the blog posts and the pages in markdown, but I can also use svelte components in the markdown. This is a very powerful feature, because it allows me to create interactive blog posts and pages.
 
 If you have anything to remark, please feel free to contact me via email (in the footer).
+
