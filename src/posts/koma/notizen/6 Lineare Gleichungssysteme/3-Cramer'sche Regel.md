@@ -1,0 +1,1 @@
+[Nugget 6 (Gleichungen 2 - Lineare Gleichungssysteme - Teil 3)](https://tube.switch.ch/videos/ri39Dh8gKh)

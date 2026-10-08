@@ -131,7 +131,7 @@ Es gibt aber zwei spezielle Situationen.
 
 1. $x^2 + 3x - 10 = 0$
    können wir faktorisieren zu $(x + 5)(x - 2) = 0$
-   Und so sehen wir wieder welche Werte wir einfügen müssen damit es null gibt (siehe [[Grundlagen Gleichungen#^produktgleichnull|Produkt gleich Null]])
+   Und so sehen wir wieder welche Werte wir einfügen müssen damit es null gibt (siehe [[1-Grundlagen Gleichungen#^produktgleichnull|Produkt gleich Null]])
    Graphisch dargestellt sehen wir auch warum es zwei Werte gibt. Diese beiden Faktoren können wir auch als einzelne Funktionen sehen welche die selben X-Achsenschnittpunkte haben einfach jeweils nur einen (Grün und Violet)
 ```desmos-graph
 left=-10;

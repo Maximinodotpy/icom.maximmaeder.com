@@ -1,11 +1,10 @@
-## Bruchgleichungen
 [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 4)](https://tube.switch.ch/videos/17XX0bpa2E)
 
 Nun geht es um <span style='color: green'>Bruchgleichungen</span> (welche auf lineare bzw. quadratisch Gleichungen führen).
 
-Definition: Eine Gleichung, bei welcher die gesuchte Grösse im Nenner eines Bruches steht.
+Definition: Eine Gleichung, bei welcher die gesuchte Grösse $x$ im Nenner eines Bruches steht.
 
-Das könnte Beispielsweise so gelöste werden.
+Das könnte Beispielsweise so gelöst werden.
 $$
 \begin{alignat*}{1}
 \frac{x^2 - 2}{x-2} + 1 &= \frac{2}{x-2} &\quad & | -\frac{2}{x-2} \quad& \text{eine Seite Null setzen} \\
@@ -44,18 +43,3 @@ $$
 (1-4x)(x-6) - 3(x-1)(x-1) + 7(x-1)(x-2) &= 0 &\quad & | \quad \text{} \\
 \end{alignat*}
 $$
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-fasd fasd

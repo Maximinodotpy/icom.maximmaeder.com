@@ -10,10 +10,10 @@ sources:
 moodle_section: https://moodle.fhnw.ch/course/section.php?id=704181
 ---
 
-![[Grundlagen Gleichungen]]
+![[1-Grundlagen Gleichungen]]
 
-![[Lineare Gleichungen]]
+![[2-Lineare Gleichungen]]
 
-![[Quadratische Gleichungen]]
+![[3-Quadratische Gleichungen]]
 
-![[Bruchgleichungen]]
+![[4-Bruchgleichungen]]

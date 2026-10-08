@@ -11,6 +11,19 @@ gesprochen: latek
 
 Start a inline latex block with \$ ... \$ or a full latex block with double \$\$ ... \$\$.
 
+## Quoting
+When Block-quoting a latex block do it like this.
+
+$$
+x = y + 17
+$$
+
+^examplequote
+
+which looks like this
+
+![[#^examplequote]]
+
 ## Basis
 
 | Befehl         | Symbol         | Bedeutung                    |
@@ -65,10 +78,29 @@ Start a inline latex block with \$ ... \$ or a full latex block with double \$\$
 | `\overline{A \cup B}` | $\overline{A \cup B}$ | [[4-mengen#^komplement\|Komplement]]                                                  |
 ## Sonstiges
 
-| Befehl   | Beispiel/Symbol | Bedeutung |
-| -------- | --------------- | --------- |
-| `_n`     | $b_1$           |           |
-| `\infty` | $\infty$        | Unendlich |
+| Befehl        | Beispiel/Symbol | Bedeutung |
+| ------------- | --------------- | --------- |
+| `_n`          | $b_1$           |           |
+| `\infty`      | $\infty$        | Unendlich |
+| `\text{Text}` | $\text{Text}$   | Text      |
+| `\quad`       | $\quad$         | Abstand   |
+|               |                 |           |
 
+### Mehrstufige Gleichung
+$$
+\begin{alignat*}{3}
+x &= y &\quad & | -y \\ 
+x - y &= 0 &\quad & \\
+\end{alignat*}
+$$
 
-ges
+## Gleichungssysteme
+$$
+\begin{alignat*}{3}
+\begin{cases}
+& x+y &= 700 \\
+& x+\frac{y}{2} &= 500
+\end{cases}
+\end{alignat*}
+$$
+
