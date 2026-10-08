@@ -53,6 +53,8 @@ Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax
 $$
 x =\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
+
+## Diskriminante der Mitternachtsformel
 über die Diskriminante wird entschieden ob und wie viel Lösungen es gibt.
 $$
 D = b^2 - 4ac

@@ -134,7 +134,7 @@ Es gibt aber zwei spezielle Situationen.
 1. $x^2 + 3x - 10 = 0$
    können wir faktorisieren zu $(x + 5)(x - 2) = 0$
    Und so sehen wir wieder welche Werte wir einfügen müssen damit es null gibt (siehe [[#^produktgleichnull|Produkt gleich Null]])
-   Graphisch dargestellt sehen wir auch warum es zwei Werte gibt.
+   Graphisch dargestellt sehen wir auch warum es zwei Werte gibt. Diese beiden Faktoren können wir auch als einzelne Funktionen sehen welche die selben X-Achsenschnittpunkte haben einfach jeweils nur einen (Grün und Violet)
 ```desmos-graph
 left=-10;
 right=10;
@@ -142,6 +142,83 @@ top=20;
 bottom=-20
 ---
 	y = x^2 + 3x - 10
+	
+	y = x + 5
+	y = x - 2
 ```
 
-2. 
+2. $x^2 - 16 = 0$ ($b$ ist also $0$)
+   Könnte man so umforen $x^2= 16$ 
+   würden wir nun aber die Wurzel ziehen ginge uns wieder ein Ergebnis verloren.
+   Graphisch sehen wir aber es gäbe wieder zwei Lösungen.
+   
+   Wir müssen bedenken die $+\sqrt{\quad}$ und die $-\sqrt{\quad}$ zu ziehen respektive die negation der Lösung ist ebenfalls eine Lösung. In diesem Fall $\mathbb{L} = \{-4, 4\}$ 
+```desmos-graph
+left=-10;
+right=10;
+top=20;
+bottom=-20
+---
+x^2 - 16
+```
+
+Hierbei kommt die [[koma/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]] ins spiel.
+
+![[koma/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]]
+
+Man muss auch die [[koma/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]] beachten.
+
+![[koma/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]]
+
+Graphisch erkennen wir wieso dem so ist.
+
+**$D > 0$** (Zwei Ergebnisse)
+```desmos-graph
+y = x^2 - 2
+```
+
+**$D = 0$** (Ein Ergebnis)
+```desmos-graph
+y = x^2
+```
+
+**$D < 0$** (Keine Ergebnisse)
+```desmos-graph
+y = x^2 + 1
+```
+
+## [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 4)](https://tube.switch.ch/videos/17XX0bpa2E)
+
+Nun geht es um <span style='color: green'>Bruchgleichungen</span> (welche auf lineare bzw. quadratisch Gleichungen führen).
+
+Definition: Eine Gleichung, bei welcher die gesuchte Grösse im Nenner eines Bruches steht.
+
+Das könnte Beispielsweise so gelöste werden.
+$$
+\begin{alignat*}{1}
+\frac{x^2 - 2}{x-2} + 1 &= \frac{2}{x-2} &\quad & | -\frac{2}{x-2} \quad& \text{eine Seite Null setzen} \\
+\frac{x^2 - 2}{x-2} + 1 - \frac{2}{x-2} &= 0 & & | & \text{andere Seite umformen,\\ vereinfache und faktorisieren} \\
+\frac{x^2 - 2}{x-2} + \frac{x-2}{x-2} - \frac{2}{x-2} &= 0 & & | & \text{wir wandeln die 1 um damit es \\denn gleichen Nenner hat \\ was } \frac{x-2}{x-2} \text{ ist} \\
+\frac{x^2 - 2 + x-2 - 2}{x-2} &= 0 & & | & \text{Dann können wir das ganze im \\ selben Bruch schreiben} \\
+\frac{x^2 + x - 6}{x-2} &= 0 & & | & \text{und vereinfachen} \\
+\frac{(x + 3)(x - 2)}{x-2} &= 0 & & | & \text{Den Zähler faktorisieren} \\
+\frac{(x + 3)(x - 2)}{x-2} &= 0 & & | & \text{Dann können wir \\ das } (x-2) \text{ kürzen} \\
+(x + 3) &= 0 & & | & \text{Und somit erkennen wir\\ die Lösung} \\
+x &= -3
+\end{alignat*}
+$$
+Das ist aber viel Schreibarbeit daher wäre es besser wenn wir mit den Nenner Multiplizieren.
+$$
+\begin{alignat*}{1}
+\frac{x^2 - 2}{x-2} + 1 &= \frac{2}{x-2} &\quad & | *(x-2) \quad& \text{Mit Hauptnenner\\ multiplizieren (beidseitig)} \\
+(x-2)* (\frac{x^2 - 2}{x-2} + 1) &= (x-2) * \frac{2}{x-2} &\quad & | \quad& \text{} \\
+x^2 - 2 + x - 2 &= 2 &\quad & | \quad& \text{} \\
+x^2 - 2 + x - 2 &= 2 &\quad & |-2 \quad& \text{} \\
+x^2 + x - 6 &= 0 &\quad & | \quad& \text{} \\
+(x + 3)(x - 2) &= 0 &\quad & | \quad& \text{} \\
+x_1 &= -3 &\quad & | \quad& \text{} \\
+x_2 &= 2 &\quad & | \quad& \text{Nun ist aber duch die \\ Multiplikation vom Anfang \\ eine Scheinlösung entstanden; \\ setzen wir nun 2 beim ursprung ein \\würden wir durch 0 teilen,\\ was nicht geht} \\
+L &= \{3\} &\quad & | \quad& \text{\{3\} ist somit unsere Lösungsmenge} \\
+\end{alignat*}
+$$
+Dies hätten wir aber schon von Anfang ermitteln/sehen können und in die Definitionmenge hineinfliessen lassen: $\mathbb{D} = \mathbb{R} \setminus \{2\}$
