@@ -1,3 +1,4 @@
 body {
-    --embed-border-left: unset;
+    --embed-border-start: unset;
+    --embed-padding: unset;
 }
