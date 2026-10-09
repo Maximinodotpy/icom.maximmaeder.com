@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "TiUser",
+      "RiEnglishInput",
+      "FasPersonBooth",
+      "RiFunctions",
+      "FasComputer"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -14,9 +20,9 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": false,
-    "iconInTitleEnabled": false,
-    "iconInTitlePosition": "above",
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInTitlePosition": "inline",
     "iconInFrontmatterEnabled": false,
     "iconInFrontmatterFieldName": "icon",
     "iconColorInFrontmatterFieldName": "iconColor",
@@ -27,5 +33,10 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "koma": "LiPi",
+  "mgli": "RiFunctions",
+  "prog1": "FasComputer",
+  "ucdre": "TiUser",
+  "eadc": "RiEnglishInput"
 }
