@@ -1,0 +1,1 @@
+[Nugget 11 (Funktionen 2 - Lineare Funktionen - Teil 3)](https://tube.switch.ch/videos/8J1vvnK4Q3)
