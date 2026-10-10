@@ -1,6 +1,6 @@
 [Nugget 6 (Gleichungen 2 - Lineare Gleichungssysteme - Teil 1)](https://tube.switch.ch/videos/AEgWQj2OwI)
 
-Beispiel. Ein volles Bier glass wiegt 700gr und ein halbvollen 500gr nun würden wir gerne wissen wie viel das Glass selbst wiegt. Es hat also <span style='color: green'>mehrere Unbekannte</span>.
+Beispiel. Ein volles Bier glass wiegt 700gr und ein halbvollen 500gr nun würden wir gerne wissen wie viel das Glass selbst wiegt. Es hat also <span style='color: var(--custom-word-green, green)'>mehrere Unbekannte</span>.
 
 Die Gleichung dazu könnte so aussehen:
 

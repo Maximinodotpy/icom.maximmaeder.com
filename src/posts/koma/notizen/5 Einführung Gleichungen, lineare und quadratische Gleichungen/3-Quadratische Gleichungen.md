@@ -7,7 +7,7 @@ moodle_section: https://moodle.fhnw.ch/course/section.php?id=704181
 ---
 [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 3)](https://tube.switch.ch/videos/lZWt8mJz0m)
 
-Jetzt kommen wir zu den <span style='color: green'>quadratischen Gleichungen</span>.
+Jetzt kommen wir zu den <span style='color: var(--custom-word-green, green)'>quadratischen Gleichungen</span>.
 
 Form: $ax^2 + bx + c = 0$ wobei $a,b,c \in \mathbb{R}$ und $a\neq0$ und $x$ ist die unbekannte.
 

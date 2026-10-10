@@ -1,4 +1,6 @@
 body {
     --embed-border-start: unset;
     --embed-padding: unset;
+ 
+    --custom-word-green: #03a500
 }

@@ -1,6 +1,6 @@
 [Nugget 6 (Gleichungen 2 - Lineare Gleichungssysteme - Teil 3)](https://tube.switch.ch/videos/ri39Dh8gKh)
 
-Nun kommen wir zur <span style='color: green'>Cramer'schen Regel</span>.
+Nun kommen wir zur <span style='color: var(--custom-word-green, green)'>Cramer'schen Regel</span>.
 
 Wenn ein $2\times2$-Gleichungssystem auf folgende Art und Weise daher kommt.
 $$

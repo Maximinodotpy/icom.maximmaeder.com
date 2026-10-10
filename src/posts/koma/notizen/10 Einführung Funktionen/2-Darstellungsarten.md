@@ -1,3 +1,4 @@
+[Nugget 10 (Funktionen 1 - Einführung, Begriffe, Eigenschaften - Teil 2)](https://tube.switch.ch/videos/yBBgZHnJyb)
 ## Funktionsvorschrift/Funktionsgleichung
 
 > [!example]+ Beispiel
@@ -29,10 +30,11 @@ Nutzen wir wieder dieselbe Funktion wie im Beispiel oben.
 
 ## Graph (grafische Darstellung) (ist nicht immer möglich)
 
-Wir können natürlich eine Funktion sofern sie entweder 2 oder 3 Dimensional ist in einem kartesischen Koordinatensystem darstellen.
+Wir können natürlich eine Funktion sofern sie entweder 2 oder 3 Dimensional ist in einem [[Kartesisches Koordinatensystem|kartesischen Koordinatensystem]] darstellen.
 
 ```desmos-graph
 bottom=-12;
 ---
 x^2 - 2x - 8
 ```
+

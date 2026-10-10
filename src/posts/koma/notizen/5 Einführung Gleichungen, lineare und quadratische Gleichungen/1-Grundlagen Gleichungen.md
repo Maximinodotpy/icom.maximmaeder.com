@@ -4,7 +4,7 @@ Beispiel Anzahl der Sprossen: $(n-1) * 26 = (n+1) * 22$
 
 Das ist eine Gleichung/Aussageform.
 
-Um den wert von $n$ herauszufinden könnte man jetzt viele verschiedene Zahlen einsetzen, was je nachdem möglich ist aber bei den meisten Rechnungen viel zu lange gehen würde. daher wenden wir sogenannte <span style='color: green'>Äquivalenzumformungen</span> an.
+Um den wert von $n$ herauszufinden könnte man jetzt viele verschiedene Zahlen einsetzen, was je nachdem möglich ist aber bei den meisten Rechnungen viel zu lange gehen würde. daher wenden wir sogenannte <span style='color: var(--custom-word-green, green)'>Äquivalenzumformungen</span> an.
 
 Das heisst wir machen auf beiden Seiten das gleiche zb.
 $$
@@ -19,7 +19,7 @@ n &= 12 & &  \\
 $$
 Wir haben die Gleichung so umgeformt dass man die Lösung direkt ablesen kann, was in diesem Fall $\mathbb{L} = \{12\}$ ist.
 
-Es kann aber sein dass wir aus versehen neue Lösungen der Lösungsmenge hinzufügen, welche aber nicht gehen sollten sogenannte <span style='color: green'>Scheinlösungen</span>.
+Es kann aber sein dass wir aus versehen neue Lösungen der Lösungsmenge hinzufügen, welche aber nicht gehen sollten sogenannte <span style='color: var(--custom-word-green, green)'>Scheinlösungen</span>.
 $$
 \begin{alignat*}{2}
 x &= 1 &\quad |& +3 \\
@@ -40,7 +40,7 @@ Also folgende Gleichungsumformungen verändern die Lösungsmenge **nicht**:
    $T_1(x) = T_2(x) \Leftrightarrow T_1(x) * a = T_2(x) * a$
    Durch eine Multiplikation kommen neue Scheinlösungen hinzu, wenn eine Variable involviert war wie zb. $*(x + 7)$ (das wäre $0$ wenn $x = 7$)
    oder durch eine Division gehen Lösungen verloren.
-3. Eine Gleichung der Form "<span style='color: green'>Produkt gleich Null</span>" hat die Lösungsmenge als Vereinigung der Lösungsmengen die durch Nullsetzen der einzelnen Faktoren entstehen.
+3. Eine Gleichung der Form "<span style='color: var(--custom-word-green, green)'>Produkt gleich Null</span>" hat die Lösungsmenge als Vereinigung der Lösungsmengen die durch Nullsetzen der einzelnen Faktoren entstehen.
    zb.$$
 	   \begin{alignat*}{2}
 	   x(x-1) &= 3(x-1) &\quad & | -3(x-1) \\

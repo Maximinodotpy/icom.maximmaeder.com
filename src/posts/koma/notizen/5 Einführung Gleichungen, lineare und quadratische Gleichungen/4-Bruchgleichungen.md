@@ -1,6 +1,6 @@
 [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 4)](https://tube.switch.ch/videos/17XX0bpa2E)
 
-Nun geht es um <span style='color: green'>Bruchgleichungen</span> (welche auf lineare bzw. quadratisch Gleichungen führen).
+Nun geht es um <span style='color: var(--custom-word-green, green)'>Bruchgleichungen</span> (welche auf lineare bzw. quadratisch Gleichungen führen).
 
 Definition: Eine Gleichung, bei welcher die gesuchte Grösse $x$ im Nenner eines Bruches steht.
 

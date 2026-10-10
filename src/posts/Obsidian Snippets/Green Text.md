@@ -1,1 +1,1 @@
-<span style='color: green'>%%textSelection%%%%cursor%%</span>
+<span style='color: var(--custom-word-green, green)'>%%textSelection%%%%cursor%%</span>

@@ -62,26 +62,26 @@ Die Mengen sind gleich wenn $(A \subseteq B) \land (B \subseteq A)$ gesprochen: 
 Für jede Menge $M$ gilt $\emptyset \subseteq M$ und $M \subseteq M$
 ## Mengenoperationen
 Es seien $A,B$ Mengen.
-1. $A \cup B$ ist eine Menge. Bezeichnung: <span style='color: green'>Vereinigung</span> von $A$ und $B$
+1. $A \cup B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Vereinigung</span> von $A$ und $B$
    Diese Menge enthält alle Elemente die in $A$ **oder** in $B$ enthalten sind, also $A \cup B = \{x|x \in A \lor x \in B\}$
    ![[4-mengen_vereinigung]] ^vereinigung
-2. $A \cap B$ ist eine Menge. Bezeichnung: <span style='color: green'>Durchschnitt</span> von $A$ und $B$
+2. $A \cap B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Durchschnitt</span> von $A$ und $B$
    Diese Menge enthält alle Elemente, die in $A$ und $B$ enthalten sind, also $A \cap B = \{x|x \in A \land x \in B\}$
    ![[4-mengen_schnitt]]^durchschnitt
-3. $A \textbackslash B$ ist eine Menge. Bezeichnung: <span style='color: green'>Differenz</span> von $A$ und $B$. gesprochen: $A$ ohne $B$.
+3. $A \textbackslash B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Differenz</span> von $A$ und $B$. gesprochen: $A$ ohne $B$.
    Es ist $A \setminus B = A \cap B^c$
    ![[4-mengen_differenz]]^differenz
-4. $A^c$ ist eine Menge. Bezeichnung: <span style='color: green'>Komplement</span> von $A$.
-   $A^c$ enthält alle Elemente (einer sogenannten <span style='color: green'>Grundmenge</span> $G$), die nicht in $A$ enthalten sind, also $A^c = \{x|x \notin A\} = G \setminus A$.
+4. $A^c$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Komplement</span> von $A$.
+   $A^c$ enthält alle Elemente (einer sogenannten <span style='color: var(--custom-word-green, green)'>Grundmenge</span> $G$), die nicht in $A$ enthalten sind, also $A^c = \{x|x \notin A\} = G \setminus A$.
    Alternative Notation: $\bar{A}$
    ![[4-mengen_komplement]]^komplement
-5. $A \triangle B$ ist eine Menge. Bezeichnung: <span style='color: green'>Symmetrische Differenz</span> von $A$ und $B$ (oder auch $A$ delta $B$)^symmetrischediff
-6. $A$ und $B$ heissen <span style='color: green'>disjunkt</span> falls $A \cap B = \emptyset$. (Kein gemeinsames Element)
+5. $A \triangle B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Symmetrische Differenz</span> von $A$ und $B$ (oder auch $A$ delta $B$)^symmetrischediff
+6. $A$ und $B$ heissen <span style='color: var(--custom-word-green, green)'>disjunkt</span> falls $A \cap B = \emptyset$. (Kein gemeinsames Element)
    ![[4-mengen_disjunkt]]^disjunkt
 
 ## Anzahl von Mengen
 Es sei $A$ eine endliche Menge. mit $|A|$ bezeichnen wir die Anzahl der Elemente von $A$.
-Andere Bezeichnungen: <span style='color: green'>Kardinalität</span> oder <span style='color: green'>Mächtigkeit</span> von $A$.
+Andere Bezeichnungen: <span style='color: var(--custom-word-green, green)'>Kardinalität</span> oder <span style='color: var(--custom-word-green, green)'>Mächtigkeit</span> von $A$.
 Wenn $A$ eine unendliche Menge ist, schreiben wir $|A| = \infty$.
 
 Es gilt also offensichtlich $A \subseteq B \Rightarrow |A| \leq |B|$ (Wenn $A$ eine Teilmenge von $B$ ist dann keine seine Kardinalität nicht höher als die von B sein)
@@ -94,7 +94,7 @@ $$
 
 ## Potenzmenge
 Es sei $A$ eine Menge.
-Dann heisst die Menge aller Teilmengen von $A$ <span style='color: green'>Potenzmenge von A</span>.
+Dann heisst die Menge aller Teilmengen von $A$ <span style='color: var(--custom-word-green, green)'>Potenzmenge von A</span>.
 Schreibweise: $\mathcal{P}(A)$ (manchmal auch $2^A$)
 
 > [!example]+ Beispiele
@@ -111,7 +111,7 @@ Schreibweise: $\mathcal{P}(A)$ (manchmal auch $2^A$)
 Satz: für endliche Mengen $A$ gilt $|\mathcal{P}(A)| = 2^{|A|}$
 ### Partition
 Es sei $A$ ein Menge.
-Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: green'>Partition von <span class="math display">A</span></span>, falls gilt:
+Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-word-green, green)'>Partition von <span class="math display">A</span></span>, falls gilt:
 1. Die Mengen $P$ sind paarweise [[#^disjunkt|disjunkt]], d.h. $\forall A,B \in P: (A \cap B = \emptyset \lor A = B)$ gesprochen: Für alle Unterlisten aus $P$ gilt, dass sie entweder gar keine [[#^durchschnitt|Überschneidung]] haben oder dass sie identisch sind.
 2. Die [[#^vereinigung|Vereinigung]] aller Untermengen in $P$ ergibt ganz $A$
 3. $\emptyset \notin P$
@@ -126,7 +126,7 @@ Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: green'>Partit
 Grafisch könnte man eine Partitionierung auch so darstellen.
 ![[4-mengen_partition||100%]]
 ## Kartesisches Produkt
-Ein <span style='color: green'>geordnetes</span> Paar ist ein Objekt der Form $(a, b)$, wobei $a$ ein element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
+Ein <span style='color: var(--custom-word-green, green)'>geordnetes</span> Paar ist ein Objekt der Form $(a, b)$, wobei $a$ ein element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
 
 Zwei geordnete Paare $(a,b)$ und $(c,d)$ sind gleich, genau dann, wenn $a=c$ und $b=d$.
 
@@ -134,7 +134,7 @@ Zwei geordnete Paare $(a,b)$ und $(c,d)$ sind gleich, genau dann, wenn $a=c$ und
 > Ein geordnetes Paar $(a, b)$ ist etwas anderes als die Menge $\{a, n\}$
 > Es gilt z.b. $(1,2) \neq (2, 1)$, aber $\{1,2\} = \{2,1\}$
 
-Die Menge aller geordneten Paare $(a, b)$ mit $a \in A$ und $b \in B$ heisst<span style='color: green'> kartesisches Produkt von A und B.</span>
+Die Menge aller geordneten Paare $(a, b)$ mit $a \in A$ und $b \in B$ heisst<span style='color: var(--custom-word-green, green)'> kartesisches Produkt von A und B.</span>
 
 Schreibweise: $A \times B = \{(a, b) | a \in A \land b \in B\}$ gesprochen: A kreuz B
 
@@ -146,7 +146,7 @@ Schreibweise: $A \times B = \{(a, b) | a \in A \land b \in B\}$ gesprochen: A kr
 > [!warning] Achtung
 > Im Allgemeinen gilt $A \times B \neq B \times A$ (es könnte trotzdem sein falls $A$ und $B$ genau (auch die Reihenfolge) Listen sind)
 ### Geordnete Tupel
-Ein <span style='color: green'>geordnetes n-Tupel</span> ist ein Objekt der Form $(a_1, a_2, ..., a_n)$.
+Ein <span style='color: var(--custom-word-green, green)'>geordnetes n-Tupel</span> ist ein Objekt der Form $(a_1, a_2, ..., a_n)$.
 
 Sie sind die Erweiterung der geordneten Pärchen, und erlauben mehr als Zwei Mengen. zb. $A \times B \times C = ...$
 

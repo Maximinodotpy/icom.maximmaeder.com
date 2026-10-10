@@ -19,7 +19,7 @@ Beispiele:
 * $(x-1)(x+2) = x^2 + x - 2$ kann man umformen zu $x^2 + x - 2 = x^2 + x - 2$ was das gleiche ist wie $0 = 0$ und das ist auch Linear ($a,b = 0$).
 
 Die Lösungsmenge für eine lineare Gleichung $ax + b = 0$ finden wir:
-* Wenn $a \neq 0$ (<span style='color: green'>Regulär</span>)
+* Wenn $a \neq 0$ (<span style='color: var(--custom-word-green, green)'>Regulär</span>)
   $$
 \begin{alignat*}{3}
 ax + b &= 0 &\quad & | -b \\
@@ -29,8 +29,8 @@ x &= \frac{-b}{a} &\quad & \\
   $$
   Somit ist die Lösung in dieser Form immer $\mathbb{L} = \{\frac{-b}{a}\}$ (man kann nicht durch $0$ dividieren)
 
-* Wenn $a = 0$ gibt es zwei weitere Fälle. (<span style='color: green'>Singulär</span>)
-	* $a=0$ und $b=0$ (<span style='color: green'>Unterbestimmt</span>)
+* Wenn $a = 0$ gibt es zwei weitere Fälle. (<span style='color: var(--custom-word-green, green)'>Singulär</span>)
+	* $a=0$ und $b=0$ (<span style='color: var(--custom-word-green, green)'>Unterbestimmt</span>)
 	  In diesem Fall kann man jede beliebige Zahl einsetzen also $\mathbb{L} = \mathbb{R}$
 	* $a = 0$ und $b \neq 0$ (§)
 	  Hier ergibt sich immer eine Falsche Aussage also $\mathbb{L} = \{\}$
@@ -45,9 +45,9 @@ y = 2x - 4
 (2,0)|label:Unsere Lösung=2
 ```
 
-Wir suchen also die sogenannte <span style='color: green'>Nullstelle</span> (Dort wo die Linie die X-Achse auf Höhe $0$ schneidet). Wie wir sehen gibt es genau einen solchen Punkt (nämlich $2$).
+Wir suchen also die sogenannte <span style='color: var(--custom-word-green, green)'>Nullstelle</span> (Dort wo die Linie die X-Achse auf Höhe $0$ schneidet). Wie wir sehen gibt es genau einen solchen Punkt (nämlich $2$).
 
-Bei einem <span style='color: green'>singulär widersprüchlichen</span> Beispiel sehen wir dass die Linie die X-Achse nie schneidet, sie verläuft Parallel dazu.
+Bei einem <span style='color: var(--custom-word-green, green)'>singulär widersprüchlichen</span> Beispiel sehen wir dass die Linie die X-Achse nie schneidet, sie verläuft Parallel dazu.
 $$
 y = 0x + 5
 $$
@@ -55,7 +55,7 @@ $$
 y = 0x + 3
 ```
 
-Und bei einem <span style='color: green'>singulär unterbestimmten</span> Beispiel sehen wir dass die Linie auf der X-Achse verläuft was uns dann $\mathbb{L} = \mathbb{R}$
+Und bei einem <span style='color: var(--custom-word-green, green)'>singulär unterbestimmten</span> Beispiel sehen wir dass die Linie auf der X-Achse verläuft was uns dann $\mathbb{L} = \mathbb{R}$
 $$
 y = 0x + 0
 $$
@@ -74,7 +74,7 @@ Beispiele:
 * $(x-1)(x+2) = x^2 + x - 2$ kann man umformen zu $x^2 + x - 2 = x^2 + x - 2$ was das gleiche ist wie $0 = 0$ und das ist auch Linear ($a,b = 0$).
 
 Die Lösungsmenge für eine lineare Gleichung $ax + b = 0$ finden wir:
-* Wenn $a \neq 0$ (<span style='color: green'>Regulär</span>)
+* Wenn $a \neq 0$ (<span style='color: var(--custom-word-green, green)'>Regulär</span>)
   $$
 \begin{alignat*}{3}
 ax + b &= 0 &\quad & | -b \\
@@ -84,8 +84,8 @@ x &= \frac{-b}{a} &\quad & \\
   $$
   Somit ist die Lösung in dieser Form immer $\mathbb{L} = \{\frac{-b}{a}\}$ (man kann nicht durch $0$ dividieren)
 
-* Wenn $a = 0$ gibt es zwei weitere Fälle. (<span style='color: green'>Singulär</span>)
-	* $a=0$ und $b=0$ (<span style='color: green'>Unterbestimmt</span>)
+* Wenn $a = 0$ gibt es zwei weitere Fälle. (<span style='color: var(--custom-word-green, green)'>Singulär</span>)
+	* $a=0$ und $b=0$ (<span style='color: var(--custom-word-green, green)'>Unterbestimmt</span>)
 	  In diesem Fall kann man jede beliebige Zahl einsetzen also $\mathbb{L} = \mathbb{R}$
 	* $a = 0$ und $b \neq 0$ (§)
 	  Hier ergibt sich immer eine Falsche Aussage also $\mathbb{L} = \{\}$
@@ -100,9 +100,9 @@ y = 2x - 4
 (2,0)|label:Unsere Lösung=2
 ```
 
-Wir suchen also die sogenannte <span style='color: green'>Nullstelle</span> (Dort wo die Linie die X-Achse auf Höhe $0$ schneidet). Wie wir sehen gibt es genau einen solchen Punkt (nämlich $2$).
+Wir suchen also die sogenannte <span style='color: var(--custom-word-green, green)'>Nullstelle</span> (Dort wo die Linie die X-Achse auf Höhe $0$ schneidet). Wie wir sehen gibt es genau einen solchen Punkt (nämlich $2$).
 
-Bei einem <span style='color: green'>singulär widersprüchlichen</span> Beispiel sehen wir dass die Linie die X-Achse nie schneidet, sie verläuft Parallel dazu.
+Bei einem <span style='color: var(--custom-word-green, green)'>singulär widersprüchlichen</span> Beispiel sehen wir dass die Linie die X-Achse nie schneidet, sie verläuft Parallel dazu.
 $$
 y = 0x + 5
 $$
@@ -110,7 +110,7 @@ $$
 y = 0x + 3
 ```
 
-Und bei einem <span style='color: green'>singulär unterbestimmten</span> Beispiel sehen wir dass die Linie auf der X-Achse verläuft was uns dann $\mathbb{L} = \mathbb{R}$
+Und bei einem <span style='color: var(--custom-word-green, green)'>singulär unterbestimmten</span> Beispiel sehen wir dass die Linie auf der X-Achse verläuft was uns dann $\mathbb{L} = \mathbb{R}$
 $$
 y = 0x + 0
 $$
@@ -121,7 +121,7 @@ y = 0x + 0
 ## Quadratische Gleichungen
 [Nugget 5 (Gleichungen 1 - Einführung, lin. und quad. Gleichungen - Teil 3)](https://tube.switch.ch/videos/lZWt8mJz0m)
 
-Jetzt kommen wir zu den <span style='color: green'>quadratischen Gleichungen</span>.
+Jetzt kommen wir zu den <span style='color: var(--custom-word-green, green)'>quadratischen Gleichungen</span>.
 
 Form: $ax^2 + bx + c = 0$ wobei $a,b,c \in \mathbb{R}$ und $a\neq0$ und $x$ ist die unbekannte.
 
