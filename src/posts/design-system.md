@@ -5,7 +5,7 @@ date: '2026-07-12'
 published: true
 ---
 
-Since this Website is a Fork of a Joy of Code Website, I will also use the Design System of Joy of Code. The original code can be found [here](https://github.com/joysofcode/sveltekit-markdown-blog). 
+Since this Website is a Fork of a Joy of Code Website, I will also use the Design System of Joy of Code. The original code can be found [here](https://github.com/joysofcode/sveltekit-markdown-blog).
 
 Of course I made some changes to fit my needs, but it is based on [open-props](https://open-props.style).
 
@@ -45,6 +45,12 @@ Of course I made some changes to fit my needs, but it is based on [open-props](h
 ## Icons
 
 I use [Lucide](https://lucide.dev/icons/list) for my icons.
+
+## Callouts
+
+![[Example Callout]]
+
+![[Definition]]
 
 <style>
     .color-badge {
