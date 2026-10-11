@@ -15,5 +15,3 @@ also Beispiel wieder die Sinus Kurve.
 ```desmos-graph
 y = \sin(x)
 ```
-
-![[Periodisch]]
