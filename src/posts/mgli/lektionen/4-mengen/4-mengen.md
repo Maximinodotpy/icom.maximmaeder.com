@@ -111,6 +111,9 @@ Schreibweise: $\mathcal{P}(A)$ (manchmal auch $2^A$)
 > Es gilt $\{a\} \subseteq \{a, b\}$, aber $\{a\} \nsubseteq \mathcal{P}(\{a, b\})$
 
 Satz: für endliche Mengen $A$ gilt $|\mathcal{P}(A)| = 2^{|A|}$
+
+> [!warning] Achtung
+> Egal was man in die Potenzmenge hineintut, es hat immer mindestens eine leere Menge  $\{\emptyset\}$
 ### Partition
 Es sei $A$ ein Menge.
 Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-word-green, green)'>Partition von <span class="math display">A</span></span>, falls gilt:
