@@ -75,7 +75,9 @@ Es seien $A,B$ Mengen.
    $A^c$ enthält alle Elemente (einer sogenannten <span style='color: var(--custom-word-green, green)'>Grundmenge</span> $G$), die nicht in $A$ enthalten sind, also $A^c = \{x|x \notin A\} = G \setminus A$.
    Alternative Notation: $\bar{A}$
    ![[4-mengen_komplement]]^komplement
-5. $A \triangle B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Symmetrische Differenz</span> von $A$ und $B$ (oder auch $A$ delta $B$)^symmetrischediff
+5. $A \triangle B$ ist eine Menge. Bezeichnung: <span style='color: var(--custom-word-green, green)'>Symmetrische Differenz</span> von $A$ und $B$ (oder auch $A$ delta $B$)
+   also $A \triangle B = \{x|(x \in A \land x \notin B) \lor (x \in B \land x \notin A)\}$
+   ![[4-mengen_symmetrische_differenz]] ^symmetrischediff
 6. $A$ und $B$ heissen <span style='color: var(--custom-word-green, green)'>disjunkt</span> falls $A \cap B = \emptyset$. (Kein gemeinsames Element)
    ![[4-mengen_disjunkt]]^disjunkt
 
@@ -126,7 +128,7 @@ Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-
 Grafisch könnte man eine Partitionierung auch so darstellen.
 ![[4-mengen_partition||100%]]
 ## Kartesisches Produkt
-Ein <span style='color: var(--custom-word-green, green)'>geordnetes</span> Paar ist ein Objekt der Form $(a, b)$, wobei $a$ ein element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
+Ein <span style='color: var(--custom-word-green, green)'>geordnetes</span> Paar ist ein Objekt der Form $(a, b)$, wobei $a$ ein Element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
 
 Zwei geordnete Paare $(a,b)$ und $(c,d)$ sind gleich, genau dann, wenn $a=c$ und $b=d$.
 

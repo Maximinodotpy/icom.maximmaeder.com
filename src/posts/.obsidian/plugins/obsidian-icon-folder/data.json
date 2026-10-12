@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "OcProjectRoadmap16",
       "TiUser",
       "RiEnglishInput",
       "FasPersonBooth",
-      "RiFunctions",
-      "FasComputer"
+      "RiFunctions"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "mgli": "RiFunctions",
   "prog1": "FasComputer",
   "ucdre": "TiUser",
-  "eadc": "RiEnglishInput"
+  "eadc": "RiEnglishInput",
+  "ipro": "OcProjectRoadmap16"
 }

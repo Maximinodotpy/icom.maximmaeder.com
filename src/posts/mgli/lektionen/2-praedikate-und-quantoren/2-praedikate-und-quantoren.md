@@ -26,8 +26,8 @@ Es sei `A(x)` ein 1-stelliges Prädikat und $M$ eine Menge. Dann ist `∃x ∈ M
 > M2 = {Kenia, Japan, USA}
 > ```
 >
-> Dann ist die Aussage `∃x ∈ M1: A(x)` (Es existiert ein x aus M1) **wahr**, weil es hier mindestens eine Sache in der Liste gibt die Stimmt.
-> Dann ist die Aussage `∃x ∈ M2: A(x)` (Es existiert ein x aus M2) **falsch**, weil es hier keine einzige Sache gibt in der Liste mit der das Prädikat stimmt.
+> Dann ist die Aussage `∃x ∈ M1: A(x)` <span style='color: var(--custom-word-gesproche-blue)'>gesprochen: (Es existiert ein x aus M1)</span> **wahr**, weil es hier mindestens eine Sache in der Liste gibt die Stimmt.
+> Dann ist die Aussage `∃x ∈ M2: A(x)` <span style='color: var(--custom-word-gesproche-blue)'>gesprochen: (Es existiert ein x aus M2)</span> **falsch**, weil es hier keine einzige Sache gibt in der Liste mit der das Prädikat stimmt.
 ### Definition $\forall$ (Allquantor)
 für den *Allquantor* müssen **alle** Aussagen mit den Werten aus der Menge wahr sein.
 
@@ -39,12 +39,12 @@ für den *Allquantor* müssen **alle** Aussagen mit den Werten aus der Menge wah
 > M2 = {Italien, Schweiz}
 > ```
 >
-> Dann ist die Aussage `∀x ∈ M1: A(x)` (gesprochen: Für alle x aus M1) **falsch**, weil es hier mindestens eine Sache in der Liste gibt die nicht Stimmt und es müssten alle stimmen.
-> Dann ist die Aussage `∀x ∈ M2: A(x)` (gesprochen: Für alle x aus M2) **wahr**, weil hier alle (2) stimmen.
+> Dann ist die Aussage `∀x ∈ M1: A(x)` <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alle x aus M1)</span> **falsch**, weil es hier mindestens eine Sache in der Liste gibt die nicht Stimmt und es müssten alle stimmen.
+> Dann ist die Aussage `∀x ∈ M2: A(x)` <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alle x aus M2)</span> **wahr**, weil hier alle (2) stimmen.
 ### 2-Stellige Prädikate
 Es sei A(x, y): "x ist ein Land in y"
 
-Dann ist zb. `∀x ∈ M1: A(x, y)` noch keine Aussage, weil wir noch einen Wert für `y` einfüllen müssen. Dazu können wir noch einen weiteren Quantor (egal welchen) darüber stülpen zb. `∀x ∈ M1: ( ∀y ∈ M2: A(x, y))` (gesprochen: für alle x aus M1 und für alle y aus M2 gilt A(x, y))
+Dann ist zb. `∀x ∈ M1: A(x, y)` noch keine Aussage, weil wir noch einen Wert für `y` einfüllen müssen. Dazu können wir noch einen weiteren Quantor (egal welchen) darüber stülpen zb. `∀x ∈ M1: ( ∀y ∈ M2: A(x, y))` <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle x aus M1 und für alle y aus M2 gilt A(x, y))</span>
 
 ## Konventionen
 ### Innere Klammer weglassen
@@ -77,7 +77,7 @@ Wollen wir sicherstellen dass es **genau** ein Element gibt mit dem die Aussage 
 $$
 ∃x ∈ M: (P(x) ∧ ∀y ∈ M: (P(y) ⇒ (x = y)))
 $$
-gesprochen: Es existiert ein x aus M sodass P(x) gilt und auch für alle y aus M sodass wenn P(y) gilt  x ist gleich y
+<span style='color: var(--custom-word-gesproche-blue)'>gesprochen: Es existiert ein x aus M sodass P(x) gilt und auch für alle y aus M sodass wenn P(y) gilt  x ist gleich y</span>
 
 Die letztere Überprüfung mit dem Allquantor schaut mithilfe der Implikation dass auch wirklich nur dieses eine x zur Richtigkeit führt.
 ### 2. Beispiel

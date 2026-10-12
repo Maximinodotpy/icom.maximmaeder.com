@@ -1,0 +1,1 @@
+Wenn eine [[Logische Formel#Logische Formel|logische Formel]] für alle Belegungen stets den Wahrheitswert 1 hat, dann nennt man diese Formel Tautologie: zb. $A \implies (A ∨ B)$ oder $(A ⇒ B) ⇔ (¬B ⇒ ¬A)$ (diese zweite logische Formel wird noch eine Rolle spielen bei der [[3-korrekte-argumentation|korrekten Argumentation]])

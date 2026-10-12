@@ -34,8 +34,10 @@ In Zahlen ausgedrückt muss also die rechte Seite mindestens gleich oder mehr se
 
 Wird beim [[3-korrekte-argumentation|Argumentieren respektive beweisen]] gebraucht weil eine Schlange aus Implikationen immer Wahr sein muss wenn nur die erste Instanz wahr war.
 
+Ist aber auch nützlich um zb. mit einem [[2-praedikate-und-quantoren#Genaue Quantoren|Quantor sicherzustellen, dass ein Prädikat nur auf ein Objekt zutrifft]].
+
 #### Logische Äquivalenz $\Leftrightarrow$
-Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sind ...
+Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sind.
 
 > [!example]+ Wahrheitstabelle
 > | $A$ | $B$ | $A \Leftrightarrow B$ |
@@ -49,7 +51,6 @@ Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sin
 #### Negation $\neg$
 Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, respektive wird als erstes evaluiert
 
-
 > [!example]+ Wahrheitstabelle
 > | $A$ | $\neg A$ |
 > | --- | -------- |
@@ -57,13 +58,12 @@ Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, resp
 > | 0   | 1        |
 
 ## Weitere Begriffe
-### Logische Formel
-Etwas wie das hier $(\neg A \lor B) \land C$ nennen wir **logische Formel**.
-### Belegungen
-Weisen wir jeder Variabel einer [[#Logische Formel|logischen Formel]] einen Wert zu nennt man das eine **Belegung**. Führt diese dazu dass die logischer Formel wahr wird nennen wir sie **erfüllende Belegung** (oder natürlich andersherum **nicht erfüllende Belegung**)
-Bei grossen logischen Formeln kann es je nachdem sehr lange gehen herauszufinden ob sie eine erfüllende Belegung haben ([Erfüllbarkeitsproblem](https://de.wikipedia.org/wiki/Erf%C3%BCllbarkeitsproblem_der_Aussagenlogik)).
+
+![[Logische Formel]]
+
+![[Belegungen]]
 ## Syntaxbaum
-Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene Belegungen zu prüfen.
+Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[Logische Formel#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene Belegungen zu prüfen.
 ```mermaid
 flowchart TD
 	AND --> NOT1
@@ -74,21 +74,12 @@ flowchart TD
 	
 	NOT1 --> C
 ``` 
-### Tautologie
-Wenn eine [[#Logische Formel|logische Formel]] für alle Belegungen stets den Wahrheitswert 1 hat, dann nennt man diese Formel Tautologie: zb. $A \implies (A ∨ B)$ oder $(A ⇒ B) ⇔ (¬B ⇒ ¬A)$ (diese zweite logische Formel wird noch eine Rolle spielen bei der [[3-korrekte-argumentation|korrekten Argumentation]])
-### Kontradiktion
-Wenn eine [[#Logische Formel|logische Formel]] für alle Belegungen stets den Wahrheitswert 0 hat, dann nennt man diese Formel Kontradiktion: zb. $A ∧ ¬A$ (gesprochen: A und nicht A)
-### Semantische Äquivalenz
-Zwei logische Formeln heissen semantisch äquivalent, falls sie dieselbe Wahrheitstafel haben. d.h. wenn sie für alle Belegungen stets den selben Wahrheitsgehalt haben.
-Notation: $f \equiv g$
-Aus dem Beispiel $A \Rightarrow B \equiv \neg A \lor B$ lernen wir auch dass man die [[#Implikation]] aus einer [[#Negation $ neg$|Negation]] und dem [[#Oder $ lor$|Oder]] zusammenbauen kann.
 
-| $A$ | $B$ | $A \Rightarrow B$ | $\neg A \lor B$ |
-| --- | --- | ----------------- | --------------- |
-| 0   | 0   | 1                 | 1               |
-| 0   | 1   | 1                 | 1               |
-| 1   | 0   | 0                 | 0               |
-| 1   | 1   | 1                 | 1               |
+![[Tautologie]]
+
+![[Kontradiktion]]
+
+![[Semantische Äquivalenz]]
 ### Rechenregeln
 
 | Name                                                 | $\lor$                                                  | $\land$                                                  |

@@ -1,1 +1,1 @@
-gesprochen: %%cursor%%%%textSelection%%
+<span style='color: var(--custom-word-gesproche-blue)'>%%textSelection%%%%cursor%%</span>

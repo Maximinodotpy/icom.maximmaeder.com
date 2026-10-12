@@ -17,3 +17,28 @@ while(i < a.length && a[i] != x) {
     i++
 }
 ```
+
+## Binäre Suche
+
+```java
+static int binarySearch(int a[], int x){
+	int l = 0;
+	int r = a.length - 1;
+	
+	while (l <= r){
+		int m = (l + r) / 2;
+		if (a[m] == x) {
+			return m;
+		}
+		else if (a[m] > x) {
+			r = m - 1;
+		}
+		else {
+			l = m + 1;
+		}
+	}
+	return -1;
+}
+```
+
+^binarysearchjavacode

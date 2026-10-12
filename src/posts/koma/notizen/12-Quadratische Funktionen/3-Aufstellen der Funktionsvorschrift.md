@@ -1,0 +1,1 @@
+[Nugget 12 (Funktionen 3 - Quadratische Funktionen - Teil 3)](https://tube.switch.ch/videos/u5CFMLUSWx)

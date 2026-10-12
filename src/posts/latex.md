@@ -35,6 +35,10 @@ which looks like this
 | `\sqrt[3]{16}` | $\sqrt[3]{16}$ | N-te Wurzel                  |
 | `\pm`          | $\pm$          | Plus-Minus (bevorzugen)      |
 | `\mp`          | $\mp$          | Minus-Plus                   |
+| `>`            | $>$            | Grösser                      |
+| `\ge`          | $\ge$          | Grösser/Gleich               |
+| `<`            | $<$            | Kleiner                      |
+| `\leq`         | $\leq$         | Kleiner/Gleich               |
 
 ## Logische Operatoren
 

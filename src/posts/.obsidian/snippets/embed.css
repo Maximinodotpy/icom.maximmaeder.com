@@ -1,6 +1,8 @@
 body {
     --embed-border-start: unset;
     --embed-padding: unset;
+    //--embed-background: hsla(0, 0%, 100%, 3%);
  
-    --custom-word-green: #03a500
+    --custom-word-green: #03a500;
+    --custom-word-gesproche-blue: #51d1df;
 }

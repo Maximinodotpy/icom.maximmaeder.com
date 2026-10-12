@@ -50,23 +50,14 @@ Potenzieren ist weder [[koma/formelblatt#^Assoziativgesetz|Kommutativ]] noch [[k
 Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen auf den selben Nenner zu bringen zb: $\frac{x}{x-3} - \frac{10}{x+3} = \frac{18}{x^2 - 9}$ Hier können wir bei $x^2 - 9$ die Plus-Minus-Formel anwenden und so dann relativ einfach die anderen Brüche erweitern.
 ## Mitternachtsformel (abc-formel)
 Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind).
-$$
-x =\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+![[Mitternachtsformel]]
 
 ## Diskriminante der Mitternachtsformel
 über die Diskriminante wird entschieden ob und wie viel Lösungen es gibt.
-$$
-D = b^2 - 4ac
-$$
-```
-D > 0: zwei Lösungen
-D = 0: eine Lösung
-D < 0: keine reele Lösung
-```
+![[Diskriminante der Mitternachtsformel]]
 Möchte man zb. wissen mit welchem bestimmten Parameter es genau eine Lösung gäbe kann man man Diskriminanten formell auch etwas umbauen. (In diesem Beispiel würde man für D; 0 einsetzen.)
 ## PQ-Formel und Zwei-Klammer-Ansatz
-Wenn wir eine Gleichung in der Form $x^2 + px + x$ also zb. $x^2 -7x - 44$ dann können wir dies umwandeln respektive die Ergebnisse auf zwei Arten herausfinden.
+Wenn wir eine Gleichung in der Form $x^2 + px + q$ also zb. $x^2 -7x - 44$ dann können wir dies umwandeln respektive die Ergebnisse auf zwei Arten herausfinden.
 
 Mit dem Zwei-Klammern-Ansatz wäre das bsp. oben dann $(x + 7)(x - 11)$ um an dieses Ergebnis zu kommen müssen wir uns überlegen welche zahlen $a$ und $b$ multipliziert 44 geben und mit welchen Zahlen die Differenz $7$ ergibt.
 
