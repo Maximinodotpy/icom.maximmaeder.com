@@ -21,9 +21,9 @@ sources:
 
 > [!example]+ Beispiel 1
 > $R = \{(a, b), (b, a), (a, c), (b, b), (b, c)\}$ auf $M = \{a,b,c\}$
-> 
+>
 > nicht reflex:
-> usw 
+> usw
 
 > [!example]+ Beispiel 2
 > $R = \{(x,y) \in M \times M | x \text{ und } y \text{ haben eine gemeinsame Grossmutter}\}$
