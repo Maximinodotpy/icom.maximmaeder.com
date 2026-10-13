@@ -1,0 +1,27 @@
+== The Wolf of While Street
+
+Angenommen, man handelt mit Aktien und möchte rückblickend den grössten möglichen Kursgewinn berechnen, d.h. den optimalen Einstiegs- (Kauf) und Ausstiegszeitpunkt (Verkauf) bestimmen. Oft sieht man die Kurse in einem Graphen. Die folgende Abbildung illustriert die Aufgabe.
+
+
+.Beispielkurs für eine Aktie A. Der Grüne Punkt und rote Punkt markieren den optimalen Kauf- respektive Verkauf Zeitpunkt.
+
+Der Kursverlauf der Aktie sei als Array mit den Differenzen von Tag zu Tag gegeben:
+
+[.text-center]
+{ 31, -41, 59, 26, -53, 58, 97, -93, -23 }
+
+Wenn wir die ersten drei Tage beachten, steigt der Kurs am ersten Tag um 31 Punkte, sinkt am zweiten um 41 Punkte, und steigt am dritten wieder um 59 Punkte. Nach drei Tagen stieg die Aktie also gesamthaft um 49 Punkte.
+
+Nun sucht man einen Start- und einen End-Index, sodass die Summe zwischen diesen möglichst gross ist. Im Beispiel wären das der Start-Index 2 und der End-Index 6. Die Summe der Werte in diesem Bereich ist 187.
+
+Sinkt der Kurs über die ganze Periode, sind alle Werte im Array negativ. Dann ist es natürlich am besten, **gar nicht** erst zu kaufen und entsprechend auch nichts zu verkaufen. Der Gewinn ist dann 0.
+
+Im Package `….maxsubsequence` in der Code-Vorlage für diese Woche findest Du die Vorlage für diese Applikation.
+
+a. Löse die Aufgabe, indem Du die Methode `public int maxSub(int[] data)` implementierst. Prüfe Deine Implementation auf Korrektheit über die mitgelieferten Tests. +
++
+NOTE: Beachte, dass die Methode nur den maximalen Gewinn zurückgibt und nicht die Einkauf / Verkaufstage. +
+
+b. Leite die Komplexitätsklasse aus Deiner Implementation ab.
+c. Lass den mitgelieferten Benchmark (in `....test\ ....\MeasureMaxSubProblem.java`) über Deine Lösung laufen und betrachte die gemessenen Resultate. Vergleiche Deine Implementation mit Deinen Klassenkollegen, was stellst Du fest?
+

@@ -6,7 +6,10 @@ description: Latex Notes
 sources:
   - https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
   - https://de.wikipedia.org/wiki/Liste_mathematischer_Symbole
+  - https://teams.public.onecdn.static.microsoft/evergreen-assets/safelinks/2/atp-safelinks.html
 ---
+[Supported TeX/LaTeX commands — MathJax 4.0 documentation](https://docs.mathjax.org/en/latest/input/tex/macros/index.html)
+
 gesprochen: latek
 
 Start a inline latex block with \$ ... \$ or a full latex block with double \$\$ ... \$\$.
@@ -80,6 +83,14 @@ which looks like this
 | `\|A\|`               | $\|A\|$               | [[4-mengen#Anzahl von Mengen\|Kardinalität]] (**FALSCH**)                             |
 | `\mathcal{P}(A)`      | $\mathcal{P}(A)$      | [[4-mengen#Potenzmenge\|Potenzmenge]]                                                 |
 | `\overline{A \cup B}` | $\overline{A \cup B}$ | [[4-mengen#^komplement\|Komplement]]                                                  |
+## Set of Terms
+| Befehl                         | Symbol                         | Bedeutung |
+| ------------------------------ | ------------------------------ | --------- |
+| `\sum`<br><br>`\sum_{10}^{11}` | $$\sum$$<br>$$\sum_{10}^{11}$$ | Summe     |
+| `\prod`<br><br>`\prod_{x}^{5}` | $$\prod$$<br>$$\prod_{x}^{5}$$ | Produkt   |
+$$\prod$$
+$$\sum$$
+
 ## Sonstiges
 
 | Befehl        | Beispiel/Symbol | Bedeutung |
@@ -124,5 +135,3 @@ $$
 	\end{cases}
 \end{alignat*}
 $$
-
-

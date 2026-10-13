@@ -3,3 +3,5 @@
 ## O-Notationen
 ![[Komplexitätsanalyse & O-Notation#^tabellekomplexitaetsklassen]]
 
+![[Komplexitätsanalyse & O-Notation#Rechenregeln]]
+

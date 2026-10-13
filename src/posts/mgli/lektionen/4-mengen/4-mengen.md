@@ -114,7 +114,7 @@ Satz: für endliche Mengen $A$ gilt $|\mathcal{P}(A)| = 2^{|A|}$
 
 > [!warning] Achtung
 > Egal was man in die Potenzmenge hineintut, es hat immer mindestens eine leere Menge  $\{\emptyset\}$
-### Partition
+## Partition
 Es sei $A$ ein Menge.
 Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-word-green, green)'>Partition von <span class="math display">A</span></span>, falls gilt:
 1. Die Mengen $P$ sind paarweise [[#^disjunkt|disjunkt]], d.h. $\forall A,B \in P: (A \cap B = \emptyset \lor A = B)$ gesprochen: Für alle Unterlisten aus $P$ gilt, dass sie entweder gar keine [[#^durchschnitt|Überschneidung]] haben oder dass sie identisch sind.
