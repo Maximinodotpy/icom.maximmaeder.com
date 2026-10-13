@@ -1,4 +1,3 @@
-## Monotonie
 Eine Funktion nennt man <span style='color: var(--custom-word-green, green)'>monoton steigend</span> wenn für alle $x_1, x_2 \in \mathbb{D}$ mit $x_1 < x_2$ immer $f(x_1) \leq f(x_2)$
 
 Oder anders gesagt, grössere $x$-Werte sorgen auch immer für grössere $y$-Werte (respektive zumindest nicht für kleinere).

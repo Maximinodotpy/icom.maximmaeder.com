@@ -34,9 +34,9 @@ https://de.wikipedia.org/wiki/Potenz_(Mathematik)#Potenzgesetze
 | $a^0 = 1$                                           | Sofern $a$ nicht $0$ ist dann ergibt die 0te Potenz von jeder Basis $1$.                      |
 | $a^{-r} = \frac{1}{a^r}$                            | Sofern $a$ nicht $0$ ist dann ist die minus $R$-te Potenz das gleich wie $1$ über der Potenz. |
 | $a^{\frac{m}{n}} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$ |                                                                                               |
-| $a^{r + s} = a^r + a^s$                             | Sofern $a > 0$.                                                                               |
+| $a^{r + s} = a^r * a^s$                             | Sofern $a > 0$.                                                                               |
 | $a^{r-s} = \frac{a^r}{a^s}$                         | Sofern $a > 0$.                                                                               |
-| $(a * b)^r = a^r * a^r$                             | Sofern $a * b \neq 0$.                                                                        |
+| $(a * b)^r = a^r * b^r$                             | Sofern $a * b \neq 0$.                                                                        |
 | $(\frac{a}{b})^r = \frac{a^r}{b^r}$                 | Sofern $a \neq 0 \wedge b \neq 0$.                                                            |
 | $a^{r^{s}} = a^{r*s}$                               | Sofern $a \neq 0$.                                                                            |
 Potenzieren ist weder [[koma/formelblatt#^Assoziativgesetz|Kommutativ]] noch [[koma/formelblatt#^Assoziativgesetz|Assoziativ]].

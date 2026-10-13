@@ -1,8 +1,6 @@
-## Symmetrie
-
 Wir nennen eine Funktion <span style='color: var(--custom-word-green, green)'>gerade (symmetrisch)</span> wenn $f(-x) = f(x)$.
 
-Bei der klassischen Parabel ist das so.
+Bei der [[1-Potenzfunktionen#^normalparabel|normalen Parabel]] ist das so.
 
 ```desmos-graph
 y = x*x
@@ -10,7 +8,7 @@ y = x*x
 
 Gilt nun aber $f(-x) = -f(x)$ dann ist die Funktion <span style='color: var(--custom-word-green, green)'>ungerade (symmetrisch)</span>.
 
-also Beispiel wieder die Sinus Kurve.
+also Beispiel wieder die Sinus Kurve oder auch eine [[1-Potenzfunktionen|Potenzfunktion mit ungeradem Exponenten]].
 
 ```desmos-graph
 y = \sin(x)

@@ -1,4 +1,3 @@
-## Stetigkeit
 Eine Funktion nennt man auf einem Intervall stetig, wenn kleine Änderungen bei der unabhängigen Variablen nur kleine Änderungen bei den Funktionswerten bewirkt.
 Oder: Eine Funktion ist auf einem Intervall stetig, wenn der Funktionsgraph ohne absetzen gezeichnet werden kann (keine Lücken und keine Sprünge aufweist).
 
