@@ -1,0 +1,1 @@
+[Bipartiter Graph – Wikipedia](https://de.wikipedia.org/wiki/Bipartiter_Graph)

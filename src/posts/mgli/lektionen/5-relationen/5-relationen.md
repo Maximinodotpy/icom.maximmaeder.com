@@ -7,11 +7,13 @@ sources:
   - "[[5-Relationen.pdf]]"
 ---
 ## Binäre Relation
-Es seien $A,B$ Mengen. Eine <span style='color: var(--custom-word-green, green)'>binäre Relation $R$ von $A$ nach $B$</span> ist eine [[4-mengen#Definition Teilmenge ($ subseteq$ und $ supseteq$)|Teilmenge]] von $A \times B$. Es gilt also $R \subseteq A \times B$. (Es ist eine Teilmenge der [[4-mengen#Kartesisches Produkt|geordneten Paare]])
 
-Wenn $A = B$ sagt man dass <span style='color: var(--custom-word-green, green)'>$R$ eine Relation auf $A$</span> ist. Dann heisst $R$ <span style='color: var(--custom-word-green, green)'>homogen</span>, andernfalls <span style='color: var(--custom-word-green, green)'>heterogen</span>.
-
-Anstelle von $(a,b) \in R$ schreibt man oft $aRb$ und sagt: $a$ steht bzgl. $R$ zu $b$ in Relation.
+> [!abstract] Definition
+>Es seien $A,B$ Mengen. Eine <span style='color: var(--custom-word-green, green)'>binäre Relation $R$ von $A$ nach $B$</span> ist eine [[4-mengen#Definition Teilmenge ($ subseteq$ und $ supseteq$)|Teilmenge]] von $A \times B$. Es gilt also $R \subseteq A \times B$. (Es ist eine Teilmenge der [[4-mengen#Kartesisches Produkt|geordneten Paare]])
+>
+> Wenn $A = B$ sagt man dass <span style='color: var(--custom-word-green, green)'>$R$ eine Relation auf $A$</span> ist. Dann heisst $R$ <span style='color: var(--custom-word-green, green)'>homogen</span>, andernfalls <span style='color: var(--custom-word-green, green)'>heterogen</span>.
+>
+> Anstelle von $(a,b) \in R$ schreibt man oft $aRb$ und sagt: $a$ steht bzgl. $R$ zu $b$ in Relation.
 
 > [!example]+ Beispiel 1: Stammbaum
 > Wir haben folgende Menge mit Personen $M = \{Suzanne, Peter, Lisa, Niocle, Hans, Laura, Fritz, Julia\}$
@@ -35,7 +37,7 @@ Anstelle von $(a,b) \in R$ schreibt man oft $aRb$ und sagt: $a$ steht bzgl. $R$ 
 
 ^zahlenbeispiel
 ### Bipartiter Graph
-Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--custom-word-green, green)'>bipartiter Graph</span> darstellen, das kann helfen das ganze zu visualisieren.
+Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--custom-word-green, green)'>[[bipartiter Graph]]</span> darstellen, das kann helfen das ganze zu visualisieren.
 
 **[[#^grossvaterbeispiel|Stammbaum]]**
 ![[5-relationen 2026-10-15 11.25.26.excalidraw]]
@@ -94,10 +96,14 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 > **ist transitiv**: aber nur weil es diese zweite Kombinationen sowieso nicht gibt.
 
 ## Verknüpfen
-Es seien $A, B, C$ Mengen, $R$ eine Relation von $A$ nach $B$ und $S$ eine Relation von $B$ nach $C$. Dann ist $S \circ R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen $S$ verknüpft $R$)</span>, die sogenannte <span style='color: var(--custom-word-green, green)'>Verknüpfung von $R$ und $S$</span>, eine Relation von $A$ nach $C$, die so definiert ist:
-Für $a \in A$ und $c \in C$ gilt $a(S \circ R)c$ genau dann, wenn ein $b \in B$ existiert mit $aRb$ und $bSc$.
 
-also: $S \circ R = \{(a, c) \in A \times C \quad | \quad \exists b \in B : aRb \land bSc\}$
+> [!abstract] Definition
+>
+> Es seien $A, B, C$ Mengen, $R$ eine Relation von $A$ nach $B$ und $S$ eine Relation von $B$ nach $C$. Dann ist $S \circ R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen $S$ verknüpft $R$)</span>, die sogenannte <span style='color: var(--custom-word-green, green)'>Verknüpfung von $R$ und $S$</span>, eine Relation von $A$ nach $C$, die so definiert ist:
+>
+> Für $a \in A$ und $c \in C$ gilt $a(S \circ R)c$ genau dann, wenn ein $b \in B$ existiert mit $aRb$ und $bSc$.
+>
+> also: $S \circ R = \{(a, c) \in A \times C \quad | \quad \exists b \in B : aRb \land bSc\}$
 
 > [!warning] Warnung
 > Umgekehrte Notation in der Literatur: manchmal steht dann $R \circ S$ wobei es aber Sinn macht zuerst das $S$ zu schreiben dann aber trotzdem von hinten nach vorne zu arbeiten.: Mehr dazu in [[6-funktionen|Funktionen]].
@@ -123,12 +129,24 @@ also: $S \circ R = \{(a, c) \in A \times C \quad | \quad \exists b \in B : aRb \
 >   $S\circ R = \{(\text{Peter}, \text{Buchhaltungssoftware}), (\text{Peter}, \text{Online-Shop}), (\text{Klaus}, \text{Buchhaltungssoftware}), (\text{Hans}, \text{Online-Shop}), (\text{Hans}, \text{Steuersoftware})\}$
 >   
 >   Somit gibt also $S \circ R$ an, welcher Mitarbeiter zu welcher Anwendung beitragen kann.
-
-
 ## Inverse Relation
+
+> [!abstract] Definition
+> Es seien $A, B$ Mengen und $R$ eine Relation von $A$ von $B$.
+>
+> Dann ist $R^{-1}$, die sogenannte inverse Relation von $R$, eine Relation von $B$ nach $A$ die so definiert ist:
+> Für $b \in B$ und $a \in A$ gilt $bR^{-1}a$ genau dann, wenn $aRb$.
+
+> [!example]+ Beispiel
+> Es seien $A = \{(\text{Peter}, \text{Klaus}, \text{Hans})\}$  und $B = \{\text{Fortran}, \text{Java}, \text{C}\}$
+>
+> Es sei $R = \{(\text{Peter}, \text{Fortran}), (\text{Peter}, \text{Java}), (\text{Klaus}, \text{Fortran}), (\text{Hans}, \text{Java}), (\text{Hans}, \text{C})\}$ die Relation, welche angibt, welcher Mitarbeiter, welche Programmiersprache beherrscht.
+>
+>Dann ist $R^{-1} = \{(\text{Fortran}, \text{Peter}), (\text{Java}, \text{Peter}), (\text{Fortran}, \text{Klaus}), (\text{Java}, \text{Hans}), (\text{C}, \text{Hans})\}$ die Relation, welche angibt, welche Programmiersprache von welchem Mitarbeiter beherrscht wird.
 
 ## Äquivalenzrelationen
 
-falls [[#^relationreflexiv|reflex]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]].
+> [!abstract] Definition
+> Eine Relation $R$ auf einer Menge $M$ heisst <span style='color: var(--custom-word-green, green)'>Äquivalenzrelation</span>, falls $R$ [[#^relationreflexiv|reflexiv]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]] ist. Für $xRy$ heisst $x$ <span style='color: var(--custom-word-green, green)'>äquivalent</span> zu $y$.
 
 ### Äquivalenzklassen
