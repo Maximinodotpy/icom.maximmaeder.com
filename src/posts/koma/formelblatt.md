@@ -26,20 +26,9 @@ siehe: [[4-mengen|Mengen]]
 | **Kommutativgesetz der Addition/Multiplikation**^Kommutativgesetz             | *Algebra*<br>$a+b=b+a$<br>$a*b=b*a$<br><br>*Mengen*<br>$A \cup B = B \cup A$ (Vereinigung)<br>$A \cap B = B \cap A$ (Schnitt)<br><br>*Aussagen*<br>$A \wedge B = B \wedge A$ (Und)<br>$A \vee B = B \vee A$ (Oder)<br>$A \Leftrightarrow B = B \Leftrightarrow A$ (Logische Äquivalenz) | Bei der Addition, Multiplikation, [[4-mengen\|Vereinigung]], [[4-mengen\|Schnitt]], [[1-aussagen\|Und und Oder]] spielt die Reihenfolge keine Rolle.                                                                                |
 | **Distributivgesetz**<br>Siehe [[#Binomische Formeln]].<br>^Distributivgesetz | $a * (b + c) = a*b + a*c$                                                                                                                                                                                                                                                               | Eine Summe (oder Differenz) wird mit einem Faktor, indem man jeden einzelnen Summanden (Minuend) mit diesem Faktor Multipliziert und die Produktwerte addiert. (nennt sich Ausklammern, Herausheben oder Faktorisieren).            |
 | **Assoziativgesetz**<br>^Assoziativgesetz                                     | $a * (b * c) = a * b * c$<br>$a + (b + c) = a + b + c$                                                                                                                                                                                                                                  | Wenn es sich nur um Additionen oder Multiplikationen handelt dann spielt es keine Rolle in welcher Reihenfolge diese ausgeführt werden, heisst: Wir können die Klammer weglassen. Für Subtraktionen und Divisionen gilt dies nicht. |
-### Potenzregeln
-https://de.wikipedia.org/wiki/Potenz_(Mathematik)#Potenzgesetze
 
-| Beispiel                                            | Anmerkung                                                                                     |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| $a^0 = 1$                                           | Sofern $a$ nicht $0$ ist dann ergibt die 0te Potenz von jeder Basis $1$.                      |
-| $a^{-r} = \frac{1}{a^r}$                            | Sofern $a$ nicht $0$ ist dann ist die minus $R$-te Potenz das gleich wie $1$ über der Potenz. |
-| $a^{\frac{m}{n}} = \sqrt[n]{a^m} = (\sqrt[n]{a})^m$ |                                                                                               |
-| $a^{r + s} = a^r * a^s$                             | Sofern $a > 0$.                                                                               |
-| $a^{r-s} = \frac{a^r}{a^s}$                         | Sofern $a > 0$.                                                                               |
-| $(a * b)^r = a^r * b^r$                             | Sofern $a * b \neq 0$.                                                                        |
-| $(\frac{a}{b})^r = \frac{a^r}{b^r}$                 | Sofern $a \neq 0 \wedge b \neq 0$.                                                            |
-| $a^{r^{s}} = a^{r*s}$                               | Sofern $a \neq 0$.                                                                            |
-Potenzieren ist weder [[koma/formelblatt#^Assoziativgesetz|Kommutativ]] noch [[koma/formelblatt#^Assoziativgesetz|Assoziativ]].
+
+![[2-Potenzieren]]
 
 ## Binomische Formeln
 | Name              | Formel                          |

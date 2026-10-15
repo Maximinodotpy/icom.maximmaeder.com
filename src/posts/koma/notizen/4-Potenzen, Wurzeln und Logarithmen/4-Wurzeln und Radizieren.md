@@ -1,0 +1,1 @@
+[Nugget 4 (Potenzen, Wuzeln und Logarithmen) - Teil 4](https://tube.switch.ch/videos/QUXqlSCEH4)

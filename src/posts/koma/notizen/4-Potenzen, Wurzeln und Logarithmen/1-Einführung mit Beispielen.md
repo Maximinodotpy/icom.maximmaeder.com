@@ -24,5 +24,25 @@ $$
 > $$10 = (1+p)^{50}$$
 > $$\sqrt[50]{10} = \sqrt[50]{(1 + p)^{50}}$$
 > $$4.71\% = p$$
+>
+> $10$ ist das gleiche wie $1000\%$ was das gleiche ist wie eine Verzehnfachung.
 
 ## Logarithmieren
+
+$$
+y = \log_2(4)
+$$
+
+> [!example]+ Beispiel
+> Nach welcher Zeit verdoppelt sich der Wert eines Kapitals, wenn es zu $5\%$ angelegt wird?
+>
+> $$\begin{alignat*}{2}
+> 2 &= 1.05^n &\quad & | \text{log}_{1.05}(2) &\quad \text{Logarithmus ist \\ eine weitere \\ Umkehroperation \\ der Potenzierung} \\
+> \log_{1.05}(2) &= \log_{1.05}(1.05^n) & & &\quad \text{} \\
+> n &= \log_{1.05}(2) & & &\quad \text{} \\
+> n &= 14.21 & & &\quad \text{} \\
+> \end{alignat*}
+> $$
+>
+> Über den Logarithmus fragen wir mit welchem [[Exponenten]] müssen wir eine [[Basis]] potenzieren um das Argument zu erreichen (In unserem Fall mit was muss man $1.05$ potenzieren um $2$ zu erhalten)
+
