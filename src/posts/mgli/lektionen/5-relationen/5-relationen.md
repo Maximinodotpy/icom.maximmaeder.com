@@ -149,4 +149,7 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 > [!abstract] Definition
 > Eine Relation $R$ auf einer Menge $M$ heisst <span style='color: var(--custom-word-green, green)'>Äquivalenzrelation</span>, falls $R$ [[#^relationreflexiv|reflexiv]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]] ist. Für $xRy$ heisst $x$ <span style='color: var(--custom-word-green, green)'>äquivalent</span> zu $y$.
 
-### Äquivalenzklassen
+### Äquivalenzklassenfasdfa 
+
+
+ich bin ein coller mann ich bin ein cooler mann ich bin ein cooler mann ich bine cin cooler mann ich bin $fasdfasd$
