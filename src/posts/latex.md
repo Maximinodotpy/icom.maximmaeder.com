@@ -83,6 +83,7 @@ which looks like this
 | `\|A\|`               | $\|A\|$               | [[4-mengen#Anzahl von Mengen\|Kardinalität]] (**FALSCH**)                             |
 | `\mathcal{P}(A)`      | $\mathcal{P}(A)$      | [[4-mengen#Potenzmenge\|Potenzmenge]]                                                 |
 | `\overline{A \cup B}` | $\overline{A \cup B}$ | [[4-mengen#^komplement\|Komplement]]                                                  |
+| `\circ`               | $R \circ S$           | Komposition/Verknüpfung                                                               |
 ## Set of Terms
 | Befehl                         | Symbol                         | Bedeutung |
 | ------------------------------ | ------------------------------ | --------- |

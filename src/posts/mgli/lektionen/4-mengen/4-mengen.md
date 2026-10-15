@@ -131,7 +131,7 @@ Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-
 Grafisch könnte man eine Partitionierung auch so darstellen.
 ![[4-mengen_partition||100%]]
 ## Kartesisches Produkt
-Ein <span style='color: var(--custom-word-green, green)'>geordnetes</span> Paar ist ein Objekt der Form $(a, b)$, wobei $a$ ein Element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
+Ein <span style='color: var(--custom-word-green, green)'>geordnetes Paar</span> ist ein Objekt der Form $(a, b)$, wobei $a$ ein Element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
 
 Zwei geordnete Paare $(a,b)$ und $(c,d)$ sind gleich, genau dann, wenn $a=c$ und $b=d$.
 
