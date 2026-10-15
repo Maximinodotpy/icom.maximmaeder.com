@@ -130,6 +130,7 @@ Eine Teilmenge $P$ von $\mathcal{P}(A)$ heisst <span style='color: var(--custom-
 
 Grafisch könnte man eine Partitionierung auch so darstellen.
 ![[4-mengen_partition||100%]]
+Partitionen spielen eine grosse Rolle bei [[5-relationen#Äquivalenzklassen|Äquivalenzklassen]].
 ## Kartesisches Produkt
 Ein <span style='color: var(--custom-word-green, green)'>geordnetes Paar</span> ist ein Objekt der Form $(a, b)$, wobei $a$ ein Element einer Menge $A$ und $b$ ein Element einer Menge $B$ ist.
 

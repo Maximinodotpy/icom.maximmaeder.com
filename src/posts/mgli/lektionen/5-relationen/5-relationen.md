@@ -46,9 +46,9 @@ Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--cust
 ![[5-relationen 2026-10-15 11.27.40.excalidraw]]
 ## Eigenschaften
 
-- Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element mit sich selbst in Relation steht.
+- Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element aus der Ursprungsmenge mit sich selbst in Relation steht.
   ^relationreflexiv
-- Eine Relation ist <span style='color: var(--custom-word-green, green)'>symmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow yRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle $x$ aus $M$ gilt dass wenn $x$ in einer relation mit $y$ steht dann steht aber $y$ in einer relation mit $x$)</span> Wenn jedes Relation respektive das Prädikat davon auch umgekehrt stimmen würde.
+- Eine Relation ist <span style='color: var(--custom-word-green, green)'>symmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow yRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle $x$ aus $M$ gilt dass wenn $x$ in einer relation mit $y$ steht dann steht aber $y$ in einer relation mit $x$)</span> Wenn jede Relation respektive das Prädikat davon auch umgekehrt stimmen würde.
   ^relationsymmetrisch
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>antisymmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow (\neg(yRx)\lor x = y)$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alles $x$ und $y$ Tupel aus $M$ gilt dass wenn wenn $x$ in relation zu $y$ steht dann darf $y$ nicht in relation mit $x$ stehen oder $x$ sollte gleich $y$ sein)</span> Wenn zwei Elemente in Relation stehen dann kann es nicht sein dass sie auch umgekehrt in Relation stehen (es sei den sie sind gleich)
   ^relationantisymmetrisch
@@ -149,7 +149,43 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 > [!abstract] Definition
 > Eine Relation $R$ auf einer Menge $M$ heisst <span style='color: var(--custom-word-green, green)'>Äquivalenzrelation</span>, falls $R$ [[#^relationreflexiv|reflexiv]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]] ist. Für $xRy$ heisst $x$ <span style='color: var(--custom-word-green, green)'>äquivalent</span> zu $y$.
 
-### Äquivalenzklassenfasdfa 
+> [!example]+ Beispiel 1
+> $R = \{(x,y) \in S \times S \quad | \quad x \text{ und } y \text{ liegen im selben Land} \}$, wobei $S$ die Menge aller Städte bezeichnet. Das ist eine äquivalente Relation weil sie alle drei Eigenschaften hat (reflexiv, symmetrisch und transitiv)
+
+^aequistadtbeispiel
+
+> [!example]+ Beispiel 2
+> $R = \{(x,y) \in M \times M \quad | \quad x \text{ und } y \text{ sind gleich gross} \}$, wobei $M$ die Menge aller Menschen bezeichnet.
+### Äquivalenzklassen
+
+> [!abstract] Definition
+> Äquivalenzrelation zerlegen die Menge in sogenannte <span style='color: var(--custom-word-green, green)'>Äquivalenzklassen</span>, die jeweils alle Elemente enthalten, die bzgl. eines Merkmals äquivalent sind. Äquivalenzklassen gruppieren also Element, die von einem gewissen Blickwinkel "gleich" sind.
+>
+>Es sei $R$ eine Äquivalenzrelation auf der Menge $M$. Dann heisst
+> $[x]_R := \{y \in M | xRy\}$
+>
+> Wenn der Kontext klar ist, sagt man kurz <span style='color: var(--custom-word-green, green)'>Äquivalenzklasse</span> von x und schreibt $[x]$
+
+> [!WARNING]+ Warnung
+> Das ist nun eine Menge aus regulären Objekten und nicht aus Tupeln/geordneten Paaren.
+
+> [!example]+ Beispiel
+> Im obigen [[#^aequistadtbeispiel|Beispiel]] mit den Städten gilt etwa:
+> $[\text{Bern}]_{R} = \{\text{Basel}, \text{Zürich}, \text{Genf}, \text{Lausanne}, ...\}$
+> $[\text{Paris}]_{R} = \{\text{Lyon}, \text{Montpellier}, \text{Dünkirchen}, \text{Marseille}, ...\}$
+>
+
+Nun haben diese beiden Äquivalenzklassen keine gemeinsamen Element, hätten sie diese wären sie teil der selben Äquivalenzklasse.
+
+Damit haben wir über eine Äquivalenzklasse eine [[4-mengen#Partition|Partition]] der jeweiligen Menge.
+
+$P = \{... \{\text{Alle Städte der Schweiz}\} ... \{\text{Alle Städte von Frankreich}\} ...\}$
 
 
-ich bin ein coller mann ich bin ein cooler mann ich bin ein cooler mann ich bine cin cooler mann ich bin $fasdfasd$
+Graphisch Dargestellt sieht könnte das so aussehen:
+Wir haben eine Menge aus Formen in verschiedenen Farben:
+![[5-relationen 2026-10-15 15.34.14.excalidraw||100%]]
+Nun könnte wir diese Menge auf folgende Art und Weise [[4-mengen#Partition|Partitionieren]]. in diesem fall nach der Form.
+
+![[5-relationen_partitionierungs_beispiel_1||100%]]
+Auf diesselbe Art und Weise könnten wir das auch nach der Farbe partitionieren.
