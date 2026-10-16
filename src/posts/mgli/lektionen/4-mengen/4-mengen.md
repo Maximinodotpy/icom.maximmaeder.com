@@ -81,7 +81,7 @@ Es seien $A,B$ Mengen.
 6. $A$ und $B$ heissen <span style='color: var(--custom-word-green, green)'>disjunkt</span> falls $A \cap B = \emptyset$. (Kein gemeinsames Element)
    ![[4-mengen_disjunkt]]^disjunkt
 
-## Anzahl von Mengen
+## Anzahl Element in Mengen
 Es sei $A$ eine endliche Menge. mit $|A|$ bezeichnen wir die Anzahl der Elemente von $A$.
 Andere Bezeichnungen: <span style='color: var(--custom-word-green, green)'>Kardinalität</span> oder <span style='color: var(--custom-word-green, green)'>Mächtigkeit</span> von $A$.
 Wenn $A$ eine unendliche Menge ist, schreiben wir $|A| = \infty$.
@@ -111,6 +111,7 @@ Schreibweise: $\mathcal{P}(A)$ (manchmal auch $2^A$)
 > Es gilt $\{a\} \subseteq \{a, b\}$, aber $\{a\} \nsubseteq \mathcal{P}(\{a, b\})$
 
 Satz: für endliche Mengen $A$ gilt $|\mathcal{P}(A)| = 2^{|A|}$
+Heisst zb. eine Menge mit $2$ Elementen hätte eine Potenzmenge mit $2^2 = 4$ Elementen, und eine Menge mit $4$ Elementen eine mit $2^4 = 16$ Elementen.
 
 > [!warning] Achtung
 > Egal was man in die Potenzmenge hineintut, es hat immer mindestens eine leere Menge  $\{\emptyset\}$
