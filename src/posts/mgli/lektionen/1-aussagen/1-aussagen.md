@@ -6,6 +6,7 @@ video: https://tube.switch.ch/channels/52REtfybgj?return_to=
 sources:
   - "[[0-Einleitung.pdf]]"
 drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmaterialien/Drehbuch_mgli.pdf?d=w0cbbae40615c47edb1c354550733a6c0&csf=1&web=1&e=1od0J8
+übungs_serie: "[[serie01.pdf]]"
 ---
 ## Symbole für Aussagen
 

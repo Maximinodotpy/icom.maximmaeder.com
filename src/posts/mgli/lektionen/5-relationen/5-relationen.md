@@ -19,7 +19,7 @@ sources:
 > Wir haben folgende Menge mit Personen $M = \{Suzanne, Peter, Lisa, Niocle, Hans, Laura, Fritz, Julia\}$
 >
 > und folgenden Stammbaum.
-> ![[5-relationen 2026-10-15 11.08.13.excalidraw||100%]]
+> ![[5-relationen_stammbaum||100%]]
 >
 > Daraus könnten wir nun folgende Relationsteilmengen definieren:
 > Es  sei $R = \{(x,y) \in M \times M | x \text{ ist Grossvater von } y\}$
@@ -40,10 +40,10 @@ sources:
 Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--custom-word-green, green)'>[[bipartiter Graph]]</span> darstellen, das kann helfen das ganze zu visualisieren.
 
 **[[#^grossvaterbeispiel|Stammbaum]]**
-![[5-relationen 2026-10-15 11.25.26.excalidraw]]
+![[5-relationen_bipartiter_graph_stammbaum]]
 
 **[[#^zahlenbeispiel|Natürliche Zahlen]]**
-![[5-relationen 2026-10-15 11.27.40.excalidraw]]
+![[5-relationen_bipartiter_graph_zahlen]]
 ## Eigenschaften
 
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element aus der Ursprungsmenge mit sich selbst in Relation steht.
@@ -83,7 +83,7 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 >  **nicht asymmetrisch**: weil die Reihenfolge irrelevant ist kann es dazu kommen das die Implikation falsch ist.
 >  **nicht transitiv**: Klappt nicht wenn z.b. in folgendem Fall.
 >
->  ![[5-relationen 2026-10-15 12.21.07.excalidraw||100%]]
+>  ![[5-relationen_grossi_stammbaum||100%]]
 >
 >  Hier haben wir zwei Grössmütter mit jeweils zwei Kindern diese haben dann wieder je ein Kind, das mittlere Kind hat eine gemeinsame Grossmutter mit den beiden Anderen aber die beiden anderen nicht mit einander.
 
@@ -184,7 +184,7 @@ $P = \{... \{\text{Alle Städte der Schweiz}\} ... \{\text{Alle Städte von Fran
 
 Graphisch Dargestellt sieht könnte das so aussehen:
 Wir haben eine Menge aus Formen in verschiedenen Farben:
-![[5-relationen 2026-10-15 15.34.14.excalidraw||100%]]
+![[5-relationen_äquivalenz_beispiel_menge||100%]]
 Nun könnte wir diese Menge auf folgende Art und Weise [[4-mengen#Partition|Partitionieren]]. in diesem fall nach der Form.
 
 ![[5-relationen_partitionierungs_beispiel_1||100%]]
