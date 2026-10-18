@@ -147,12 +147,13 @@ zb. $(A \land \bar{B}) \lor (C \land D)$
 Um die DNF zu bilden schauen wir alle erfüllenden Belegungen an und bilden analog zu dem KNF (negation zur Wahrheit) die Klauseln.
 
 ### Konjunktive- und Disjunktive Normalform zusammengefasst
-KNF bestimmen:
+**KNF bestimmen:**
 * Zeilen mit 0 anschauen
 * Eingänge mit 1 negieren
 * und mit $\lor$ verknüpfen pro Zeile
 * resultierende Klauseln mit $\land$ verknüpfen.
-DNF bestimmen:
+
+**DNF bestimmen:**
 * Zeilen mit 1 anschauen
 * Eingänge mit 0 negieren
 * und mit $\land$ verknüpfen pro Zeile
