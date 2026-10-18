@@ -5,6 +5,8 @@ published: true
 video: https://tube.switch.ch/videos/Kcgb5G6wNs
 sources:
   - "[[5-Relationen.pdf]]"
+übungs_serie: "[[serie05.pdf]]"
+schriftliche_notizen: "[[5-relationen]]"
 ---
 ## Binäre Relation
 
