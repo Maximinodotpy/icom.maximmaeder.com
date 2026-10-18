@@ -30,6 +30,7 @@ venn-beta
 ```
 ## Wichtige Mengen
 $\emptyset = \{\}$ ist die leere Menge
+- Weiteres dazu unter [Leere Menge](https://www.biancahoegel.de/mathe/mengen/menge_leer.html) und [Leere Menge und Allklasse](https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Leere_Menge_und_Allklasse).
 $\mathbb{}$$\mathbb{N} = \{1, 2, 3, 4, ...\}$ ist die Menge der natürliche Zahlen
 $\mathbb{N}_0 = \{0, 1, 2, 3, 4, 5 ...\}$ ist die Menge der natürlichen Zahlen mit 0
 $\mathbb{Z} = \{..., -2, -1, 0, 1, 2, 3, ...\}$ ist die Menge der ganzen Zahlen.
@@ -152,6 +153,9 @@ Schreibweise: $A \times B = \{(a, b) | a \in A \land b \in B\}$ gesprochen: A kr
 
 > [!warning] Achtung
 > Im Allgemeinen gilt $A \times B \neq B \times A$ (es könnte trotzdem sein falls $A$ und $B$ genau (auch die Reihenfolge) Listen sind)
+>
+> Des weiteren gilt $\emptyset \times \emptyset = \emptyset$
+> Oder $\emptyset \times A = \emptyset$
 ### Geordnete Tupel
 Ein <span style='color: var(--custom-word-green, green)'>geordnetes n-Tupel</span> ist ein Objekt der Form $(a_1, a_2, ..., a_n)$.
 

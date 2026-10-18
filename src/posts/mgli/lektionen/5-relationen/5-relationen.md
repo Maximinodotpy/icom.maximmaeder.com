@@ -48,13 +48,19 @@ Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--cust
 ![[5-relationen_bipartiter_graph_zahlen]]
 ## Eigenschaften
 
+Schauen wir uns die Eigenschaften einer Relation an folgender Menge aus Elementen an.
+![[5-relationen_eigenschaften#^group=SnhHNT9c|menge|100%]]
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element aus der Ursprungsmenge mit sich selbst in Relation steht.
+  ![[5-relationen_eigenschaften#^group=qlcjXDDv|reflexiv|100%]]
   ^relationreflexiv
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>symmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow yRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle $x$ aus $M$ gilt dass wenn $x$ in einer relation mit $y$ steht dann steht aber $y$ in einer relation mit $x$)</span> Wenn jede Relation respektive das Prädikat davon auch umgekehrt stimmen würde.
+  ![[5-relationen_eigenschaften#^group=OmbiZLLyz66rkvYXIUbSq|symmetrisch|100%]]
   ^relationsymmetrisch
-- Eine Relation ist <span style='color: var(--custom-word-green, green)'>antisymmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow (\neg(yRx)\lor x = y)$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alles $x$ und $y$ Tupel aus $M$ gilt dass wenn wenn $x$ in relation zu $y$ steht dann darf $y$ nicht in relation mit $x$ stehen oder $x$ sollte gleich $y$ sein)</span> Wenn zwei Elemente in Relation stehen dann kann es nicht sein dass sie auch umgekehrt in Relation stehen (es sei den sie sind gleich)
+- Eine Relation ist <span style='color: var(--custom-word-green, green)'>antisymmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow (\neg(yRx)\lor x = y)$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alles $x$ und $y$ Tupel aus $M$ gilt dass wenn wenn $x$ in relation zu $y$ steht dann darf $y$ nicht in relation mit $x$ stehen oder $x$ sollte gleich $y$ sein)</span> Wenn zwei Elemente in Relation stehen dann kann es nicht sein dass sie auch umgekehrt in Relation stehen (Rückbeziehungen sind nur erlaubt wenn das Element identisch ist.)
+  ![[5-relationen_eigenschaften#^group=XecPXh6r3WEk7hElEWZbo|antisymmetrisch|100%]]
   ^relationantisymmetrisch
 - eine Relation ist <span style='color: var(--custom-word-green, green)'>transitiv</span> falls $\forall{x,y,z} \in M : ((x,y) \in R \land (y,z) \in R) \Rightarrow (x,z) \in R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen für alle $x$, $y$ und $z$ gilt wenn $(x, y)$ und $(y, z)$ jeweils in einer Relation stehen dann steht auch $(x, z)$ in einer Relation)</span> Wenn also zwei aneinander stossende Paare in relation stehen auch die noch nicht miteinander verglichenen in einer Relation zu einander.
+  ![[5-relationen_eigenschaften#^group=wK-TmWsDN41zMf_0kbrOG|transitiv|100%]]
   ^relationtransitiv
 
 Für das [[#^grossvaterbeispiel|Grossvaterbeispiel]] von oben würde also gelten:
