@@ -9,6 +9,11 @@ views:
       - file.name
       - Woche
       - title
+      - schriftliche_notizen
+      - übungs_serie
     sort:
       - property: Woche
         direction: ASC
+    columnSize:
+      file.name: 180
+      note.schriftliche_notizen: 253

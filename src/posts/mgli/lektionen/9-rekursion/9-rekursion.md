@@ -4,6 +4,7 @@ date: 2026-09-21
 published: true
 video:
 sources:
-Woche:
+Woche: "10"
 übungs_serie:
+schriftliche_notizen: "[[9-rekursion-übungen]]"
 ---

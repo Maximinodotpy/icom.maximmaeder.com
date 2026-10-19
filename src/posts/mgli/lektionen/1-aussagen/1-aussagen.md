@@ -9,6 +9,7 @@ sources:
 drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmaterialien/Drehbuch_mgli.pdf?d=w0cbbae40615c47edb1c354550733a6c0&csf=1&web=1&e=1od0J8
 übungs_serie: "[[serie01.pdf]]"
 Woche: "1"
+schriftliche_notizen: "[[1-aussagen-übungen]]"
 ---
 ## Symbole für Aussagen
 
@@ -39,7 +40,7 @@ Wird beim [[3-korrekte-argumentation|Argumentieren respektive beweisen]] gebrauc
 
 Ist aber auch nützlich um zb. mit einem [[2-praedikate-und-quantoren#Genaue Quantoren|Quantor sicherzustellen, dass ein Prädikat nur auf ein Objekt zutrifft]].
 
-Eine Implikation kann auch dargestellt werden mit Oder und der Negation.
+Eine Implikation kann auch dargestellt werden mit Oder  und der Negation.
 $$\neg a \lor b$$
 ^implikationandersdargestellt
 #### Äquivalenz $\Leftrightarrow$
@@ -73,16 +74,7 @@ Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, resp
 ![[Belegungen]]
 ## Syntaxbaum
 Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[Logische Formel#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene Belegungen zu prüfen.
-```mermaid
-flowchart TD
-	AND --> NOT1
-	AND --> IMPLIES
-	IMPLIES --> NOT2
-	NOT2 --> A
-	IMPLIES --> B
-	
-	NOT1 --> C
-``` 
+![[1-aussagen_syntaxbaum||100%]]
 
 ![[Tautologie]]
 

@@ -6,6 +6,8 @@ video: https://tube.switch.ch/videos/OBnsdSWRgx
 sources:
   - "[[1-Aussagenlogik.pdf]]"
 Woche: "2"
+schriftliche_notizen: "[[2-praedikate-und-quantoren-übungen]]"
+übungs_serie: "[[serie02.pdf]]"
 ---
 ## Definition Prädikate
 Ein Satz $A(x1, ..., xn)$ der durch Einsetzen von Elementen für die $n$ Variablen zu einer [Aussage](1-aussagen.md) wird, heisst <span style='color: var(--custom-word-green, green)'>$n$-stelliges Prädikat</span> oder <span style='color: var(--custom-word-green, green)'>Aussageform</span>.
