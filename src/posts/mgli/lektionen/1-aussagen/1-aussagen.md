@@ -2,7 +2,8 @@
 title: "MGLI Lektion 1: Aussagen"
 date: 2026-09-14
 published: true
-video: https://tube.switch.ch/channels/52REtfybgj?return_to=
+video:
+  - https://tube.switch.ch/videos/7JvO8mWZQt
 sources:
   - "[[0-Einleitung.pdf]]"
 drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmaterialien/Drehbuch_mgli.pdf?d=w0cbbae40615c47edb1c354550733a6c0&csf=1&web=1&e=1od0J8
@@ -38,7 +39,10 @@ Wird beim [[3-korrekte-argumentation|Argumentieren respektive beweisen]] gebrauc
 
 Ist aber auch nützlich um zb. mit einem [[2-praedikate-und-quantoren#Genaue Quantoren|Quantor sicherzustellen, dass ein Prädikat nur auf ein Objekt zutrifft]].
 
-#### Logische Äquivalenz $\Leftrightarrow$
+Eine Implikation kann auch dargestellt werden mit Oder und der Negation.
+$$\neg a \lor b$$
+^implikationandersdargestellt
+#### Äquivalenz $\Leftrightarrow$
 Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sind.
 
 > [!example]+ Wahrheitstabelle
@@ -49,6 +53,9 @@ Wenn die beiden werte gleich sind, unabhängig davon ob sie wahr oder falsch sin
 > | 1   | 0   | 0                     |
 > | 1   | 1   | 1                     |
 
+Die Äquivalenz kann auch dargestellt werden mit Oder und der Negation.
+$$(\neg A \land \neg B) \lor (A \land B)$$
+^aequivalenzandersdargestellt
 ### Einstellige Operatoren
 #### Negation $\neg$
 Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, respektive wird als erstes evaluiert

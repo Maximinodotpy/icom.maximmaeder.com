@@ -41,7 +41,6 @@ für den <span style='color: var(--custom-word-green, green)'>Allquantor</span> 
 ### 2-Stellige Prädikate
 Es sei A(x, y): "x ist ein Land in y"
 
-
 > [!example]+ Beispiel
 > Dann ist zb. `∀x ∈ M1: A(x, y)` noch keine Aussage, weil wir noch einen Wert für `y` einfüllen müssen. Dazu können wir noch einen weiteren Quantor (egal welchen) darüber stülpen zb. `∀x ∈ M1: ( ∀y ∈ M2: A(x, y))` <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle x aus M1 und für alle y aus M2 gilt A(x, y))</span>
 ## Konventionen
@@ -89,13 +88,12 @@ $$
 $$
 Das ist die am wenigsten offensichtliche.
 ## Negation quantifzierter Prädikate
-x ist ein Land in Europa
 
-dann ist: Alle Länder aus M liegen in Europa.
-<!--  -->
+![[Pasted image 20261019134430.png]]
+^negationeinfacherquantor
 
 ## Quantoren: Distributivgesetze
-<!--  -->
-
+![[Pasted image 20261019134552.png]]
+^distributivgesetzevonquantoren
 
 
