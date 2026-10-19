@@ -6,7 +6,7 @@ video: https://tube.switch.ch/videos/Kcgb5G6wNs
 sources:
   - "[[5-Relationen.pdf]]"
 übungs_serie: "[[serie05.pdf]]"
-schriftliche_notizen: "[[5-relationen]]"
+schriftliche_notizen: "[[5-relationen-übungen]]"
 Woche: "5"
 ---
 ## Binäre Relation
@@ -50,7 +50,7 @@ Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--cust
 Des weiteren können Relationen insbesondere homogene Relationen als [[gerichteter Graph]] dargestellt werden.
 ## Eigenschaften
 
-Schauen wir uns die Eigenschaften einer Relation an folgender Menge aus Elementen an.
+Schauen wir uns die Eigenschaften einer [[#Binäre Relation|homogenen Relation]] an folgender Menge aus Elementen an.
 ![[5-relationen_eigenschaften#^group=SnhHNT9c|menge|100%]]
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element aus der Ursprungsmenge mit sich selbst in Relation steht.
   ![[5-relationen_eigenschaften#^group=qlcjXDDv|reflexiv|100%]]
@@ -61,8 +61,11 @@ Schauen wir uns die Eigenschaften einer Relation an folgender Menge aus Elemente
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>antisymmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow (\neg(yRx)\lor x = y)$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alles $x$ und $y$ Tupel aus $M$ gilt dass wenn wenn $x$ in relation zu $y$ steht dann darf $y$ nicht in relation mit $x$ stehen oder $x$ sollte gleich $y$ sein)</span> Wenn zwei Elemente in Relation stehen dann kann es nicht sein dass sie auch umgekehrt in Relation stehen (Rückbeziehungen sind nur erlaubt wenn das Element identisch ist.)
   ![[5-relationen_eigenschaften#^group=XecPXh6r3WEk7hElEWZbo|antisymmetrisch|100%]]
   ^relationantisymmetrisch
-- eine Relation ist <span style='color: var(--custom-word-green, green)'>transitiv</span> falls $\forall{x,y,z} \in M : ((x,y) \in R \land (y,z) \in R) \Rightarrow (x,z) \in R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen für alle $x$, $y$ und $z$ gilt wenn $(x, y)$ und $(y, z)$ jeweils in einer Relation stehen dann steht auch $(x, z)$ in einer Relation)</span> Wenn also zwei aneinander stossende Paare in relation stehen auch die noch nicht miteinander verglichenen in einer Relation zu einander.
+- eine Relation ist <span style='color: var(--custom-word-green, green)'>transitiv</span> falls $\forall{x,y,z} \in M : ((x,y) \in R \land (y,z) \in R) \Rightarrow (x,z) \in R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen für alle $x$, $y$ und $z$ gilt wenn $(x, y)$ und $(y, z)$ jeweils in einer Relation stehen dann steht auch $(x, z)$ in einer Relation)</span> Wenn also zwei aneinander stossende Paare (==🔴beide Seiten==) in Relation stehen auch die noch nicht miteinander verglichenen in einer Relation zu einander.
   ![[5-relationen_eigenschaften#^group=wK-TmWsDN41zMf_0kbrOG|transitiv|100%]]
+  Man kann es auch noch gut mit folgendem Zahlenbeispiel erklären. Wenn $5$ kleiner als $7$ und $7$ kleiner als $9$ dann bedeutet dass auch dass $5$ kleiner als $9$ ist.
+  ![[mgli/lektionen/5-relationen/zeichnungen/5-relationen_eigenschaften.md#^group=FA9bgMYMnrOMHFhcSPq4G|transitiv_beispiel_mit_zahlen|100%]]
+   Somit erkennt wir auch, dass eine transitive Relation nicht unbedingt auch Symmetrisch und/oder reflexiv sein muss.
   ^relationtransitiv
 
 Für das [[#^grossvaterbeispiel|Grossvaterbeispiel]] von oben würde also gelten:
