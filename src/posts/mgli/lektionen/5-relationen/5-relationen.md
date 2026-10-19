@@ -7,6 +7,7 @@ sources:
   - "[[5-Relationen.pdf]]"
 übungs_serie: "[[serie05.pdf]]"
 schriftliche_notizen: "[[5-relationen]]"
+Woche: "5"
 ---
 ## Binäre Relation
 

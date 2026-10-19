@@ -7,6 +7,7 @@ video: https://tube.switch.ch/videos/iejBHx1P1a
 schriftliche_notizen: "[[4-mengen-übungen]]"
 sources:
   - "[[4-mengen]]"
+Woche: "4"
 ---
 ## Definition
 

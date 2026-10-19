@@ -6,6 +6,7 @@ video: https://tube.switch.ch/videos/UgyedmTeMo
 übungs_serie: "[[serie03.pdf]]"
 sources:
   - "[[3-korrekteArgumentation.pdf]]"
+Woche: "3"
 ---
 Das Ziel eines Beweises ist es, eine Aussage $Z$, die sogenannte *Zielaussage*, beweisen.
 ## Direkter Beweis

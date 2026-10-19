@@ -7,12 +7,13 @@ sources:
   - "[[0-Einleitung.pdf]]"
 drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmaterialien/Drehbuch_mgli.pdf?d=w0cbbae40615c47edb1c354550733a6c0&csf=1&web=1&e=1od0J8
 übungs_serie: "[[serie01.pdf]]"
+Woche: "1"
 ---
 ## Symbole für Aussagen
 
 ### Zweistellige Operatoren
 
-#### Und $\wedge$
+#### Und $\land$
 Wenn beides (/alles) richtig ist ...
 
 #### Oder $\lor$
@@ -93,6 +94,8 @@ flowchart TD
 | Idempotenzgesetze                                    | $f \lor f \equiv f$                                     | $f \land f \equiv f$                                     |
 | Negationgesetze                                      | $f \lor \neg f \equiv 1$<br>$\neg\neg f \equiv f$       | $f \land \neg f  \equiv 0$                               |
 | De Morgansche Gesetze                                | $\neg(f \lor g) \equiv \neg f \land \neg g$             | $\neg(f \land g) \equiv \neg f \lor \neg g$              |
+^aussagenrechenregeln
+
 Damit können wir logische Formeln vereinfachen: zb.
 1. $f = (A \lor \neg B) \land (A \lor B)$ -> Distributivgesetz anwenden
 2. $A \lor (B \land B)$ -> Negationsgesetz
