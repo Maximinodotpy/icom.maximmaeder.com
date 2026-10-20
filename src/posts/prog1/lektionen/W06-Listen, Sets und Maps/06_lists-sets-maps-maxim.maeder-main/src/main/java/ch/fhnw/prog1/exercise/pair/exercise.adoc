@@ -1,0 +1,57 @@
+== Zahlenpaar finden
+
+Zu Beginn dieses Semesters haben wir eine einfache xref:../w01-programmieren/lernprogramm.adoc#beispielaufgabe[Beispielaufgabe] gezeigt.
+Als Teilprobleme (xref:../w02-dekomposition_und_invarianten/lernprogramm.adoc#chapter_decomposition[Dekomposition!]) davon haben wir vorgeschlagen:
+
+====
+. Wie kann die Textdatei gelesen werden?
+. Wie werden aus je einer Zeile der Textdatei Zahlen?
+. Wie können die bereits aus der Datei gelesenen Zahlen gespeichert werden?
+(Organisation im Speicher / Datenstruktur)
+. Wie kann unter den Zahlen ein Paar gefunden werden, dessen Summe gerade der Wert von `x` ist?
+. Wie lässt sich der genaue Ablauf des Programms beschreiben?
+. Wie bringe ich das Programm konkret zum Laufen?
+. Wie kann ich überprüfen, ob das Programm in allen Fällen korrekt funktioniert?
+====
+
+Nun sollst Du diese Aufgabe lösen.
+Programmiere dazu eine Funktion `boolean&nbsp;hasSum(int&nbsp;goal, String&nbs;path)`, die ermittelt, ob sich in der mit `path` bezeichneten Textdatei zwei Zahlen lesen finden, die sich zu `goal` addieren.
+
+Für die ersten beiden Teilaufgaben, das zeilenweise Lesen einer Textdatei, brauchst Du vielleicht noch etwas Unterstützung. Du kannst dazu diese beiden Methoden `openFile` und `nextInt` verwenden:
+[source,java]
+----
+BufferedReader openFile(String path) {
+    try {
+        return Files.newBufferedReader(Path.of(ClassLoader.getSystemResource(path).toURI()));
+    } catch (Exception e) {
+        throw new RuntimeException("Can't open file: " + path, e);
+    }
+}
+
+Integer nextInt(BufferedReader reader) {
+    try {
+        String line = reader.readLine();
+        if (line != null) return Integer.parseInt(line);
+        else return null;
+    } catch (Exception e) {
+        return null;
+    }
+}
+----
+
+Du kannst damit ein Programm nach dem Muster der sequenziellen Suche aufbauen:
+
+[source,java]
+----
+    BufferedReader reader = openFile(path);
+    Integer i = nextInt(reader);
+    while (i != null && ... ) {
+
+----
+
+Die Datei `numbers.txt` im Verzeichnis `src/test/resources` enthält Beispieldaten.
+Zwei Zahlen aus dieser Datei addieren sich zu 1234567.
+
+Damit kannst Du Dein Programm ausprobieren.
+Die Laufzeit sollte weniger als eine Sekunde sein.
+

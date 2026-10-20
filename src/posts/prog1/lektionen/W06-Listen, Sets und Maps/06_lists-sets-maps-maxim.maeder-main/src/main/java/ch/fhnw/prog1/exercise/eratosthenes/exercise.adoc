@@ -1,0 +1,24 @@
+== Sieb des Eratosthenes
+
+Ein Lösungsansatz, um rasch alle Primzahlen bis zu einem maximalen Wert zu finden, ist das "Sieb des Eratosthenes".
+Die Idee dahinter ist, aus allen Zahlen von 2 bis zum maximalen Wert nach und nach alle nicht-Primzahlen wegzustreichen so, dass am Ende nur noch die Primzahlen übrig bleiben.
+Die Primzahlen werden also aus der Menge der Zahlen 2 bis `n` ausgesiebt.
+
+Da 2 bekanntlich eine Primzahl ist, kann man in einer ersten Runde alle geraden Zahlen streichen (ausser der 2 selbst natürlich).
+
+Die nächst grössere nicht gestrichene Zahl muss nun ebenfalls eine Primzahl sein, und deren Vielfache werden ebenfalls gestrichen.
+Also zunächst alle Vielfachen von 3, dann von 5, 7 usw.
+
+Es genügt dabei, jeweils beim Quadrat der neu gefundenen Primzahl zu starten, denn alle kleineren Vielfachen wurden bereits entfernt.
+
+Ist dieses Quadrat grösser als der maximale Wert, bis zu dem die Primzahlen gesucht werden sollen, hat man alle nicht-Primzahlen gestrichen und es sind nur noch die Primzahlen übrig.
+
+https://youtu.be/mX6VQtbNywg?t=91[Hier,window=_blank] findest Du ein Video, das dieses Verfahren zeigt.
+
+Programmiere in der Klasse `....execise.eratosthenes.Eratosthenes` die Funktion `ArrayList<Integer>&nbsp;eratosthenes(int&nbsp;n)`, die dieses Verfahren implementiert und alle Primzahlen kleiner als `n` in einer aufsteigend sortierten Liste zurückgibt.
+
+Für `n` = 100 sollte sich folgendes Resultat ergeben:
+
+2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97
+
+Für wie grosse Werte von `n` funktioniert Deine Lösung noch schnell?

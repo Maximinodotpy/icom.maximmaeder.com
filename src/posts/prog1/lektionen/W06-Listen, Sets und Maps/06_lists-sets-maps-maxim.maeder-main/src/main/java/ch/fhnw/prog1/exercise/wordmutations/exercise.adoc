@@ -1,0 +1,38 @@
+== Wort-Mutanten
+
+Schreibe ein Programm, welches eine Liste von Wörtern über mehrere _Generationen_ hinweg mutiert und dadurch neue Wörter "erfindet". Stelle Dir die einzelnen Zeichen der Wörter als eine Art DNA vor, die bei der "Fortpflanzung" neu kombiniert wird:
+
+
+Die Stelle, wo die DNA getrennt wird, wird jeweils zufällig gewählt. Im Gegensatz zu dieser Abbildung soll das Programm auch nicht nur mit zwei Wörtern arbeiten, sondern mit einer ganzen Liste von Wörtern. Diese Liste, wofür Du natürlich den Typ `ArrayList` verwendest, stellt die _Population_ dar. Aus der Population werden immer wieder zwei Wörter zufällig für die Fortpflanzung bestimmt.
+
+[loweralpha]
+. Erstelle ein neues Programm `WordMutants`. Es gibt für diese Aufgabe keine Vorlage.
+Erstelle als Erstes eine Liste von Wörtern, welche die Startpopulation darstellt. Du kannst z. B. folgende Wörter verwenden:
++
+[source,java]
+----
+"skateboard", "javascript", "actress", "spaceship",
+"mastermind", "guacamole", "elephant", "imagination",
+"multitasking", "fingernail", "stupidity", "dishwasher",
+"babyphone", "internet", "grandmother", "radioactivity",
+"midnight", "landscape", "platinum", "crocodile"
+----
++
+Schreibe anschliessend eine Schleife, welche die Mutationen durchführt. Du kannst z. B. eine `for`-Schleife verwenden, welche 10 Generationen durchläuft. In jeder Generation sollen 20 zufällige Fortpflanzungen durchgeführt werden. Die neu entstandenen Wörter werden in die Population eingefügt.
++
+Damit die Population nicht immer grösser wird, soll sie nach jeder Generation auf 40 Wörter beschränkt werden. Es werden also per Zufall wieder Wörter aus der Liste entfernt.
+
+. Du wirst merken, dass durch diesen einfachen Algorithmus viele Wörter entstehen, welche "unnatürlich" aussehen, da sie z. B. zu viele Vokale oder Konsonanten enthalten. Füge deshalb einen weiteren Schritt ein, bei welchem nur jene Wörter "überleben", welche gewissen Kriterien genügen. Du kannst z. B. die Wortlänge prüfen, oder das Verhältnis zwischen Vokale und Konsonanten. Oder, etwas schwieriger: dass nicht zu viele Vokale/Konsonanten _aufeinander folgen_. Experimentiere mit verschiedenen Kriterien.
+
+Hier ein paar Beispiele von Wörtern, welche dieser Algorithmus schon erfunden hat:
+
+----
+crankatile
+finginaphone
+bumascape
+guarocoy
+lateboard
+----
+
+Was könnten sie bedeuten? 🤔
+

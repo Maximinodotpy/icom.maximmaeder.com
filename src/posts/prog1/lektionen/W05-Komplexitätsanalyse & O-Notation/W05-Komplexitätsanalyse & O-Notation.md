@@ -4,7 +4,7 @@ sources:
 lernziele: https://prog1.pages.fhnw.ch/2026hs/docs/w05-o-notation/#_lernziele
 Woche: "5"
 ---
-  ![[Basisaufgaben]]
+  ![[prog1/lektionen/W05-Komplexitätsanalyse & O-Notation/Basisaufgaben]]
 
 ## Anzahl Anweisungen/Instruktionen
 
