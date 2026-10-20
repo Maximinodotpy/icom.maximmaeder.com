@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.path.startsWith("prog1")
+        - "!lernziele.isEmpty()"
+    order:
+      - file.name
+      - lernziele
+      - Woche
+      - lernziele_text
+    columnSize:
+      file.name: 279
+      note.Woche: 81

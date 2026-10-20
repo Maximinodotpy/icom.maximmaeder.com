@@ -1,3 +1,7 @@
+---
+lernziele: https://prog1.pages.fhnw.ch/2026hs/docs/w06-listen-sets-maps/#_lernziele
+Woche: "6"
+---
 ![[Listen, Sets und Maps 2026-10-19 09.51.50.excalidraw]]
 
 ```java
