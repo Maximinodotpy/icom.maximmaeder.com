@@ -2,6 +2,7 @@
 lernziele: https://prog1.pages.fhnw.ch/2026hs/docs/w04-objekte-verbinden-kapseln/#_lernziele
 Woche: "4"
 ---
+
 ## Aliasing
 
 Objekte werden in Java nicht kopiert, wenn sie einer Variable zugewiesen oder als Argument einer Methode oder einem Konstruktor übergeben werden – nur die _Referenz_ wird kopiert.
@@ -9,6 +10,17 @@ Objekte werden in Java nicht kopiert, wenn sie einer Variable zugewiesen oder al
 Je nach dem kann dies gewollt sein, es kann aber auch zu ungewollten Effekten führen.
 
 Dem entgegenwirken kann man entweder mit **Defensive Copying** oder **Immutability**.
+
+## Immutability
+* **Unveränderliche Objekte (Immutable Classes)**:
+* Deklariere Attribute als `private final`.
+* **Keine Mutatoren/Setter** anbieten!
+* **Verändernde Methoden (wie `plus`, `add`)**: Verändern **nie** `this`, sondern geben immer ein **neues Objekt** zurück:
+`return new Amount(this.galleons + other.galleons, ...);`
+
+## Preconditions & Exceptions
+* Vorbedingungen prüfen und bei Verletzung explizit werfen:
+`if (bedinguingVerletzt) throw new IllegalArgumentException("Text");`
 
 ## Javadoc-Kommentare
 

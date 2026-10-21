@@ -1,0 +1,1 @@
+[Nugget 14 (Funktionen 5 - Exponentielles Wachstum - Teil 1)](https://tube.switch.ch/videos/nVH4WrnCvS)

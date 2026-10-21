@@ -2,9 +2,7 @@
 lernziele: https://prog1.pages.fhnw.ch/2026hs/docs/w06-listen-sets-maps/#_lernziele
 Woche: "6"
 ---
-![[Listen, Sets und Maps 2026-10-19 09.51.50.excalidraw]]
 
-![[Excalidraw/basisaufgaben]]
 
 
 ```java
@@ -21,7 +19,7 @@ class Room {private Lamp[] lamps;
 }
 ```
 
-## `ArrayList`
+## ArrayList
 
 ```java
 import java.util.ArrayList;
@@ -36,13 +34,18 @@ Die folgende Tabelle zeigt, die wesentlichen Entsprechungen zwischen einem Array
 | lesen     | `l = arr[i]`  | `l = lst.get(i)`         |
 | schreiben | `arr[i] = l`  | `lst.set(i, l)`          |
 | Grösse    | `arr.length`  | `lst.size()`             |
-
+* Erlaubt Duplikate, behält Reihenfolge bei.
+* `remove("element")` entfernt das *erste* Vorkommen und gibt `boolean` zurück.
+* System.out.println zeigt: `[one, two]`.
 ## HashSet
 
 ```java
 private final HashSet<String> validTickets = new HashSet<>();
 ```
 
+* Keine Duplikate! `add()` auf existierendes Element wird ignoriert.
+* Keine garantierte Reihenfolge.
+* `.remove("nicht vorhanden")` gibt `false` zurück.
 ## HashMap
 
 ```java
@@ -54,6 +57,12 @@ lampDirectory.put("Hallway/Ceiling-Lamp", hallway.lamp[0]);
 // to find a certain `Lamp` by name use
 Lamp l = lampDirectory.get("Hallway/Ceiling-Lamp");
 ```
+
+* Schlüssel-Wert-Paare (Keys sind eindeutig).
+* `map.put(key, val)`: Bei doppeltem Key wird der alte Wert **überschrieben**.
+* `.keySet()` = Set aller Keys, `.values()` = Collection aller Werte.
+* **Achtung `Map.of(...)**`: Erzeugt eine **unveränderliche (immutable)** Map.
+* `map.get(key)` liefert `null`, wenn der Key nicht existiert (wirft **keine** Exception!).
 ## Lernziele
 
 - [ ] ==🟢die Unterschiede und Gemeinsamkeiten der Datenstrukturen _Array_ und _ArrayList_ verstehen und erklären können.
