@@ -1,0 +1,21 @@
+views:
+  - type: cards
+    name: Grid
+    filters:
+      and:
+        - file.tags.contains("eigenschaft_einer_funktion")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.image
+    imageAspectRatio: 1
+    cardSize: 170
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.tags.contains("eigenschaft_einer_funktion")
+    order:
+      - file.name

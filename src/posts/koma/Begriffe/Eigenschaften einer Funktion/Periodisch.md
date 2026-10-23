@@ -1,3 +1,7 @@
+---
+tags:
+  - eigenschaft_einer_funktion
+---
 Eine Funktion $f$ nennt man periodisch, wenn sich die Funktionswerte nach $T$ wiederholen.
 
 $$

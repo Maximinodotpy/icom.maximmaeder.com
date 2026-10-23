@@ -1,1 +1,3 @@
 [Nugget 11 (Funktionen 2 - Lineare Funktionen - Teil 1)](https://tube.switch.ch/videos/3axf7DSOUv)
+
+![[1-Einführung Funktionen#^linearefunktiondefinition]]

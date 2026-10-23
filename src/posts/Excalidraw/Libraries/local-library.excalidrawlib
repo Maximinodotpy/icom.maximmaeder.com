@@ -1,0 +1,81 @@
+{
+  "type": "excalidrawlib",
+  "version": 2,
+  "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.29.0",
+  "libraryItems": [
+    {
+      "status": "unpublished",
+      "elements": [
+        {
+          "id": "DCivkplZK-sXdiCJjkMOp",
+          "type": "rectangle",
+          "x": -80,
+          "y": -180,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "solid",
+          "strokeWidth": 2,
+          "strokeStyle": "solid",
+          "roughness": 0,
+          "opacity": 100,
+          "groupIds": [],
+          "frameId": null,
+          "index": "a2",
+          "roundness": null,
+          "seed": 824477656,
+          "version": 16,
+          "versionNonce": 2012597464,
+          "isDeleted": false,
+          "boundElements": [],
+          "updated": 1792757860864,
+          "created": 1792757860864,
+          "link": null,
+          "locked": false,
+          "hasTextLink": false
+        }
+      ],
+      "id": "xrJW0jEAFaQ6gaHVLyg0C",
+      "created": 1792757867635
+    },
+    {
+      "id": "U2-Sn3iPKUSlYLXbDLO_t",
+      "status": "unpublished",
+      "elements": [
+        {
+          "id": "WkXCtZJN",
+          "type": "rectangle",
+          "x": -100,
+          "y": -200,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "strokeColor": "#1e1e1e",
+          "backgroundColor": "transparent",
+          "fillStyle": "solid",
+          "strokeWidth": 2,
+          "strokeStyle": "solid",
+          "roughness": 0,
+          "opacity": 100,
+          "groupIds": [],
+          "frameId": null,
+          "index": "a0",
+          "roundness": null,
+          "seed": 1990043864,
+          "version": 12,
+          "versionNonce": 1356240296,
+          "isDeleted": false,
+          "boundElements": [],
+          "updated": 1792757844046,
+          "created": 1792757829822,
+          "link": null,
+          "locked": false,
+          "hasTextLink": false
+        }
+      ],
+      "created": 1792757856014
+    }
+  ]
+}

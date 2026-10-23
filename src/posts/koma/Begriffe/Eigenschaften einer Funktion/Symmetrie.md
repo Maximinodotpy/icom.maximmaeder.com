@@ -1,3 +1,7 @@
+---
+tags:
+  - eigenschaft_einer_funktion
+---
 Wir nennen eine Funktion <span style='color: var(--custom-word-green, green)'>gerade (symmetrisch)</span> wenn $f(-x) = f(x)$.
 
 Bei der [[1-Potenzfunktionen#^normalparabel|normalen Parabel]] ist das so.

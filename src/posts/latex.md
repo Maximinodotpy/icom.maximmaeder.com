@@ -62,6 +62,14 @@ which looks like this
 | --------- | --------- | --------------------------------------------------------------------------- |
 | `\exists` | $\exists$ | [[2-praedikate-und-quantoren#Definition ∃ (Existenzquantor)\|Es existiert]] |
 | `\forall` | $\forall$ | [[2-praedikate-und-quantoren#Defintion ∀ (Allquantor)\|Für alle]]           |
+## Pfeile
+
+| Befehl            | Symbol            | Bedeutung                                               |
+| ----------------- | ----------------- | ------------------------------------------------------- |
+| `\rightarrow`     | $\rightarrow$     | Pfeil nachts rechts ([[6-funktionen\|MGLI Funktionen]]) |
+| `\leftarrow`      | $\leftarrow$      | Pfeil nach links                                        |
+| `\longrightarrow` | $\longrightarrow$ | Langer Pfeil nach rechts                                |
+| `\longleftarrow`  | $\longleftarrow$  | Langer Pfeil nach links                                 |
 
 ## Mengen
 | Befehl                | Symbol                | Bedeutung                                                                             |

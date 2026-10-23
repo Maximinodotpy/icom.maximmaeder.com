@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "sources": "multitext",
-    "video": "multitext"
+    "video": "multitext",
+    "image": "text"
   }
 }

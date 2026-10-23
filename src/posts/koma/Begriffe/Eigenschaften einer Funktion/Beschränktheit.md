@@ -1,3 +1,9 @@
+---
+tags:
+  - eigenschaft_einer_funktion
+description:
+image: Excalidraw/Beschränktheit 2026-10-23 14.16.01.excalidraw.svg
+---
 Existiert ein Wert $y_0 \in \mathbb{W}$, so dass für alle $x$-Werte des Definitionsbereichs $f(x) \leq y_0$ gilt, so nennt man die Funktion $f$ nach <span style='color: var(--custom-word-green, green)'>oben beschränkt</span>
  (und $y_0$ nennt man die <span style='color: var(--custom-word-green, green)'>obere Schranke</span>)
 
