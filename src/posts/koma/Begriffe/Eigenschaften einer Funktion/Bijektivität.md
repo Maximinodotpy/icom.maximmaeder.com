@@ -1,6 +1,7 @@
 ---
 tags:
   - eigenschaft_einer_funktion
+image: "#ff0000"
 ---
 > [!abstract] Definition der Bijektivität
 > Eine [[1-Einführung Funktionen|Funktion]] $f: A \rightarrow B$ nennt man <span style='color: var(--custom-word-green, green)'>bijektiv</span> wenn sie [[Injektivität|injektiv]] und [[Surjektivität|surjektiv]] ist.

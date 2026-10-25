@@ -12,3 +12,5 @@ tags:
 > Es wird also kein $y$-Wert doppelt von der Funktion getroffen.
 
 ^definition
+
+![[6-funktionen#^523069]]
