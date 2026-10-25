@@ -28,5 +28,3 @@ $$
 ```desmos-graph
 y = 2x -1
 ```
-
-[^1]: hallo

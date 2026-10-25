@@ -20,7 +20,7 @@ schriftliche_notizen: "[[6-funktionen-übungen]]"
 
 > [!example]+ Beispiel 2
 > Es sei $F = \{ (x,y) \in \mathbb{R} \times \mathbb{R} | y = 2*x \}$
-> Dann ist das eine $F$ eine [[1-Einführung, Definition, Steigung und y-Achsenabschnitt|(lineare) Funktion]] von $\mathbb{R}$ nach $\mathbb{R}$
+> Dann ist das $F$ eine [[1-Einführung, Definition, Steigung und y-Achsenabschnitt|(lineare) Funktion]] von $\mathbb{R}$ nach $\mathbb{R}$
 > Für $x \in \mathbb{R}$ ist $F(x) = 2 * x$
 
 ^beispiel2
@@ -71,7 +71,7 @@ y = 2x
 Die Funktion $F: \mathbb{N} \rightarrow \mathbb{N}$ sei durch $f(x) = 2x$ definiert.
 
 ![[6-funktionen 2026-10-23 13.21.03.excalidraw||100%]]
-In der Wertemenge existiert nur für eine gerade Zahl $y \in \mathbb{N}$ ein Urbild (Argument, Input) $x \in \mathbb{N}$, so dass $y = f(x) = 2x$ gilt. Diese Menge wird <span style='color: var(--custom-word-green, green)'>Bildmenge</span> der Funktion $f$ genannt.
+In der [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Wertemenge]] existiert nur für eine gerade Zahl $y \in \mathbb{N}$ ein Urbild (Argument, Input) $x \in \mathbb{N}$, so dass $y = f(x) = 2x$ gilt. Diese Menge wird <span style='color: var(--custom-word-green, green)'>Bildmenge</span> der Funktion $f$ genannt.
 
 > [!abstract] Definition
 > Für eine Funktion $f: A \rightarrow B$ heisst die Menge $f(a) = \{y \in B | \exists x \in A : f(x) = y\}$ <span style='color: var(--custom-word-green, green)'>Bildmenge</span> von $f$
@@ -121,5 +121,4 @@ In der Wertemenge existiert nur für eine gerade Zahl $y \in \mathbb{N}$ ein Urb
 
 siehe prog1 [[W05-Komplexitätsanalyse & O-Notation]]
 
-### Rechenregeln
 ![[W05-Komplexitätsanalyse & O-Notation#Rechenregeln]]
