@@ -12,5 +12,6 @@
   "obsidian-hider",
   "omnisearch",
   "embedded-omnisearch",
-  "obsidian-copy-block-link"
+  "obsidian-copy-block-link",
+  "url-into-selection"
 ]
