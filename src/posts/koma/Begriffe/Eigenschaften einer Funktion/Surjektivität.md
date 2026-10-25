@@ -8,5 +8,9 @@ tags:
 > Heisst die Funktion kann jeden $y$-Wert treffen.
 >
 > Also die [[6-funktionen#Bildmenge|Bildmenge]] ist gleich der [[6-funktionen|Wertemenge]]
+>
+> graphisch hiesse das, dass bei jedem element auf der rechten Seite <u>mindestens</u> ein Pfeil ankommt.
+>
+> ![[Surjektivität_graphische_darstellung||100%]]
 
 ^definition

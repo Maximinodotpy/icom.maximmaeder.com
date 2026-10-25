@@ -119,7 +119,7 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 > also: $S \circ R = \{(a, c) \in A \times C \quad | \quad \exists b \in B : aRb \land bSc\}$
 
 > [!warning] Warnung
-> Umgekehrte Notation in der Literatur: manchmal steht dann $R \circ S$ wobei es aber Sinn macht zuerst das $S$ zu schreiben dann aber trotzdem von hinten nach vorne zu arbeiten.: Mehr dazu in [[6-funktionen|Funktionen]].
+> Umgekehrte Notation in der Literatur: manchmal steht dann $R \circ S$ wobei es aber Sinn macht zuerst das $S$ zu schreiben dann aber trotzdem von hinten nach vorne zu arbeiten: Mehr dazu in [[6-funktionen|Funktionen]].
 
 > [!example]+ Beispiel
 > Es seien

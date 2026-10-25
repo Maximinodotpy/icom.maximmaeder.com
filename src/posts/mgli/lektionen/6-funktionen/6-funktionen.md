@@ -115,8 +115,55 @@ In der [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Wertemenge]
 
 ## Verknüpfung von Funktionen
 
+Es sei $F: A \rightarrow B$ eine Funktion von $A$ nach $B$ und $G: B \rightarrow C$.
+
+![[6-funktionen 2026-10-25 13.09.21.excalidraw||100%]]
+
+Dann ist die Verknüpfung $G \circ F$ wieder eine Funktion, und zwar von $A$ nach $C$.
+
+Für die Funktion $G \circ F$ gilt $(G \circ F)(a) = G(F(a))$.
+
+Wie bei Programmiersprachen wird die Funktion welche näher am Argument steht zuerst ausgewertet.
+
+Begründen können wir das damit da $F$ eine Funktion ist, existiert zu jedem $a \in A$ genau ein $b \in B$ mit $aFb$ (Es ist also $b = F(a)$)
+Und da $G$ eine Funktion ist, existiert genau ein $c \in C$ mit $bGc$ (Es ist also $c = G(b)$)
+
+Definitionsgemäss ist also $a(G \circ F)c$ bzw. $c = (G \circ F)(a)$
+
+Siehe: [[5-relationen#Verknüpfen]]
+
+> [!example]+ Beispiel
+> Es seien $F: \mathbb{R} \rightarrow \mathbb{R}$ definiert durch $F(x) = x^2$ und $G: \mathbb{R} \rightarrow \mathbb{R}$ definiert durch $G(x) = x + 1$
+>
+> Dann gilt $(G \circ F)(x) = G(F(x)) = G(x^2) = x^2 + 1$
+>
+>![[6-funktionen_richtige_verknüpfung]]
+>
+> und $(F \circ G)(x) = F(G(x)) = F(x + 1) = (x + 1)^2$
+>
+>![[6-funktionen_umgekehrte_verknüpfung]]
+>
+> Somit wäre also zb. $(G \circ F)(3) = 10$ und $(F \circ G)(3) = 16$
+
+> [!warning]+ Beispiel
+> Verknüpfungen von [[5-relationen|Relationen]] sind nicht [[kommutativ]]
 ## Inverse Funktionen
 
+Betrachten wir folgende Relation:
+$A = \{\text{alle Städte der Schweiz}\}$ und $B = \{\text{alle Kantone der Schweiz}\}$
+$F = \{(x,y) \in A \times B \text{ } | \text{ x liegt in y}\}$
+
+Diese Relation ist ebenfalls eine [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]].
+
+Ist die inverse Relation auch eine Funktion? $F^{-1} = \{(y,x) \in B \times A \text{ } | \text{ y enthält x}\}$
+
+Nein, jedes $y \in B$, also jeder Kanton, steht mit mehreren Städten in Relation.
+
+![[6-funktionen 2026-10-25 13.57.15.excalidraw]]
+
+Somit stellt sich die Frage: Wann ist die inverse Relation einer Funktion wieder eine Funktion?
+
+Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]] muss einerseits [[Injektivität|injektiv]] und [[Surjektivität|surjektiv]] (Also [[Bijektivität|bijektiv]]) sein damit man sie umkehren kann und sie immer noch eine Funktion ist.
 ## Asymptotisches Verhalten von Funktionen
 
 siehe prog1 [[W05-Komplexitätsanalyse & O-Notation]]

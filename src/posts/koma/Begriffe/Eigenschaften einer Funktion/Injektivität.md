@@ -10,7 +10,9 @@ tags:
 > Oder nochmals anders ausgedrückt zwei verschieden Werte können nicht zum selben Ergebnis führen.
 >
 > Es wird also kein $y$-Wert doppelt von der Funktion getroffen.
+>
+>graphisch hiesse das, dass bei jedem Element auf der rechten Seite <u>höchstens</u> ein Pfeil ankommt.
+>
+> ![[Injektivität_graphische_darstellung||100%]]
 
 ^definition
-
-![[6-funktionen#^523069]]
