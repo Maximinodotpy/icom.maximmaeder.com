@@ -11,6 +11,8 @@ schriftliche_notizen: "[[6-funktionen-übungen]]"
 cssclasses:
   - hide-embedded-headers
 ---
+## Definition der Funktion
+
 ![[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion]]
 
 > [!example]+ Beispiel 1
@@ -186,16 +188,71 @@ Für eine Funktion $F$, deren Definitionsbereich und Wertebereich aus Zahlen bes
 > ![[6-funktionen_winkelhalbierende]]
 ## Asymptotisches Verhalten von Funktionen
 
-siehe prog1 [[W05-Komplexitätsanalyse & O-Notation]]
+Die Laufzeit eines Programms hängt typischerweise von der Eingabegrösse ab.
 
+```java
+int[] array = {4, 7, 2, 9, 1, 5};
+
+int sum = 0;
+
+for (int i = 0; i < array.length; i++)
+	sum = sum + array[i]
+	
+System.out.println("Die Summe ist: " + sum)
+```
+
+Dieser Algorithmus summiert alle Elemente in einem Array auf. Für jedes Element im Array wird eine Addition ausgeführt. Ausserdem haben wir noch drei Schritte ausserhalb der Schleife.
+
+Wenn wir ein Array mit $n$ Elementen haben, dann führt der Algorithmus also $f(n) = n + 3$ Befehle aus.
+
+> [!abstract] Definition
+> Die <span style='color: var(--custom-word-green, green)'>Laufzeit</span> eines Programms wird als Anzahl der ausgeführten Befehle in Abhängigkeit der Eingabelänge $n$ durch eine Funktion $f(n)$ definiert.
+
+> [!warning] Problem
+> Die genaue Anzahl an Befehlen für Eingaben einer festen Länge n zu zählen ist sehr aufwändig, bzw. fast nicht möglich. Das hängt des weiteren auch von der Programmiersprache ab.
+>
+> Wir brauchen die genau Anzahl Schritte aber sowieso nicht. Wir fokussieren uns auf das <span style='color: var(--custom-word-green, green)'>Wachstumsverhalten</span> der Funktion, insbesondere für grössere Eingaben.
+>
+> Damit stellen wir die frage, ob sich die Laufzeit verdoppelt wenn man auch die Eingabe verdoppelt. Oder verzehnfacht sich die Laufzeit bei Verdoppelung der Eingabe.
+>
+> Somit finden wir die Praktibalität eines Algorithmus.
+
+> [!abstract] Definition
+> Es seien $f,g: \mathbb{N} \rightarrow R$ zwei Funktionen. Dann ist
+> $$
+> f(n) \in \mathcal{O}(g(n))
+> $$
+> Es existiert ein $n_0 \in \mathbb{N}$ und ein $c \in \mathbb{N}$, so dass für alle $n \ge n_0$ gilt $f(n) \le c * g(n)$
+> $f$ wächst also asymptotisch <u>nicht schneller</u> als $g$.
+>
+> $$
+> f(n) \in \Omega(n)
+> $$
+> Es existiert ein $n_0 \in \mathbb{N}$ und ein $d \in \mathbb{N}$, so dass für alle $n \ge n_0$ gilt $f(n) \ge \frac{1}{d} * g(n)$
+> $f$ wächst asymptotisch <u>mindestens</u> so schnell wie g.
+>
+> $$
+> f(n) \in \Theta(n)
+> $$
+> Es gilt $f(n) \in \mathcal{O}(g(n))$ und $f(n) \in \Omega(g(n))$
+> $f$ und $g$ sind asymptotisch <u>gleich</u>.
+
+> [!example]+ Beispiel
+> 1. $7n + 4 \in \mathcal{O}(n)$
+>    Für alle $n \ge n_0 = 4$ ist $f(n) = 7n + 4 \le 7n + n = 8n = c * g(n)$
+> 2. $\frac{1}{2}n^2 + 5n - 4 \in \mathcal{O}(n^2)$
+>    Für alle $n \ge 1$ ist $\frac{1}{2}n^2 + 5n - 4 \le n^2 + 5n^2 = 6n^2$
+> 3. $n^2 \notin \mathcal(n)$
+>    Sonst müssten Zahlen $n_0$ und $c$ existieren mit $n^2 \le c * n$ für alle $n \ge n_0$
+
+Siehe: [[W05-Komplexitätsanalyse & O-Notation]]
 ## Rechenregeln
-
 ![[W05-Komplexitätsanalyse & O-Notation#Rechenregeln]]
 
 ## Lernziele
 
-- [ ] Sie können prüfen, ob eine Relation eine Funktion ist.
-- [ ] Sie kennen die Definition der Definitions- und der Wertemenge.
+- [ ] ==🟢Sie können prüfen, ob eine Relation eine Funktion ist.
+- [ ] ==🟢Sie kennen die Definition der Definitions- und der Wertemenge.
 - [ ] Sie kennen übliche Darstellungen von Funktionen, wie z. B. die Darstellung als Funktionsgraph und als Zuordnung f : A → B mit f (x ) = y .
 - [ ] Sie kennen die Definition des Arguments (Urbild, Input).
 - [ ] Sie können die Bildmenge einer Funktion bestimmen.

@@ -102,13 +102,16 @@ $$\sum$$
 
 ## Sonstiges
 
-| Befehl        | Beispiel/Symbol | Bedeutung |
-| ------------- | --------------- | --------- |
-| `_n`          | $b_1$           |           |
-| `\infty`      | $\infty$        | Unendlich |
-| `\text{Text}` | $\text{Text}$   | Text      |
-| `\quad`       | $\quad$         | Abstand   |
-|               |                 |           |
+| Befehl        | Beispiel/Symbol | Bedeutung   |
+| ------------- | --------------- | ----------- |
+| `b_1`         | $b_1$           |             |
+| `\infty`      | $\infty$        | Unendlich   |
+| `\text{Text}` | $\text{Text}$   | Text        |
+| `\quad`       | $\quad$         | Abstand     |
+| `\omega`      | $\omega$        | Omega klein |
+| `\Omega`      | $\Omega$        | Omega gross |
+| `\theta`      | $\theta$        | Theta klein |
+| `\Theta`      | $\Theta$        | Theta gross |
 
 ### Mehrstufige Gleichung
 ```latex
