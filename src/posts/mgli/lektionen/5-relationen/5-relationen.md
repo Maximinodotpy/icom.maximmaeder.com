@@ -200,7 +200,7 @@ Damit haben wir über eine Äquivalenzklasse eine [[4-mengen#Partition|Partition
 $P = \{... \{\text{Alle Städte der Schweiz}\} ... \{\text{Alle Städte von Frankreich}\} ...\}$
 
 
-Graphisch Dargestellt sieht könnte das so aussehen:
+Graphisch könnte das so aussehen:
 Wir haben eine [[4-mengen|Menge]] aus Formen in verschiedenen Farben:
 ![[5-relationen_äquivalenz_beispiel_menge||100%]]
 Nun könnte wir diese [[4-mengen|Menge]] auf folgende Art und Weise [[4-mengen#Partition|Partitionieren]]. in diesem fall nach der Form.

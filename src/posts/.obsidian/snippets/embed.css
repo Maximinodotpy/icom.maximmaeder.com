@@ -7,6 +7,6 @@ body {
     --custom-word-gesproche-blue: #51d1df;
 }
 
-.hide-embedded-headers .markdown-embed :is(h1, h2, h3) {
+/* .hide-embedded-headers  */.markdown-embed :is(h1, h2, h3) {
 	display: none; 
 }

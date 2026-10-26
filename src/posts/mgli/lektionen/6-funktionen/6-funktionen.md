@@ -54,7 +54,7 @@ Somit wären folgende Darstellungen keine Funktionen.
 
 ![[6-funktionen_invalide_bipartite_graphen||100%]]
 
-Wenn Definitions- und Wertebereich einer Funktion $F$ aus Zahlen besteht, stellt man die Funktionen oft in einem [[Kartesisches Koordinatensystem]] dar, wobei die horizontale Achse ([[Abszissenachse]]) den Definitionsbereich und die vertikale Achse ([[Ordinatachse]]) den Wertebereich enthält.
+Wenn Definitions- und [[Wertebereich]] einer Funktion $F$ aus Zahlen besteht, stellt man die Funktionen oft in einem [[Kartesisches Koordinatensystem]] dar, wobei die horizontale Achse ([[Abszissenachse]]) den [[Definitionsbereich]] und die vertikale Achse ([[Ordinatachse]]) den [[Wertebereich]] enthält.
 
 ![[#^beispiel2]]
 
@@ -72,30 +72,30 @@ y = 2x
 > ![[Pasted image 20261023131343.png]]
 >Nein, weil so von einem $x$ (Kanton) mehrere [[5-relationen|Relationen]] zu viele Städten ausgehen können.
 
-## Definition der Bildmenge
+## Definition der [[Bildmenge]]
 
 ![[Bildmenge#^definition]]
 
 ![[Bildmenge#Beispiel]]
-## Definition der Betragsfunktion
+## Definition der [[Betragsfunktion]]
 
 ![[mgli/Begriffe/Betragsfunktion#^definition]]
 
 ## Eigenschaften einer Funktion
 
-### Definition der Monotonie
+### Definition der [[Monotonie]]
 
 ![[Monotonie#^definition]]
 
-### Definition der Injektivität
+### Definition der [[Injektivität]]
 
 ![[Injektivität#^definition]]
 
-### Definition der Surjektivität
+### Definition der [[Surjektivität]]
 
 ![[Surjektivität#^definition]]
 
-### Definition der Bijektivität
+### Definition der [[Bijektivität]]
 
 ![[Bijektivität#^definition]]
 
@@ -150,19 +150,19 @@ Siehe: [[5-relationen#Verknüpfen]]
 > Verknüpfungen von [[5-relationen|Relationen]] sind nicht [[kommutativ]]
 ## Inverse Funktionen
 
-Betrachten wir folgende Relation:
+Betrachten wir folgende [[5-relationen|Relation]]:
 $A = \{\text{alle Städte der Schweiz}\}$ und $B = \{\text{alle Kantone der Schweiz}\}$
 $F = \{(x,y) \in A \times B \text{ } | \text{ x liegt in y}\}$
 
-Diese Relation ist ebenfalls eine [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]].
+Diese [[5-relationen|Relation]] ist ebenfalls eine [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]].
 
-Ist die inverse Relation auch eine Funktion? $F^{-1} = \{(y,x) \in B \times A \text{ } | \text{ y enthält x}\}$
+Ist die inverse [[5-relationen|Relation]] auch eine Funktion? $F^{-1} = \{(y,x) \in B \times A \text{ } | \text{ y enthält x}\}$
 
-Nein, jedes $y \in B$, also jeder Kanton, steht mit mehreren Städten in Relation.
+Nein, jedes $y \in B$, also jeder Kanton, steht mit mehreren Städten in [[5-relationen|Relation]].
 
 ![[6-funktionen_inverse_funktion_stadt_beispiel]]
 
-Somit stellt sich die Frage: Wann ist die inverse Relation einer Funktion wieder eine Funktion?
+Somit stellt sich die Frage: Wann ist die inverse [[5-relationen|Relation]] einer Funktion wieder eine Funktion?
 
 Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]] muss einerseits [[Injektivität|injektiv]] und [[Surjektivität|surjektiv]] (Also [[Bijektivität|bijektiv]]) sein damit man sie umkehren kann und sie immer noch eine Funktion ist.
 
@@ -179,7 +179,7 @@ Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion
 Die Umkehrfunktion wird bestimmt, in dem man die Gleichung $F(x) = y$ nach $x$ auflöst.
 ### Winkelhalbierende
 
-Für eine Funktion $F$, deren Definitionsbereich und Wertebereich aus Zahlen bestehen, ergibt sich die Darstellung von $F^{-1}$ im Koordinatensystem aus der von $F$ durch Spiegelung an der ersten Winkelhalbierenden
+Für eine Funktion $F$, deren [[Definitionsbereich]] und [[Wertebereich]] aus Zahlen bestehen, ergibt sich die Darstellung von $F^{-1}$ im Koordinatensystem aus der von $F$ durch Spiegelung an der ersten Winkelhalbierenden
 
 > [!example]+ Beispiel
 > für $F: \mathbb{R} \rightarrow \mathbb{R}$ mit $F(x) = 2x$
@@ -222,20 +222,20 @@ Wenn wir ein Array mit $n$ Elementen haben, dann führt der Algorithmus also $f(
 > $$
 > f(n) \in \mathcal{O}(g(n))
 > $$
-> Es existiert ein $n_0 \in \mathbb{N}$ und ein $c \in \mathbb{N}$, so dass für alle $n \ge n_0$ gilt $f(n) \le c * g(n)$
-> $f$ wächst also asymptotisch <u>nicht schneller</u> als $g$.
+> Es [[Existensquantor|existiert]] ein $n_0 \in \mathbb{N}$ und ein $c \in \mathbb{N}$, so dass für alle $n \ge n_0$ gilt $f(n) \le c * g(n)$
+> $f$ wächst also [[asymptotisch]] <u>nicht schneller</u> als $g$.
 >
 > $$
 > f(n) \in \Omega(n)
 > $$
 > Es existiert ein $n_0 \in \mathbb{N}$ und ein $d \in \mathbb{N}$, so dass für alle $n \ge n_0$ gilt $f(n) \ge \frac{1}{d} * g(n)$
-> $f$ wächst asymptotisch <u>mindestens</u> so schnell wie g.
+> $f$ wächst [[asymptotisch]] <u>mindestens</u> so schnell wie g.
 >
 > $$
 > f(n) \in \Theta(n)
 > $$
 > Es gilt $f(n) \in \mathcal{O}(g(n))$ und $f(n) \in \Omega(g(n))$
-> $f$ und $g$ sind asymptotisch <u>gleich</u>.
+> $f$ und $g$ sind [[asymptotisch]] <u>gleich</u>.
 
 > [!example]+ Beispiel
 > 1. $7n + 4 \in \mathcal{O}(n)$
@@ -251,19 +251,19 @@ Siehe: [[W05-Komplexitätsanalyse & O-Notation]]
 
 ## Lernziele
 
-- [ ] ==🟢Sie können prüfen, ob eine Relation eine Funktion ist.
+- [ ] ==🟢Sie können prüfen, ob eine [[5-relationen|Relation]] eine Funktion ist.
 - [ ] ==🟢Sie kennen die Definition der Definitions- und der Wertemenge.
 - [ ] Sie kennen übliche Darstellungen von Funktionen, wie z. B. die Darstellung als Funktionsgraph und als Zuordnung f : A → B mit f (x ) = y .
 - [ ] Sie kennen die Definition des Arguments (Urbild, Input).
-- [ ] Sie können die Bildmenge einer Funktion bestimmen.
-- [ ] Sie verstehen die Betragsfunktion.
+- [ ] Sie können die [[Bildmenge]] einer Funktion bestimmen.
+- [ ] Sie verstehen die [[Betragsfunktion]].
 - [ ] Sie können überprüfen, ob eine Funktion – surjektiv, – injektiv, – bijektiv, – (streng) monoton steigend/fallend ist und erkennen diese Eigenschaften in allen Darstellungen von Funktionen.
 - [ ] Sie wissen, wann zwei Funktionen f und g zu g ◦ f verknüpft werden können und können diese Verknüpfung gegebenenfalls bestimmen.
 - [ ] Sie wissen, dass die Verknüpfung von Funktionen nicht kommutativ ist.
-- [ ] Sie wissen, wann für eine Funktion f die inverse Funktion f −1 existiert und können diese gegebe- nenfalls bestimmen.
+- [ ] Sie wissen, wann für eine Funktion f die inverse Funktion f^-1 existiert und können diese gegebenenfalls bestimmen.
 - [ ] Sie verstehen, wie die inverse Funktion einer invertierbaren Funktion im Funktionsgraphen graphisch dargestellt werden kann.
  - [ ] Sie haben verstanden, dass die Laufzeit von Programmen als Funktion der Eingabelänge beschrieben werden kann.
- - [ ] Sie verstehen die O -Notation und können Funktionen danach beurteilen.
+ - [ ] Sie verstehen die O-Notation und können Funktionen danach beurteilen.
  - [ ] Sie können die Laufzeit von einfachen Programmen in der O -Notation bestimmen.
  - [ ] Sie kennen die wichtigsten Zeitkomplexitäten: n, log(n), n2, 2n ,. . .
- - [ ] Sie kennen die wichtigsten Rechenregeln für die O -Notation und können diese einsetzen, um Funk- tionen bezüglich ihrer Komplexitätsklasse zu beurteilen.
+ - [ ] Sie kennen die wichtigsten Rechenregeln für die O -Notation und können diese einsetzen, um Funktionen bezüglich ihrer Komplexitätsklasse zu beurteilen.

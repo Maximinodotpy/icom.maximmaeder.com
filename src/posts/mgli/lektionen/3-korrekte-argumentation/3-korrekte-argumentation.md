@@ -56,7 +56,7 @@ Beweis: wir beginnen mit der wahren [[1-aussagen|Aussage]], dass $6 = 2*3$
 Hier ist bei jeder Implikation glasklar, warum sie richtig ist. Da die Startaussage offensichtlich auch richtig ist, damit auch die Zielaussage richtig.
 
 ### Beweisen von [[2-praedikate-und-quantoren#Defintion ∀ (Allquantor)|All-Aussagen]]
-Oft gelten [[1-aussagen|Aussagen]] nicht nur für ein Objekt sondern für eine ganze Menge.
+Oft gelten [[1-aussagen|Aussagen]] nicht nur für ein Objekt sondern für eine ganze [[4-mengen|Menge]].
 
 
 zb.

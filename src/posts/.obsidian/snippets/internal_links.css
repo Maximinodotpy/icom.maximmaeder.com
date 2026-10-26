@@ -1,0 +1,6 @@
+body {
+    --link-decoration: none;
+    --link-color: #be9aff;
+
+    --link-unresolved-color: red;
+}

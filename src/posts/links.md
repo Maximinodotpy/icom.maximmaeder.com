@@ -1,4 +1,5 @@
 ---
+tags: [backlink-exclude]
 title: Links
 description: Links important to my studies
 date: '2026-09-12'

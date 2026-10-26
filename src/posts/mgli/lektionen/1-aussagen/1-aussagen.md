@@ -78,7 +78,7 @@ Kehrt den Wert um also von wahr zu falsch und von falsch zu wahr. Geht vor, resp
 
 ![[Belegungen]]
 ## Syntaxbaum
-Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[Logische Formel#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene Belegungen zu prüfen.
+Einen Syntaxbaum kann man nutzen um auf visuelle Art und Weise eine [[Logische Formel#Logische Formel|logische Formel]] darzustellen. Es kann auch helfen verschiedene [[Belegungen]] zu prüfen.
 ![[1-aussagen_syntaxbaum||100%]]
 
 ![[Tautologie]]
@@ -106,7 +106,7 @@ Damit können wir logische Formeln vereinfachen: zb.
 3. $A \lor 0$ -> Identitätsgesetz
 4. $A$
 ## Normalformen
-Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine logische Formel zu analysieren.
+Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine [[logische Formel]] zu analysieren.
 Aus Übersichtlichkeitsgründen schreiben wir für die Negation $\neg A$ lieber $\bar{A}$.
 ### Konjunktive Normalform
 Und-Verknüpfungen aus Oder-Verknüpfungen welcher wiederum aus Variablen und negierte Variablen bestehen.
@@ -151,7 +151,7 @@ Hier verbinden wir diese beiden Fälle mit einer Konjunktion: $(\bar{A} \lor B \
 Die DNF ist gewissermassen das Gegenteil von der KNF.
 Was vorher Klauseln waren sind nun die **Minterme**.
 zb. $(A \land \bar{B}) \lor (C \land D)$
-Um die DNF zu bilden schauen wir alle erfüllenden Belegungen an und bilden analog zu dem KNF (negation zur Wahrheit) die Klauseln.
+Um die DNF zu bilden schauen wir alle erfüllenden [[Belegungen]] an und bilden analog zu dem KNF (negation zur Wahrheit) die Klauseln.
 
 ### Konjunktive- und Disjunktive Normalform zusammengefasst
 **KNF bestimmen:**

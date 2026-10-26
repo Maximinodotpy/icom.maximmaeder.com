@@ -1,6 +1,7 @@
 {
   "cssTheme": "",
   "enabledCssSnippets": [
-    "embed"
+    "embed",
+    "internal_links"
   ]
 }
