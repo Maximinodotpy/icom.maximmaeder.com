@@ -1,0 +1,10 @@
+{
+  "id": "link-assist",
+  "name": "Link Assist",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Assists with linking by hiding unlinked mentions based on tags or if already linked in the current note.",
+  "author": "Francis",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

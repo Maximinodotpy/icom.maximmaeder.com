@@ -128,7 +128,7 @@ x ^W175Gj9q
 
 4 ^kjd6clii
 
-Wenn es nur eine gerade Zahl gibt dann ist das der einzige Allquantor welcher True ergibt weil alle Äquivalenzen Stimmen. ^WU9kfGkj
+Wenn es nur eine gerade Zahl gibt dann ist das der einzige [[Allquantor]] welcher True ergibt weil alle Äquivalenzen Stimmen. ^WU9kfGkj
 
 x ^9FfEmIk3
 
@@ -136,7 +136,7 @@ x ^4yMQvQTO
 
 x ^ifvsXxWi
 
-gäbe es nun aber noch ein vier würde dieser und der andere Allquantor nicht stimmt weil es mindestens eine Äquivalenz gibt welche nicht stimmt. (zb. 4 ist gerade aber es nicht = 2) ^37weyg7Y
+gäbe es nun aber noch ein vier würde dieser und der andere [[Allquantor]] nicht stimmt weil es mindestens eine Äquivalenz gibt welche nicht stimmt. (zb. 4 ist gerade aber es nicht = 2) ^37weyg7Y
 
 ## Embedded Files
 5fb73859f2cac5cbb662578420977a9ba10bf5f3: $$\exists x \in M, \forall y \in M: (P(y) ⇔ (y = x))$$

@@ -9,7 +9,7 @@ sources:
 Woche: "3"
 schriftliche_notizen: "[[3-korrekte-argumentation-übungen]]"
 ---
-Das Ziel eines Beweises ist es, eine Aussage $Z$, die sogenannte *Zielaussage*, beweisen.
+Das Ziel eines Beweises ist es, eine [[1-aussagen|Aussage]] $Z$, die sogenannte *Zielaussage*, beweisen.
 ## Direkter Beweis
 Beim direkten Beweis starten wir dabei mit einer wahren [[1-aussagen|Aussage]] $A$, Das kann ein [Axiom](https://de.wikipedia.org/wiki/Axiom) der Mathematik sein oder eine Aussage, die schon früher bewiesen wurde.
 
@@ -18,7 +18,7 @@ Nun finden wir eine Folge von wahren [[1-aussagen#Implikation ⇒|Implikationen]
 $$
 A \Rightarrow B_1, B_1 \Rightarrow B_2, ..., B_{k-1} \Rightarrow B_k ,B_k \Rightarrow Z
 $$
-**Warum muss dan $Z$ wahr sein?**
+**Warum muss dann $Z$ wahr sein?**
 Weil bei einer Schlange von [[1-aussagen#Implikation ⇒|Implikationen]] jeder Wert wahr sein muss wenn es am Anfang mal wahr war.
 
 ### Teilbarkeit
@@ -28,8 +28,8 @@ Wir schreiben dann $a|b$ und nennen die Zahl $a$ einen Teiler von $b$, und das $
 
 Kompakt: $a|b \Leftrightarrow \exists i \in \mathbb{Z}: b = i * a$ (gesprochen: $a$ teilt $b$ genau dann wenn es (mindestens) eine Zahl gibt welche $b = i * a$)
 
-* $2|10$ da $10 = 5*2$ und $5 \in \mathbb{Z}$ (Das Prädikat stimmt und 5 ist eine [[koma/formelblatt#Zahlen|ganze Zahl]])
-* $3|7$ gilt nicht. Es ist zwar $7 = \frac{7}{3} * 3$, aber $\frac{7}{3} \notin \mathbb{Z}$ (Das Prädikat könnte stimmen aber $\frac{7}{3}$ ist keine [[koma/formelblatt#Zahlen|ganze Zahl]])
+* $2|10$ da $10 = 5*2$ und $5 \in \mathbb{Z}$ (Das [[Prädikat]] stimmt und 5 ist eine [[koma/formelblatt#Zahlen|ganze Zahl]])
+* $3|7$ gilt nicht. Es ist zwar $7 = \frac{7}{3} * 3$, aber $\frac{7}{3} \notin \mathbb{Z}$ (Das [[Prädikat]] könnte stimmen aber $\frac{7}{3}$ ist keine [[koma/formelblatt#Zahlen|ganze Zahl]])
 
 #### Gerade
 Eine Zahl $a\in\mathbb{Z}$ heisst gerade, wenn sie durch 2 teilbar ist, also $2|a$.
@@ -44,7 +44,7 @@ Also: 1, 2, 3, 5, 7, 11, 13 ...
 
 ### Beweisen wir das 6 keine Primzahl ist.
 Satz: 6 ist keine Primzahl.
-Beweis: wir beginnen mit der wahren Aussage, dass $6 = 2*3$
+Beweis: wir beginnen mit der wahren [[1-aussagen|Aussage]], dass $6 = 2*3$
 
 1. $6 = 2*3$
 2. $\Rightarrow \exists i \in \mathbb{Z}: 6 = i * 3$ (Das heisst es gibt eine [[koma/formelblatt#Zahlen|ganze Zahl]] welche mit 3 multipliziert 6 ergibt, nämlich $i = 2$)
@@ -56,12 +56,10 @@ Beweis: wir beginnen mit der wahren Aussage, dass $6 = 2*3$
 Hier ist bei jeder Implikation glasklar, warum sie richtig ist. Da die Startaussage offensichtlich auch richtig ist, damit auch die Zielaussage richtig.
 
 ### Beweisen von [[2-praedikate-und-quantoren#Defintion ∀ (Allquantor)|All-Aussagen]]
-Oft gelten Aussagen nicht nur für ein Objekt sondern für eine ganze Menge.
+Oft gelten [[1-aussagen|Aussagen]] nicht nur für ein Objekt sondern für eine ganze Menge.
 
 
 zb.
 
 ## Beweise durch Kontraposition
-
-
 ## Indirekter Beweis

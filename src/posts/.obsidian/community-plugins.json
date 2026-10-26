@@ -13,5 +13,6 @@
   "omnisearch",
   "embedded-omnisearch",
   "obsidian-copy-block-link",
-  "url-into-selection"
+  "url-into-selection",
+  "link-assist"
 ]

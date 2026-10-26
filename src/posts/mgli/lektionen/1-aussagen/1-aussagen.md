@@ -10,6 +10,11 @@ drehbuch: https://fhnw365.sharepoint.com/:b:/r/teams/E-mgli-HS26_M365/Kursmateri
 übungs_serie: "[[serie01.pdf]]"
 Woche: "1"
 schriftliche_notizen: "[[1-aussagen-übungen]]"
+aliases:
+  - aussage
+  - aussagen
+  - Aussage
+  - Aussagen
 ---
 ## Symbole für Aussagen
 

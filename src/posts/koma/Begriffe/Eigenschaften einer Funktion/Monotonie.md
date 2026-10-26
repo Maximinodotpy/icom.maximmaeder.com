@@ -18,7 +18,7 @@ tags:
 >
 > Wenn $f(x_1) < f(x_2)$ dann nennt man $f$ <span style='color: var(--custom-word-green, green)'>streng monoton</span>, hier muss es immer steigen.
 >
-> Gilt $f(x_1) \ge f(x_2)$ dann nennt man die Funktion <span style='color: var(--custom-word-green, green)'>monoton fallend</span> (Oder wenn $f(x_1) > f(x_2)$ dann <span style='color: var(--custom-word-green, green)'>streng monoton fallend</span>).
+> Gilt $f(x_1) \ge f(x_2)$ dann nennt man die [[6-funktionen|Funktion]] <span style='color: var(--custom-word-green, green)'>monoton fallend</span> (Oder wenn $f(x_1) > f(x_2)$ dann <span style='color: var(--custom-word-green, green)'>streng monoton fallend</span>).
 > $$
 > y = -x
 > $$

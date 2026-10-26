@@ -7,4 +7,8 @@ sources:
 Woche: "10"
 übungs_serie:
 schriftliche_notizen: "[[9-rekursion-übungen]]"
+aliases:
+  - rekursion
+  - Rekursion
+  - rekursiv
 ---

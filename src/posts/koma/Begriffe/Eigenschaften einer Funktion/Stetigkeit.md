@@ -2,8 +2,8 @@
 tags:
   - eigenschaft_einer_funktion
 ---
-Eine Funktion nennt man auf einem Intervall stetig, wenn kleine Änderungen bei der unabhängigen Variablen nur kleine Änderungen bei den Funktionswerten bewirkt.
-Oder: Eine Funktion ist auf einem Intervall stetig, wenn der Funktionsgraph ohne absetzen gezeichnet werden kann (keine Lücken und keine Sprünge aufweist).
+Eine [[6-funktionen|Funktion]] nennt man auf einem Intervall stetig, wenn kleine Änderungen bei der unabhängigen Variablen nur kleine Änderungen bei den Funktionswerten bewirkt.
+Oder: Eine [[6-funktionen|Funktion]] ist auf einem Intervall stetig, wenn der Funktionsgraph ohne absetzen gezeichnet werden kann (keine Lücken und keine Sprünge aufweist).
 
 $y = x^2$ ist stetig.
 

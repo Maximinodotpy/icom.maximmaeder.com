@@ -53,9 +53,9 @@ Das sind die gängigsten Komplexitätsklassen.
    $b^n \in O(n^k)$ für beliebige Wert von $b > 0$ und $k > 0$.
    Merke: Wenn die Problemgrösse $n$ in einem Exponenten sitzt, dann handelt es sich um eine Exponentialfunktion.
 
-7. **Produkte von Funktionen bilden jeweils eigene Klassen.**
+7. **Produkte von [[6-funktionen|Funktionen]] bilden jeweils eigene Klassen.**
    $n * \log(n) \in O(n * \log(n))$
    $2^n * n^2 \in O(2^n * n^2)$
-   Produkte von Funktionen sind in der Komplexitätsklasse der Produkts. Das heisst, Du kannst daran nichts vereinfachen, es wird aber auch nicht komplexer: $f * g \ in O(f * g)$
+   Produkte von [[6-funktionen|Funktionen]] sind in der Komplexitätsklasse der Produkts. Das heisst, Du kannst daran nichts vereinfachen, es wird aber auch nicht komplexer: $f * g \ in O(f * g)$
 
 ^rechenregeln

@@ -8,18 +8,23 @@ sources:
 übungs_serie: "[[serie05.pdf]]"
 schriftliche_notizen: "[[5-relationen-übungen]]"
 Woche: "5"
+aliases:
+  - relation
+  - relationen
+  - Relation
+  - Relationen
 ---
 ## Binäre Relation
 
 > [!abstract] Definition
->Es seien $A,B$ Mengen. Eine <span style='color: var(--custom-word-green, green)'>binäre Relation $R$ von $A$ nach $B$</span> ist eine [[4-mengen#Definition Teilmenge ($ subseteq$ und $ supseteq$)|Teilmenge]] von $A \times B$. Es gilt also $R \subseteq A \times B$. (Es ist eine Teilmenge der [[4-mengen#Kartesisches Produkt|geordneten Paare]])
+>Es seien $A,B$ [[4-mengen|Mengen]]. Eine <span style='color: var(--custom-word-green, green)'>binäre Relation $R$ von $A$ nach $B$</span> ist eine [[4-mengen#Definition Teilmenge ($ subseteq$ und $ supseteq$)|Teilmenge]] von $A \times B$. Es gilt also $R \subseteq A \times B$. (Es ist eine Teilmenge der [[4-mengen#Kartesisches Produkt|geordneten Paare]])
 >
 > Wenn $A = B$ sagt man dass <span style='color: var(--custom-word-green, green)'>$R$ eine Relation auf $A$</span> ist. Dann heisst $R$ <span style='color: var(--custom-word-green, green)'>homogen</span>, andernfalls <span style='color: var(--custom-word-green, green)'>heterogen</span>.
 >
 > Anstelle von $(a,b) \in R$ schreibt man oft $aRb$ und sagt: $a$ steht bzgl. $R$ zu $b$ in Relation.
 
 > [!example]+ Beispiel 1: Stammbaum
-> Wir haben folgende Menge mit Personen $M = \{Suzanne, Peter, Lisa, Niocle, Hans, Laura, Fritz, Julia\}$
+> Wir haben folgende [[4-mengen|Mengen]] mit Personen $M = \{Suzanne, Peter, Lisa, Niocle, Hans, Laura, Fritz, Julia\}$
 >
 > und folgenden Stammbaum.
 > ![[5-relationen_stammbaum||100%]]
@@ -39,7 +44,7 @@ Woche: "5"
 > Anstelle $xRy$ schreibt man bei dieser Relation $x \ge y$
 
 ^zahlenbeispiel
-### Bipartiter Graph
+### [[Bipartiter Graph]]
 Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--custom-word-green, green)'>[[bipartiter Graph]]</span> darstellen, das kann helfen das ganze zu visualisieren.
 
 **[[#^grossvaterbeispiel|Stammbaum]]**
@@ -50,12 +55,12 @@ Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--cust
 Des weiteren können Relationen insbesondere homogene Relationen als [[gerichteter Graph]] dargestellt werden.
 ## Eigenschaften
 
-Schauen wir uns die Eigenschaften einer [[#Binäre Relation|homogenen Relation]] an folgender Menge aus Elementen an.
+Schauen wir uns die Eigenschaften einer [[#Binäre Relation|homogenen Relation]] an folgender [[4-mengen|Menge]] aus Elementen an.
 ![[5-relationen_eigenschaften#^group=SnhHNT9c|menge|100%]]
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>reflexiv</span>, falls $\forall x \in M : xRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Alle $x$ aus $M$ stehen in relation mit sich selber)</span> Wenn jedes Element aus der Ursprungsmenge mit sich selbst in Relation steht.
   ![[5-relationen_eigenschaften#^group=qlcjXDDv|reflexiv|100%]]
   ^relationreflexiv
-- Eine Relation ist <span style='color: var(--custom-word-green, green)'>symmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow yRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle $x$ aus $M$ gilt dass wenn $x$ in einer relation mit $y$ steht dann steht aber $y$ in einer relation mit $x$)</span> Wenn jede Relation respektive das Prädikat davon auch umgekehrt stimmen würde.
+- Eine Relation ist <span style='color: var(--custom-word-green, green)'>symmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow yRx$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: für alle $x$ aus $M$ gilt dass wenn $x$ in einer relation mit $y$ steht dann steht aber $y$ in einer relation mit $x$)</span> Wenn jede Relation respektive das [[Prädikat]] davon auch umgekehrt stimmen würde.
   ![[5-relationen_eigenschaften#^group=OmbiZLLyz66rkvYXIUbSq|symmetrisch|100%]]
   ^relationsymmetrisch
 - Eine Relation ist <span style='color: var(--custom-word-green, green)'>antisymmetrisch</span> falls $\forall x,y \in M: xRy \Rightarrow (\neg(yRx)\lor x = y)$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen: Für alles $x$ und $y$ Tupel aus $M$ gilt dass wenn wenn $x$ in relation zu $y$ steht dann darf $y$ nicht in relation mit $x$ stehen oder $x$ sollte gleich $y$ sein)</span> Wenn zwei Elemente in Relation stehen dann kann es nicht sein dass sie auch umgekehrt in Relation stehen (Rückbeziehungen sind nur erlaubt wenn das Element identisch ist.)
@@ -65,20 +70,20 @@ Schauen wir uns die Eigenschaften einer [[#Binäre Relation|homogenen Relation]]
   ![[5-relationen_eigenschaften#^group=wK-TmWsDN41zMf_0kbrOG|transitiv|100%]]
   Man kann es auch noch gut mit folgendem Zahlenbeispiel erklären. Wenn $5$ kleiner als $7$ und $7$ kleiner als $9$ dann bedeutet dass auch dass $5$ kleiner als $9$ ist.
   ![[mgli/lektionen/5-relationen/zeichnungen/5-relationen_eigenschaften.md#^group=FA9bgMYMnrOMHFhcSPq4G|transitiv_beispiel_mit_zahlen|100%]]
-   Somit erkennt wir auch, dass eine transitive Relation nicht unbedingt auch Symmetrisch und/oder reflexiv sein muss.
+   Somit erkennt wir auch, dass eine transitive Relation nicht unbedingt auch [[5-relationen#^relationantisymmetrisch|Symmetrisch]] und/oder [[5-relationen#^relationreflexiv|reflexiv]] sein muss.
   ^relationtransitiv
 
 Für das [[#^grossvaterbeispiel|Grossvaterbeispiel]] von oben würde also gelten:
-* nicht reflex, da niemand sein eigener Grossvater ist.
+* nicht [[5-relationen#^relationreflexiv|reflex]], da niemand sein eigener Grossvater ist.
 * nicht symmetrisch: wenn $x$ der Grossvater von $y$ ist, dann kann nicht $y$ der Grossvater von $x$ sein.
 * ist antisymmetrisch: wenn $x$ der Grossvater von $y$ ist, dann ist $y$ nicht der Grossvater von $x$.
-* nicht transitiv: Wenn $x$ der Grossvater von $y$ ist, und $y$ der von $z$, dann ist nicht $x$ Grossvater von $z$ (sondern Ururgrossvater)
+* nicht [[5-relationen#^relationtransitiv|transitiv]]: Wenn $x$ der Grossvater von $y$ ist, und $y$ der von $z$, dann ist nicht $x$ Grossvater von $z$ (sondern Ururgrossvater)
 
 Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde also gelten.
-* ist reflexiv: da jedes $x$ grösser oder **gleich** $x$ ist. (das gleich ermöglicht die Reflexivität)
+* ist [[5-relationen#^relationreflexiv|reflexiv]]: da jedes $x$ grösser oder **gleich** $x$ ist. (das gleich ermöglicht die Reflexivität)
 * nicht symmetrisch, da z.b. $17\ge4$ aber nicht $4\ge17$.
 * ist antisymmetrisch, da $x \ge y$ bedeutet, dass entweder $x = y$ oder $\neg(y \ge x)$
-* ist transitiv: da $x \ge y$ und $y \ge z$ impliziert, dass $x \ge z$ (Wenn $x$ grösser ist als $y$ und $y$ grösser als $z$ dann ist $x$ mit Sicherheit auch grösser als $z$)
+* ist [[5-relationen#^relationtransitiv|transitiv]]: da $x \ge y$ und $y \ge z$ impliziert, dass $x \ge z$ (Wenn $x$ grösser ist als $y$ und $y$ grösser als $z$ dann ist $x$ mit Sicherheit auch grösser als $z$)
 
 > [!example]+ Beispiel 1
 > $R = \{(a, b), (b, a), (a, c), (b, b), (b, c)\}$ auf $M = \{a,b,c\}$
@@ -89,9 +94,9 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 > nicht transitiv: Wenn es $(a,b)$ und $(b,a)$ gibt dann sollte es auch $(aa)$ geben.
 
 > [!example]+ Beispiel 2
-> $R = \{(x,y) \in M \times M | x \text{ und } y \text{ haben eine gemeinsame Grossmutter}\}$, wobei $M$ die Menge aller Menschen bezeichne.
+> $R = \{(x,y) \in M \times M | x \text{ und } y \text{ haben eine gemeinsame Grossmutter}\}$, wobei $M$ die [[4-mengen|Menge]] aller Menschen bezeichne.
 >
->  **ist reflex**: da es um eine Gemeinsamkeit geht und die position von $x$ und $y$ keine Rolle spielt im Prädikat.
+>  **ist reflex**: da es um eine Gemeinsamkeit geht und die position von $x$ und $y$ keine Rolle spielt im [[Prädikat]].
 >  **ist symmetrisch**: ebenfalls wegen der irrelevanten Reihenfolge.
 >  **nicht asymmetrisch**: weil die Reihenfolge irrelevant ist kann es dazu kommen das die Implikation falsch ist.
 >  **nicht transitiv**: Klappt nicht wenn z.b. in folgendem Fall.
@@ -112,7 +117,7 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 
 > [!abstract] Definition
 >
-> Es seien $A, B, C$ Mengen, $R$ eine Relation von $A$ nach $B$ und $S$ eine Relation von $B$ nach $C$. Dann ist $S \circ R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen $S$ verknüpft $R$)</span>, die sogenannte <span style='color: var(--custom-word-green, green)'>Verknüpfung von $R$ und $S$</span>, eine Relation von $A$ nach $C$, die so definiert ist:
+> Es seien $A, B, C$ [[4-mengen|Mengen]], $R$ eine Relation von $A$ nach $B$ und $S$ eine Relation von $B$ nach $C$. Dann ist $S \circ R$ <span style='color: var(--custom-word-gesproche-blue)'>(gesprochen $S$ verknüpft $R$)</span>, die sogenannte <span style='color: var(--custom-word-green, green)'>Verknüpfung von $R$ und $S$</span>, eine Relation von $A$ nach $C$, die so definiert ist:
 >
 > Für $a \in A$ und $c \in C$ gilt $a(S \circ R)c$ genau dann, wenn ein $b \in B$ existiert mit $aRb$ und $bSc$.
 >
@@ -145,7 +150,7 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 ## Inverse Relation
 
 > [!abstract] Definition
-> Es seien $A, B$ Mengen und $R$ eine Relation von $A$ von $B$.
+> Es seien $A, B$ [[4-mengen|Mengen]] und $R$ eine Relation von $A$ von $B$.
 >
 > Dann ist $R^{-1}$, die sogenannte inverse Relation von $R$, eine Relation von $B$ nach $A$ die so definiert ist:
 > Für $b \in B$ und $a \in A$ gilt $bR^{-1}a$ genau dann, wenn $aRb$.
@@ -160,27 +165,27 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 ## Äquivalenzrelationen
 
 > [!abstract] Definition
-> Eine Relation $R$ auf einer Menge $M$ heisst <span style='color: var(--custom-word-green, green)'>Äquivalenzrelation</span>, falls $R$ [[#^relationreflexiv|reflexiv]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]] ist. Für $xRy$ heisst $x$ <span style='color: var(--custom-word-green, green)'>äquivalent</span> zu $y$.
+> Eine Relation $R$ auf einer [[4-mengen|Menge]] $M$ heisst <span style='color: var(--custom-word-green, green)'>Äquivalenzrelation</span>, falls $R$ [[#^relationreflexiv|reflexiv]], [[#^relationsymmetrisch|symmetrisch]] und [[#^relationtransitiv|transitiv]] ist. Für $xRy$ heisst $x$ <span style='color: var(--custom-word-green, green)'>äquivalent</span> zu $y$.
 
 > [!example]+ Beispiel 1
-> $R = \{(x,y) \in S \times S \quad | \quad x \text{ und } y \text{ liegen im selben Land} \}$, wobei $S$ die Menge aller Städte bezeichnet. Das ist eine äquivalente Relation weil sie alle drei Eigenschaften hat (reflexiv, symmetrisch und transitiv)
+> $R = \{(x,y) \in S \times S \quad | \quad x \text{ und } y \text{ liegen im selben Land} \}$, wobei $S$ die [[4-mengen|Menge]] aller Städte bezeichnet. Das ist eine äquivalente Relation weil sie alle drei Eigenschaften hat (reflexiv, symmetrisch und transitiv)
 
 ^aequistadtbeispiel
 
 > [!example]+ Beispiel 2
-> $R = \{(x,y) \in M \times M \quad | \quad x \text{ und } y \text{ sind gleich gross} \}$, wobei $M$ die Menge aller Menschen bezeichnet.
+> $R = \{(x,y) \in M \times M \quad | \quad x \text{ und } y \text{ sind gleich gross} \}$, wobei $M$ die [[4-mengen|Menge]] aller Menschen bezeichnet.
 ### Äquivalenzklassen
 
 > [!abstract] Definition
-> Äquivalenzrelation zerlegen die Menge in sogenannte <span style='color: var(--custom-word-green, green)'>Äquivalenzklassen</span>, die jeweils alle Elemente enthalten, die bzgl. eines Merkmals äquivalent sind. Äquivalenzklassen gruppieren also Element, die von einem gewissen Blickwinkel "gleich" sind.
+> Äquivalenzrelation zerlegen die [[4-mengen|Menge]] in sogenannte <span style='color: var(--custom-word-green, green)'>Äquivalenzklassen</span>, die jeweils alle Elemente enthalten, die bzgl. eines Merkmals äquivalent sind. Äquivalenzklassen gruppieren also Element, die von einem gewissen Blickwinkel "gleich" sind.
 >
->Es sei $R$ eine Äquivalenzrelation auf der Menge $M$. Dann heisst
+>Es sei $R$ eine Äquivalenzrelation auf der [[4-mengen|Menge]] $M$. Dann heisst
 > $[x]_R := \{y \in M | xRy\}$
 >
 > Wenn der Kontext klar ist, sagt man kurz <span style='color: var(--custom-word-green, green)'>Äquivalenzklasse</span> von x und schreibt $[x]$
 
 > [!WARNING]+ Warnung
-> Das ist nun eine Menge aus regulären Objekten und nicht aus Tupeln/geordneten Paaren.
+> Das ist nun eine [[4-mengen|Menge]] aus regulären Objekten und nicht aus Tupeln/geordneten Paaren.
 
 > [!example]+ Beispiel
 > Im obigen [[#^aequistadtbeispiel|Beispiel]] mit den Städten gilt etwa:
@@ -190,15 +195,15 @@ Und für das [[#^zahlenbeispiel|Natürliche-Zahlenbeispiel]] von oben würde als
 
 Nun haben diese beiden Äquivalenzklassen keine gemeinsamen Element, hätten sie diese wären sie teil der selben Äquivalenzklasse.
 
-Damit haben wir über eine Äquivalenzklasse eine [[4-mengen#Partition|Partition]] der jeweiligen Menge.
+Damit haben wir über eine Äquivalenzklasse eine [[4-mengen#Partition|Partition]] der jeweiligen [[4-mengen|Menge]].
 
 $P = \{... \{\text{Alle Städte der Schweiz}\} ... \{\text{Alle Städte von Frankreich}\} ...\}$
 
 
 Graphisch Dargestellt sieht könnte das so aussehen:
-Wir haben eine Menge aus Formen in verschiedenen Farben:
+Wir haben eine [[4-mengen|Menge]] aus Formen in verschiedenen Farben:
 ![[5-relationen_äquivalenz_beispiel_menge||100%]]
-Nun könnte wir diese Menge auf folgende Art und Weise [[4-mengen#Partition|Partitionieren]]. in diesem fall nach der Form.
+Nun könnte wir diese [[4-mengen|Menge]] auf folgende Art und Weise [[4-mengen#Partition|Partitionieren]]. in diesem fall nach der Form.
 
 ![[5-relationen_partitionierungs_beispiel_1||100%]]
 Auf diesselbe Art und Weise könnten wir das auch nach der Farbe partitionieren.

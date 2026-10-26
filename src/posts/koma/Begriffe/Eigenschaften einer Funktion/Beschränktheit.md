@@ -4,7 +4,7 @@ tags:
 description:
 image: Excalidraw/Beschränktheit 2026-10-23 14.16.01.excalidraw.svg
 ---
-Existiert ein Wert $y_0 \in \mathbb{W}$, so dass für alle $x$-Werte des Definitionsbereichs $f(x) \leq y_0$ gilt, so nennt man die Funktion $f$ nach <span style='color: var(--custom-word-green, green)'>oben beschränkt</span>
+Existiert ein Wert $y_0 \in \mathbb{W}$, so dass für alle $x$-Werte des Definitionsbereichs $f(x) \leq y_0$ gilt, so nennt man die [[6-funktionen|Funktion]] $f$ nach <span style='color: var(--custom-word-green, green)'>oben beschränkt</span>
  (und $y_0$ nennt man die <span style='color: var(--custom-word-green, green)'>obere Schranke</span>)
 
 ```desmos-graph
@@ -15,7 +15,7 @@ y = 6
 (1,6)|label:Obere Schranke
 ```
 
-Analog dazu gibt es dann natürlich Funktionen welche nach <span style='color: var(--custom-word-green, green)'>unten beschränkt</span> sind respektive <span style='color: var(--custom-word-green, green)'>untere Schranken</span>.
+Analog dazu gibt es dann natürlich [[6-funktionen|Funktionen]] welche nach <span style='color: var(--custom-word-green, green)'>unten beschränkt</span> sind respektive <span style='color: var(--custom-word-green, green)'>untere Schranken</span>.
 
 ```desmos-graph
 top=10;

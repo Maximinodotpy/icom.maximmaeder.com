@@ -33,7 +33,7 @@ x &= \frac{-b}{a} &\quad & \\
 	* $a=0$ und $b=0$ (<span style='color: var(--custom-word-green, green)'>Unterbestimmt</span>)
 	  In diesem Fall kann man jede beliebige Zahl einsetzen also $\mathbb{L} = \mathbb{R}$
 	* $a = 0$ und $b \neq 0$ (§)
-	  Hier ergibt sich immer eine Falsche Aussage also $\mathbb{L} = \{\}$
+	  Hier ergibt sich immer eine Falsche [[1-aussagen|Aussage]] also $\mathbb{L} = \{\}$
 
 #### graphische Interpretation
 Bei einer regulären linearen Gleichung würde dann so aussehen.
@@ -88,7 +88,7 @@ x &= \frac{-b}{a} &\quad & \\
 	* $a=0$ und $b=0$ (<span style='color: var(--custom-word-green, green)'>Unterbestimmt</span>)
 	  In diesem Fall kann man jede beliebige Zahl einsetzen also $\mathbb{L} = \mathbb{R}$
 	* $a = 0$ und $b \neq 0$ (§)
-	  Hier ergibt sich immer eine Falsche Aussage also $\mathbb{L} = \{\}$
+	  Hier ergibt sich immer eine Falsche [[1-aussagen|Aussage]] also $\mathbb{L} = \{\}$
 
 #### graphische Interpretation
 Bei einer regulären linearen Gleichung würde dann so aussehen.

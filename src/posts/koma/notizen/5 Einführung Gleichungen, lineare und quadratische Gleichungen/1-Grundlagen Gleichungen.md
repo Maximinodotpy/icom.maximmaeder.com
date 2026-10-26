@@ -53,4 +53,4 @@ Also folgende Gleichungsumformungen verändern die Lösungsmenge **nicht**:
    $$Wenn nun eine dieser Klammern $0$ ergibt wird das ganze $0$ und daher können wir ablesen dass die erste Klammer $0$ wäre wenn $x = 1$ und die zweite wenn $x = 3$ somit kennen wir die Lösungsmenge. ^produktgleichnull
 
 > [!NOTE] Übrigens
-> Hier im vierten Schritt wurde bereits eine [[koma/formelblatt#Binomische Formeln|Binomische Formel]] respektive der [[koma/formelblatt#PQ-Formel und Zwei-Klammer-Ansatz|Zwei Klammer Ansatz verwendet]].
+> Hier im vierten Schritt wurde bereits eine [[Binomische Formeln#Binomische Formeln|Binomische Formel]] respektive der [[PQ-Formel und Zwei-Klammer-Ansatz#PQ-Formel und Zwei-Klammer-Ansatz|Zwei Klammer Ansatz verwendet]].

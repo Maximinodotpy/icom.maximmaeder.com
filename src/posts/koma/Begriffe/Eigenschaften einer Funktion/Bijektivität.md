@@ -1,7 +1,7 @@
 ---
 tags:
   - eigenschaft_einer_funktion
-image: "#ff0000"
+image: "#1a91db"
 ---
 > [!abstract] Definition der Bijektivität
 > Eine [[1-Einführung Funktionen|Funktion]] $f: A \rightarrow B$ nennt man <span style='color: var(--custom-word-green, green)'>bijektiv</span> wenn sie [[Injektivität|injektiv]] und [[Surjektivität|surjektiv]] ist.
@@ -16,6 +16,6 @@ image: "#ff0000"
 
 ^definition
 
-Bei [[4-Anwendungen|Linearen]]- oder [[3-Wurzel-, Exponential- und Logarithmusfunktionen|Wurzelfunktionen]] ist dies gegeben aber bei [[1-Definition und Kenngrössen|Quadratischen]] Funktionen hat es immer zwei $x$-Werte pro $y$-Wert.
+Bei [[4-Anwendungen|Linearen]]- oder [[3-Wurzel-, Exponential- und Logarithmusfunktionen|Wurzelfunktionen]] ist dies gegeben aber bei [[1-Definition und Kenngrössen|Quadratischen]] [[6-funktionen|Funktionen]] hat es immer zwei $x$-Werte pro $y$-Wert.
 
 [Bijektive Funktion – Wikipedia](https://de.wikipedia.org/wiki/Bijektive_Funktion)

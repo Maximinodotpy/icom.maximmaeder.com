@@ -5,9 +5,10 @@
 ![[1-aussagen#^aussagenrechenregeln]]
 ![[1-aussagen#Normalformen#Konjunktive- und Disjunktive Normalform zusammengefasst]]
 
-%%Prädikate und Quantoren%%
-[[2-praedikate-und-quantoren#^negationeinfacherquantor]]
-[[2-praedikate-und-quantoren#^distributivgesetzevonquantoren]]
+%%[[Prädikat|Prädikate]] und Quantoren%%
+![[2-praedikate-und-quantoren#^negationeinfacherquantor]]
+![[2-praedikate-und-quantoren#^distributivgesetzevonquantoren]]
+![[2-praedikate-und-quantoren#Genaue Quantoren]]
 
 %%Korrektes argumentieren%%
 

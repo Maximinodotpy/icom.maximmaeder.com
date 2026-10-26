@@ -24,19 +24,14 @@ siehe: [[4-mengen|Mengen]]
 | Name                                                                          | Beispiele                                                                                                                                                                                                                                                                               | Erklärung                                                                                                                                                                                                                           |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Kommutativgesetz der Addition/Multiplikation**^Kommutativgesetz             | *Algebra*<br>$a+b=b+a$<br>$a*b=b*a$<br><br>*Mengen*<br>$A \cup B = B \cup A$ (Vereinigung)<br>$A \cap B = B \cap A$ (Schnitt)<br><br>*Aussagen*<br>$A \wedge B = B \wedge A$ (Und)<br>$A \vee B = B \vee A$ (Oder)<br>$A \Leftrightarrow B = B \Leftrightarrow A$ (Logische Äquivalenz) | Bei der Addition, Multiplikation, [[4-mengen\|Vereinigung]], [[4-mengen\|Schnitt]], [[1-aussagen\|Und und Oder]] spielt die Reihenfolge keine Rolle.                                                                                |
-| **Distributivgesetz**<br>Siehe [[#Binomische Formeln]].<br>^Distributivgesetz | $a * (b + c) = a*b + a*c$                                                                                                                                                                                                                                                               | Eine Summe (oder Differenz) wird mit einem Faktor, indem man jeden einzelnen Summanden (Minuend) mit diesem Faktor Multipliziert und die Produktwerte addiert. (nennt sich Ausklammern, Herausheben oder Faktorisieren).            |
+| **Distributivgesetz**<br>Siehe [[Binomische Formeln#Binomische Formeln]].<br>^Distributivgesetz | $a * (b + c) = a*b + a*c$                                                                                                                                                                                                                                                               | Eine Summe (oder Differenz) wird mit einem Faktor, indem man jeden einzelnen Summanden (Minuend) mit diesem Faktor Multipliziert und die Produktwerte addiert. (nennt sich Ausklammern, Herausheben oder Faktorisieren).            |
 | **Assoziativgesetz**<br>^Assoziativgesetz                                     | $a * (b * c) = a * b * c$<br>$a + (b + c) = a + b + c$                                                                                                                                                                                                                                  | Wenn es sich nur um Additionen oder Multiplikationen handelt dann spielt es keine Rolle in welcher Reihenfolge diese ausgeführt werden, heisst: Wir können die Klammer weglassen. Für Subtraktionen und Divisionen gilt dies nicht. |
 
 
 ![[2-Potenzieren]]
 
-## Binomische Formeln
-| Name              | Formel                          |
-| ----------------- | ------------------------------- |
-| Plus-Formel       | $(a + b)^2 = a^2 + 2ab + b^2$   |
-| Plus-Minus-Formel | $(a - b)^2 = a^2 - 2ab + b^2$   |
-| Minus-Formel      | $(a + b) * (a - b) = a^2 - b^2$ |
-Die Binomischen Formeln können auch genutzt werden um eine Anzahl von Brüchen auf den selben Nenner zu bringen zb: $\frac{x}{x-3} - \frac{10}{x+3} = \frac{18}{x^2 - 9}$ Hier können wir bei $x^2 - 9$ die Plus-Minus-Formel anwenden und so dann relativ einfach die anderen Brüche erweitern.
+![[Binomische Formeln]]
+
 ## Mitternachtsformel (abc-formel)
 Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax^2 + bx + c$ zu lösen (geht auch wenn die Zeichen $-$ sind).
 ![[Mitternachtsformel]]
@@ -45,15 +40,8 @@ Die abc-formel kann verwendet werden um quadratische Gleichungen in der Form $ax
 über die Diskriminante wird entschieden ob und wie viel Lösungen es gibt.
 ![[Diskriminante der Mitternachtsformel]]
 Möchte man zb. wissen mit welchem bestimmten Parameter es genau eine Lösung gäbe kann man man Diskriminanten formell auch etwas umbauen. (In diesem Beispiel würde man für D; 0 einsetzen.)
-## PQ-Formel und Zwei-Klammer-Ansatz
-Wenn wir eine Gleichung in der Form $x^2 + px + q$ also zb. $x^2 -7x - 44$ dann können wir dies umwandeln respektive die Ergebnisse auf zwei Arten herausfinden.
 
-Mit dem Zwei-Klammern-Ansatz wäre das bsp. oben dann $(x + 7)(x - 11)$ um an dieses Ergebnis zu kommen müssen wir uns überlegen welche zahlen $a$ und $b$ multipliziert 44 geben und mit welchen Zahlen die Differenz $7$ ergibt.
-
-Wir könne natürlich aber auch die PQ Formel anwenden.
-$$
-x_{1,2}  = \frac{p}{2} \pm \sqrt{(\frac{p}{2}) - q}
-$$
+![[PQ-Formel und Zwei-Klammer-Ansatz]]
 ## Gleichungssysteme
 $$
 \begin{align}
@@ -71,8 +59,5 @@ $$
 y = mx + q
 $$
 damit könnte man auch jeweils die fehlenden Informationen herausfinden zb $q$.
-### Steigung anhand von zwei Punkten herausfinden
-$$
-\frac{yb - ya}{xb - xa}
-$$
-Also Höhenunterschied geteilt durch Breitenunterschied
+
+![[Steigung anhand von zwei Punkten herausfinden]]

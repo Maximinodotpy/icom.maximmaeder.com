@@ -8,27 +8,34 @@ schriftliche_notizen: "[[4-mengen-übungen]]"
 sources:
   - "[[4-mengen]]"
 Woche: "4"
+aliases:
+  - menge
+  - mengen
+  - Mengen
+  - Menge
 ---
 ## Definition
 
-Eine Menge ist eine Liste aus **verschiedenen** (keine Duplikate) Objekten.
+> [!abstract] Definition
+> Eine Menge ist eine Liste aus **verschiedenen** (keine Duplikate) Objekten.
+>
+> $x \in M$ bedeutet $x$ ist ein Element in $M$
+> $x \notin M$ bedeutet $x$ ist kein Element in $M$
+>
+> Wir spezifizieren eine Menge entweder in dem wir alle element kommagetrennt auflisten oder die Eigenschaften der Element der Menge spezifizieren.
+>
+> zb: $M = \{x | x$ ist ein Wochentag, der den Buchstaben s nicht enthält $\}$ ist eine Menge mit den Elementen Montag, Mittwoch und Freitag.
+>
+> Für die Darstellung von Mengen sind auch die sogenannten [Venn Diagramme](https://en.wikipedia.org/wiki/Venn_diagram) nützlich.
+>
+> ```mermaid
+> venn-beta
+> set M
+> 	text A1["Montag"]
+> 	text A1["Mittwoch"]
+> 	 text A1["Freitag"]
+>  ```
 
-$x \in M$ bedeutet $x$ ist ein Element in $M$
-$x \notin M$ bedeutet $x$ ist kein Element in $M$
-
-Wir spezifizieren eine Menge entweder in dem wir alle element kommagetrennt auflisten oder die Eigenschaften der Element der Menge spezifizieren.
-
-zb: $M = \{x | x$ ist ein Wochentag, der den Buchstaben s nicht enthält $\}$ ist eine Menge mit den Elementen Montag, Mittwoch und Freitag.
-
-Für die Darstellung von Mengen sind auch die sogenannten [Venn Diagramme](https://en.wikipedia.org/wiki/Venn_diagram) nützlich.
-
-```mermaid
-venn-beta
-  set M
-	  text A1["Montag"]
-	  text A1["Mittwoch"]
-	  text A1["Freitag"]
-```
 ## Wichtige Mengen
 $\emptyset = \{\}$ ist die leere Menge
 - Weiteres dazu unter [Leere Menge](https://www.biancahoegel.de/mathe/mengen/menge_leer.html) und [Leere Menge und Allklasse](https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Leere_Menge_und_Allklasse).

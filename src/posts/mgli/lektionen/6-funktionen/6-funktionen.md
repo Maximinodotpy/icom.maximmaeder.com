@@ -8,6 +8,8 @@ sources:
 Woche: "6"
 übungs_serie:
 schriftliche_notizen: "[[6-funktionen-übungen]]"
+cssclasses:
+  - hide-embedded-headers
 ---
 ![[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion]]
 
@@ -20,7 +22,7 @@ schriftliche_notizen: "[[6-funktionen-übungen]]"
 
 > [!example]+ Beispiel 2
 > Es sei $F = \{ (x,y) \in \mathbb{R} \times \mathbb{R} | y = 2*x \}$
-> Dann ist das $F$ eine [[1-Einführung, Definition, Steigung und y-Achsenabschnitt|(lineare) Funktion]] von $\mathbb{R}$ nach $\mathbb{R}$
+> Dann ist das eine $F$ eine [[1-Einführung, Definition, Steigung und y-Achsenabschnitt|(lineare) Funktion]] von $\mathbb{R}$ nach $\mathbb{R}$
 > Für $x \in \mathbb{R}$ ist $F(x) = 2 * x$
 
 ^beispiel2
@@ -41,12 +43,14 @@ schriftliche_notizen: "[[6-funktionen-übungen]]"
 Hier werden die [[5-relationen#Bipartiter Graph|bipartiten Graphen]] wieder nützlich.
 
 ![[#^beispiel1]]
-![[6-funktionen 2026-10-23 12.58.07.excalidraw||100%]]
+
+![[6-funktionen_studi_beispiel||100%]]
+
 Hier erkennt man das jeder Studierende ein Wert zugewiesen wird, heisst aber nicht dass mehrere Studierende nicht die selbe Note haben könnte.
 
 Somit wären folgende Darstellungen keine Funktionen.
 
-![[6-funktionen 2026-10-23 13.01.43.excalidraw||100%]]
+![[6-funktionen_invalide_bipartite_graphen||100%]]
 
 Wenn Definitions- und Wertebereich einer Funktion $F$ aus Zahlen besteht, stellt man die Funktionen oft in einem [[Kartesisches Koordinatensystem]] dar, wobei die horizontale Achse ([[Abszissenachse]]) den Definitionsbereich und die vertikale Achse ([[Ordinatachse]]) den Wertebereich enthält.
 
@@ -56,7 +60,7 @@ Wenn Definitions- und Wertebereich einer Funktion $F$ aus Zahlen besteht, stellt
 y = 2x
 ```
 
-> [!NOTE] Aufgaben: Entscheiden, ob folgende Relationen Funktionen sind.
+> [!NOTE] Aufgaben: Entscheiden, ob folgende [[5-relationen|Relationen]] Funktionen sind.
 > ![[Pasted image 20261023131306.png]]
 > Ja, weil eine Stadt kann nur zu einem Kanton gehören (Dass es womöglich viele Städte im selben Kanton hat spielt dabei keine Rolle)
 >
@@ -64,40 +68,32 @@ y = 2x
 > Nein, weil nicht alle der Städte der Welt können einem Kanton in der Schweiz zugewiesen werden.
 >
 > ![[Pasted image 20261023131343.png]]
->Nein, weil so von einem $x$ (Kanton) mehrere Relationen zu viele Städten ausgehen können.
+>Nein, weil so von einem $x$ (Kanton) mehrere [[5-relationen|Relationen]] zu viele Städten ausgehen können.
 
-## Bildmenge
+## Definition der Bildmenge
 
-Die Funktion $F: \mathbb{N} \rightarrow \mathbb{N}$ sei durch $f(x) = 2x$ definiert.
+![[Bildmenge#^definition]]
 
-![[6-funktionen 2026-10-23 13.21.03.excalidraw||100%]]
-In der [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Wertemenge]] existiert nur für eine gerade Zahl $y \in \mathbb{N}$ ein Urbild (Argument, Input) $x \in \mathbb{N}$, so dass $y = f(x) = 2x$ gilt. Diese Menge wird <span style='color: var(--custom-word-green, green)'>Bildmenge</span> der Funktion $f$ genannt.
+![[Bildmenge#Beispiel]]
+## Definition der Betragsfunktion
 
-> [!abstract] Definition
-> Für eine Funktion $f: A \rightarrow B$ heisst die Menge $f(a) = \{y \in B | \exists x \in A : f(x) = y\}$ <span style='color: var(--custom-word-green, green)'>Bildmenge</span> von $f$
-## Betragsfunktion
+![[mgli/Begriffe/Betragsfunktion#^definition]]
 
-> [!abstract] Definition
-> Die Funktion $f: \mathbb{Z} \rightarrow \mathbb{Z}$ mit
-> $$
-> f(x) = |x| = 
-> \begin{cases}
-> x,  & \text{für } x \ge 0, \\
-> -x, & \text{für } x < 0.
-> \end{cases}
-> \quad \text{heisst Betragsfunktion.}
-> $$
->
-> Es ist etwas $|7| = 7$ oder $|-8| = 8$ oder $|0| = 0$. Wir bekommen damit also von jeder Zahl die Positive version davon (absoluten Betrag)
->
-> Somit gilt also für die Bildmenge $f(\mathbb{Z}) = \mathbb{N}_0$
-### Eigenschaften einer Funktion
+## Eigenschaften einer Funktion
+
+### Definition der Monotonie
 
 ![[Monotonie#^definition]]
 
+### Definition der Injektivität
+
 ![[Injektivität#^definition]]
 
+### Definition der Surjektivität
+
 ![[Surjektivität#^definition]]
+
+### Definition der Bijektivität
 
 ![[Bijektivität#^definition]]
 
@@ -106,19 +102,21 @@ In der [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Wertemenge]
 >
 > es sei $F: A \rightarrow B$ definiert durch $F(x) =$ FHNW-Email-Adresse von $x$
 >
-> Dann ist $F$ injektiv, da verschiedene Studierende verschiedene FHNW-Email-Adressen haben.
+> Dann ist $F$ **injektiv**, da verschiedene Studierende verschiedene FHNW-Email-Adressen haben.
 >
-> $F$ ist nicht surjektiv, da es kein $x \in A$ gibt mit $F(x) = \text{andreas.vogt@fhnw.ch}$ (Nicht jede Email aus $B$ hat ein $x$ zugewiesen bekommen)
+> $F$ ist nicht **surjektiv**, da es kein $x \in A$ gibt mit $F(x) = \text{andreas.vogt@fhnw.ch}$ (Nicht jede Email aus $B$ hat ein $x$ zugewiesen bekommen)
+>
+> Somit ist diese Funktion auch nicht [[Bijektivität|bijektiv]].
 ### Alle Eigenschaften von Funktionen
 
 ![[Eigenschaften einer Funktion.base]]
+
 
 ## Verknüpfung von Funktionen
 
 Es sei $F: A \rightarrow B$ eine Funktion von $A$ nach $B$ und $G: B \rightarrow C$.
 
-![[6-funktionen 2026-10-25 13.09.21.excalidraw||100%]]
-
+![[6-funktionen_verknüfpung_von_funktionen||100%]]
 Dann ist die Verknüpfung $G \circ F$ wieder eine Funktion, und zwar von $A$ nach $C$.
 
 Für die Funktion $G \circ F$ gilt $(G \circ F)(a) = G(F(a))$.
@@ -126,6 +124,7 @@ Für die Funktion $G \circ F$ gilt $(G \circ F)(a) = G(F(a))$.
 Wie bei Programmiersprachen wird die Funktion welche näher am Argument steht zuerst ausgewertet.
 
 Begründen können wir das damit da $F$ eine Funktion ist, existiert zu jedem $a \in A$ genau ein $b \in B$ mit $aFb$ (Es ist also $b = F(a)$)
+
 Und da $G$ eine Funktion ist, existiert genau ein $c \in C$ mit $bGc$ (Es ist also $c = G(b)$)
 
 Definitionsgemäss ist also $a(G \circ F)c$ bzw. $c = (G \circ F)(a)$
@@ -159,7 +158,7 @@ Ist die inverse Relation auch eine Funktion? $F^{-1} = \{(y,x) \in B \times A \t
 
 Nein, jedes $y \in B$, also jeder Kanton, steht mit mehreren Städten in Relation.
 
-![[6-funktionen 2026-10-25 13.57.15.excalidraw]]
+![[6-funktionen_inverse_funktion_stadt_beispiel]]
 
 Somit stellt sich die Frage: Wann ist die inverse Relation einer Funktion wieder eine Funktion?
 
@@ -169,7 +168,7 @@ Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion
 > Es sei $F: A \rightarrow B$ eine [[Bijektivität#^definition|bijektive]] Funktion. Dann ist <span style='color: var(--custom-word-green, green)'>$F^{-1}: B \rightarrow A$</span> eine Funktion, die sogenannte <span style='color: var(--custom-word-green, green)'>inverse Funktion zu $F$</span> oder <span style='color: var(--custom-word-green, green)'>Umkehrfunktion von $F$</span>.
 
 > [!example]+ Beispiel 1
-> ![[6-funktionen 2026-10-25 14.18.53.excalidraw||100%]]
+> ![[6-funktionen_inverse_relation_beispiel||100%]]
 
 > [!example]+ Beispiel 2
 > $F: \mathbb{R} \rightarrow \mathbb{R}$ mit $F(x) = 2 * x$ ist [[Bijektivität#^definition|bijektiv]].
@@ -184,11 +183,30 @@ Für eine Funktion $F$, deren Definitionsbereich und Wertebereich aus Zahlen bes
 > für $F: \mathbb{R} \rightarrow \mathbb{R}$ mit $F(x) = 2x$
 > ist $F^{-1}: \mathbb{R} \rightarrow \mathbb{r}$ mit $F^{-1}(y) = \frac{1}{2}y$
 >
-> ![[6-funktionen 2026-10-25 14.48.40.excalidraw]]
-
+> ![[6-funktionen_winkelhalbierende]]
 ## Asymptotisches Verhalten von Funktionen
-
 
 siehe prog1 [[W05-Komplexitätsanalyse & O-Notation]]
 
+## Rechenregeln
+
 ![[W05-Komplexitätsanalyse & O-Notation#Rechenregeln]]
+
+## Lernziele
+
+- [ ] Sie können prüfen, ob eine Relation eine Funktion ist.
+- [ ] Sie kennen die Definition der Definitions- und der Wertemenge.
+- [ ] Sie kennen übliche Darstellungen von Funktionen, wie z. B. die Darstellung als Funktionsgraph und als Zuordnung f : A → B mit f (x ) = y .
+- [ ] Sie kennen die Definition des Arguments (Urbild, Input).
+- [ ] Sie können die Bildmenge einer Funktion bestimmen.
+- [ ] Sie verstehen die Betragsfunktion.
+- [ ] Sie können überprüfen, ob eine Funktion – surjektiv, – injektiv, – bijektiv, – (streng) monoton steigend/fallend ist und erkennen diese Eigenschaften in allen Darstellungen von Funktionen.
+- [ ] Sie wissen, wann zwei Funktionen f und g zu g ◦ f verknüpft werden können und können diese Verknüpfung gegebenenfalls bestimmen.
+- [ ] Sie wissen, dass die Verknüpfung von Funktionen nicht kommutativ ist.
+- [ ] Sie wissen, wann für eine Funktion f die inverse Funktion f −1 existiert und können diese gegebe- nenfalls bestimmen.
+- [ ] Sie verstehen, wie die inverse Funktion einer invertierbaren Funktion im Funktionsgraphen graphisch dargestellt werden kann.
+ - [ ] Sie haben verstanden, dass die Laufzeit von Programmen als Funktion der Eingabelänge beschrieben werden kann.
+ - [ ] Sie verstehen die O -Notation und können Funktionen danach beurteilen.
+ - [ ] Sie können die Laufzeit von einfachen Programmen in der O -Notation bestimmen.
+ - [ ] Sie kennen die wichtigsten Zeitkomplexitäten: n, log(n), n2, 2n ,. . .
+ - [ ] Sie kennen die wichtigsten Rechenregeln für die O -Notation und können diese einsetzen, um Funk- tionen bezüglich ihrer Komplexitätsklasse zu beurteilen.
