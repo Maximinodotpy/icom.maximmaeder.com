@@ -160,13 +160,13 @@ bottom=-20
 x^2 - 16
 ```
 
-Hierbei kommt die [[koma/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]] ins spiel.
+Hierbei kommt die [[koma/spick midterms/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]] ins spiel.
 
-![[koma/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]]
+![[koma/spick midterms/formelblatt#Mitternachtsformel (abc-formel)|Mitternachtsformel]]
 
-Man muss auch die [[koma/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]] beachten.
+Man muss auch die [[koma/spick midterms/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]] beachten.
 
-![[koma/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]]
+![[koma/spick midterms/formelblatt#Diskriminante der Mitternachtsformel|Diskriminante]]
 
 Graphisch erkennen wir wieso dem so ist.
 

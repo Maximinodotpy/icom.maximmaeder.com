@@ -74,8 +74,8 @@ which looks like this
 ## Mengen
 | Befehl                | Symbol                | Bedeutung                                                                             |
 | --------------------- | --------------------- | ------------------------------------------------------------------------------------- |
-| `\mathbb{N}`          | $\mathbb{N}$          | [[koma/formelblatt#Zahlen\|Natürliche Zahlen]]                                        |
-| `\mathbb{Z}`          | $\mathbb{Z}$          | [[koma/formelblatt#Zahlen\|Ganze Zahlen]]                                             |
+| `\mathbb{N}`          | $\mathbb{N}$          | [[koma/spick midterms/formelblatt#Zahlen\|Natürliche Zahlen]]                                        |
+| `\mathbb{Z}`          | $\mathbb{Z}$          | [[koma/spick midterms/formelblatt#Zahlen\|Ganze Zahlen]]                                             |
 |                       |                       |                                                                                       |
 |                       |                       |                                                                                       |
 | `\emptyset`           | $\emptyset$           | Leere Menge                                                                           |

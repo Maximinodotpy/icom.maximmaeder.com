@@ -61,3 +61,38 @@ $$
 damit könnte man auch jeweils die fehlenden Informationen herausfinden zb $q$.
 
 ![[Steigung anhand von zwei Punkten herausfinden]]
+
+## Wissenschaftlich Notation
+
+![[3-Zehnerpotenzen und naturwissenschaftliche Schreibweise#^definition]]
+
+![[3-Zehnerpotenzen und naturwissenschaftliche Schreibweise#^vereinfachen]]
+
+## Logarithmengesetze & Rechenregeln
+![[5-Logarithmieren#Rechenregeln]]
+
+## Exponentialgleichungen
+![[2-Exponentialgleichungen]]
+
+## Logarithmusgleichungen
+![[3-Logarithmusgleichungen]]
+
+## Exponentialfunktionen aufstellen
+- **Schritt 1:** Setze die Koordinaten der beiden Punkte $P(x_1, y_1)$ und $Q(x_2, y_2)$ in die Funktionsgleichung ein:
+    1. $y_1 = A_0 \cdot e^{\lambda \cdot x_1}$
+    2. $y_2 = A_0 \cdot e^{\lambda \cdot x_2}$
+- **Schritt 2:** Dividiere die beiden Gleichungen durcheinander, damit sich $A_0$ herauskürzt:$$\frac{y_2}{y_1} = \frac{e^{\lambda \cdot x_2}}{e^{\lambda \cdot x_1}} = e^{\lambda \cdot (x_2 - x_1)}$$
+- **Schritt 3:** Löse nach $\lambda$ auf (durch Anwenden von $\ln$).
+- **Schritt 4:** Setze $\lambda$ in eine der Ausgangsgleichungen ein, um $A_0$ zu berechnen.
+
+## Zinseszins & Wachstumsmodelle
+
+- **Formel für Kapital:** $K(t) = K_0 \cdot (1 + p)^t$ (wobei $p$ der Zinssatz als Dezimalzahl ist, z. B. $3\% = 0.03$).
+- **Formel für natürliches Wachstum/Zerfall:** $B(t) = B_0 \cdot e^{\lambda \cdot t}$
+    - $\lambda > 0$: Wachstum
+    - $\lambda < 0$: Abnahme (Achtung bei Prozent: Jährliche Abnahmerate $p$ berechnet sich oft über $e^\lambda = 1 - p$).
+- **Verdopplungszeit berechnen ($K(t) = 2 \cdot K_0$):**$$2 \cdot K_0 = K_0 \cdot (1+p)^t \implies 2 = (1+p)^t \implies t = \frac{\ln(2)}{\ln(1+p)}$$
+## Scheitelpunkt
+$$x_s = -\frac{b}{2a}$$
+## Nullstellen
+siehe mitternachtsformel.

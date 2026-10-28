@@ -1,12 +1,20 @@
 [Nugget 4 (Potenzen, Wuzeln und Logarithmen) - Teil 3](https://tube.switch.ch/videos/mgjmxD5vO6)
 
-Mit der <span style='color: var(--custom-word-green, green)'>Wissenschaftlichen Notation</span> lassen sich sehr grosse oder sehr kleine Zahlen vereinfacht darstellen.
 
 > [!abstract] Definition
+> Mit der <span style='color: var(--custom-word-green, green)'>Wissenschaftlichen Notation</span> lassen sich sehr grosse oder sehr kleine Zahlen vereinfacht darstellen.
+>
 > $$z = m * 10^n$$
 >
 > $m$ ist die <span style='color: var(--custom-word-green, green)'>Mantisse</span> welche zwischen $1$ und $10$ ($1 \le m < 10$) liegt.
 > $n$ ist der Exponent ($n \in \mathbb{Z}$)
+
+^definition
+
+> [!example]+ Beispiel vereinfachen
+> ![[koma/probeprüfung/probeprüfung_draw.md#^frame=Ad0DseGI]]
+
+^vereinfachen
 
 > [!example]+ Beispiel: Lichtgeschwindigkeit
 > $c = 299'792'458 \frac{m}{s} = 2.998 * 10^8\frac{m}{s}$

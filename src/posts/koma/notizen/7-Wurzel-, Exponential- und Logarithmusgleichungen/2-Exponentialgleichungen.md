@@ -1,0 +1,4 @@
+- **Strategie A (Gleiche Basis / Basenvergleich):** Versuche, beide Seiten der Gleichung auf dieselbe Basis zu bringen (z. B. $2^{3x} = 2^{5} \implies 3x = 5$).
+- **Strategie B (Logarithmieren bei $x$ im Exponenten):** Wenn die Basen nicht gleich gemacht werden können, wende auf beiden Seiten den Logarithmus (z. B. $\ln$ oder $\lg$) an und ziehe den Exponenten mithilfe der Potenzregel nach vorne:$$a^x = b \implies \ln(a^x) = \ln(b) \implies x \cdot \ln(a) = \ln(b) \implies x = \frac{\ln(b)}{\ln(a)}$$
+- **Strategie C (Substitution bei versteckten quadratischen Gleichungen):** Wenn Terme wie $2^{2x}$ und $2^x$ vorkommen, setze $z = 2^x$, um eine normale quadratische Gleichung ($az^2 + bz + c = 0$) zu erhalten.
+- **Stragegie D** Wenn im Exponenten ein $+c$ oder $-c$ steht (z. B. $2^{x-1}$), spalte es auf in $2^x \cdot 2^{-1}$, bringe alle $2^x$-Terme auf eine Seite und klammere $2^x$ aus!

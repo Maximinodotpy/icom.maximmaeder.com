@@ -4,5 +4,5 @@ Mit dem Zwei-Klammern-Ansatz wäre das bsp. oben dann $(x + 7)(x - 11)$ um an di
 
 Wir könne natürlich aber auch die PQ Formel anwenden.
 $$
-x_{1,2}  = \frac{p}{2} \pm \sqrt{(\frac{p}{2}) - q}
+x_{1,2}  = -\frac{p}{2} \pm \sqrt{(\frac{p}{2}) - q}
 $$

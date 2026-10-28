@@ -46,7 +46,7 @@ $\mathbb{Q} = \{\frac{p}{q}|p,q \in \mathbb{Z} \land q \neq 0\}$ ist die Menge d
 $\mathbb{R} = \{x|x$ ist reelle Zahl $\}$ ist die Menge der reellen Zahlen (zb. $\sqrt{2}$ oder $\pi$).
 $\mathbb{I} = \{x|x$ ist reelle Zahl, aber keine rationale Zahl $\}$ ist die Menge der irrationalen Zahlen (also $\mathbb{R}$ ohne $\mathbb{Q}$)
 
-siehe auch: [[koma/formelblatt|Formelblatt: Koma]]
+siehe auch: [[koma/spick midterms/formelblatt|Formelblatt: Koma]]
 
 > [!WARNING]- Manchmal ist in der Literatur $0 \in \mathbb{N}$
 > Für unsere Zwecke ist es **aber** nicht teil von $\mathbb{N}$ und muss explizit erwähnt werden falls dies gewünscht ist ($\mathbb{N}_0$)

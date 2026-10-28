@@ -4,4 +4,4 @@ date: '2026-09-21'
 published: true
 ---
 
-![[koma/formelblatt#Grundlegende Gesetze der Algebra#Kommutativ-, Distributiv- und Assoziativgesetz|formelblatt]]
+![[koma/spick midterms/formelblatt#Grundlegende Gesetze der Algebra#Kommutativ-, Distributiv- und Assoziativgesetz|formelblatt]]
