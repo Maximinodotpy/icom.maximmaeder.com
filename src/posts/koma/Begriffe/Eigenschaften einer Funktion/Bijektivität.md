@@ -8,7 +8,7 @@ image: "#1a91db"
 >
 > bedeutetet dass es einerseits immer nur pro $x$-Wert nur einen $y$-Wert aber auch umgekehrt pro $y$-Wert auch immer nur einen $x$-Wert gegeben.
 >
-> graphisch hiesse dies, dass bei jedem Element rechts <u>genau ein</u> Pfeil ankommt.
+> graphisch hiesse dies, dass bei <u>jedem</u> Element rechts <u>genau ein</u> Pfeil ankommt.
 >
 >![[Bijektivität_graphische_darstellung||100%]]
 >
