@@ -100,6 +100,13 @@ which looks like this
 $$\prod$$
 $$\sum$$
 
+## Geometrie
+
+| Befehl        | Beispiel/Symbol | Bedeutung |
+| ------------- | --------------- | --------- |
+| `\textdegree` | $\textdegree$   | [[Winkel|Grad]]      |
+
+
 ## Sonstiges
 
 | Befehl        | Beispiel/Symbol | Bedeutung   |
