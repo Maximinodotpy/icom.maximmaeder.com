@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder.startsWith("prog2/midterms")
+formulas:
+  Untitled: file.toString()
+views:
+  - type: kanban
+    name: View
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - formula.Untitled

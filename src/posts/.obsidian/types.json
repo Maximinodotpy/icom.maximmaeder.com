@@ -5,6 +5,7 @@
     "tags": "tags",
     "sources": "multitext",
     "video": "multitext",
-    "image": "text"
+    "image": "text",
+    "status": "text"
   }
 }

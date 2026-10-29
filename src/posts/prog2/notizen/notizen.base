@@ -1,0 +1,10 @@
+filters:
+  and:
+    - file.folder.startsWith("prog2/notizen/")
+views:
+  - type: table
+    name: View
+    order:
+      - file.name
+      - drehbuch
+    sort: []

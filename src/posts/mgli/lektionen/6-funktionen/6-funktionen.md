@@ -256,7 +256,7 @@ Wenn wir ein Array mit $n$ Elementen haben, dann führt der Algorithmus also $f(
 >    Für alle $n \ge 1$ ist $\frac{1}{2}n^2 + 5n - 4 \le n^2 + 5n^2 = 6n^2$
 > 3. $n^2 \notin \mathcal(n)$
 >    Sonst müssten Zahlen $n_0$ und $c$ existieren mit $n^2 \le c * n$ für alle $n \ge n_0$
-	
+
 Siehe: [[W05-Komplexitätsanalyse & O-Notation]]
 ## Rechenregeln
 ![[W05-Komplexitätsanalyse & O-Notation#Rechenregeln]]
