@@ -1,0 +1,1 @@
+Die Kathete(n) ist in einem rechtwinkligen [[Dreieck]] eine der [[Dreieck|Seiten]] welche an den rechten [[Winkel]] angrenzt.
