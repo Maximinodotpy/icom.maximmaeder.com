@@ -113,6 +113,9 @@ y = 2x
 
 ![[Eigenschaften einer Funktion.base]]
 
+## Intervallschreibweise
+
+![[Intervallschreibweise]]
 
 ## Verknüpfung von Funktionen
 
