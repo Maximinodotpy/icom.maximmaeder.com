@@ -1,4 +1,4 @@
-Mit der Intervallschreibweise können wir ebenfalls Zahlen mengen aus $\mathbb{R}$ definieren. Dazu verwenden wir rund und eckige Klammern. die Runden stehen für nicht eingeschlossen und die eckigen für eingeschlossen.
+Mit der Intervallschreibweise können wir ebenfalls Zahlen mengen aus $\mathbb{R}$ definieren. Dazu verwenden wir rund und eckige Klammern. die Runden stehen für nicht eingeschlossen und die Eckigen für eingeschlossen.
 
 ## Geschlossenes Intervall
 
@@ -12,4 +12,9 @@ Mit der Intervallschreibweise können wir ebenfalls Zahlen mengen aus $\mathbb{R
 > Schreibweise: $(a,b)$
 > Keine der Grenzen gehört dazu.
 >
+
+## Halboffenes Intervall
+
+> [!abstract] Definition
+> 
 
