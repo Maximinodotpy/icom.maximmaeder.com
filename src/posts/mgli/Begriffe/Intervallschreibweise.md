@@ -1,3 +1,7 @@
+---
+aliases:
+  - Intervall
+---
 Ein <span style='color: var(--custom-word-green, green)'>Intervall</span> ist eine zusammenhängende Teilmenge des Zahlenstrahls. Es enthält <u>alle</u> Zahlen zwischen einer unteren und einer oberen Grenze.
 ## Geschlossenes Intervall
 
