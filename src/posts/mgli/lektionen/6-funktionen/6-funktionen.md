@@ -9,7 +9,6 @@ Woche: "6"
 übungs_serie:
 schriftliche_notizen: "[[6-funktionen-übungen]]"
 cssclasses:
-  - hide-embedded-headers
 ---
 ## Definition der Funktion
 
