@@ -97,6 +97,7 @@ y = 2x
 ### Definition der [[Bijektivität]]
 
 ![[Bijektivität#^definition]]
+### Beispiel
 
 > [!example]+ Beispiel 1
 > Es seien $A = \{\text{alle Studierenden dieser Klasse}\}$ und $B = \{\text{alle möglichen Email-Adressen}\}$
