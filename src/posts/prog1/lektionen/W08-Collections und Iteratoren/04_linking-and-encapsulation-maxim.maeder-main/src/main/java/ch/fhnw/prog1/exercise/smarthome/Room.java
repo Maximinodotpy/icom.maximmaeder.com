@@ -29,4 +29,23 @@ public class Room {
     public String toString() {
         return name + " (" + lamps.size() + " lamps)";
     }
+
+    public Lamp energySavingLamp() {
+        Lamp currentLowest = null;
+
+        var it = this.lamps.iterator();
+
+        if (it.hasNext()) {
+            currentLowest = this.lamps.getFirst();
+        }
+
+        while (it.hasNext()) {
+            Lamp next_lamp = it.next();
+            if (/*currentLowest == null || */next_lamp.getPowerConsumption() < currentLowest.getPowerConsumption()) {
+                currentLowest = next_lamp;
+            }
+        }
+
+        return currentLowest;
+    }
 }
