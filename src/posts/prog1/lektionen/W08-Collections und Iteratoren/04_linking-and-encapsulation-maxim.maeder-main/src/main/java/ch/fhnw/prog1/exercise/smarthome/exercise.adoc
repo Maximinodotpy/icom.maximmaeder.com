@@ -1,0 +1,11 @@
+# Smart home
+
+In dieser Übung arbeitest Du mit verknüpften Objekten in einer etwas grösseren GUI-Applikation, die ein SmartHome-System simuliert.
+
+Im Package `….smarthome` in der Code-Vorlage für diese Woche findest Du die Vorlage für diese Applikation. Der Einstieg befindet sich in der Klasse `SmartHomeApp`. Diese Klasse kannst Du kurz anschauen, aber Du musst sie (im Gegensatz zu den anderen Klassen) nicht vollständig verstehen.
+
+Die Klasse `Home` enthält eine Reihe von Methoden, welche Du implementieren wirst; diese werden aufgerufen, wenn die Buttons unten im GUI gedrückt werden. Zum Beispiel soll die Methode `turnAllOff` alle Lampen in allen Räumen im Haus ausschalten. Deine Lösungen sollen immer allgemein sein, das heisst mit beliebigen Zimmern und Lampen funktionieren.
+
+- Implementiere die Methode `turnAllOff` in der Klasse `Home`, welche alle Lampen in allen Räumen im Haus ausschaltet.
+
+- Implementiere die restlichen Methoden in `Home`. Versuche jeweils, eine möglichst saubere Blockstruktur für Deine Lösung zu finden und versuche, sämtliche Methoden ohne `break`, `continue` und _early return_ zu schreiben. Hingegen könnte es nützlich sein, Hilfsmethoden zu definieren. Wenn Du es sinnvoll findest, kannst Du solche Methoden auch in den Klassen `Room` und `Lamp` programmieren. Für die letzte Methode, `nightMode`, sind sogar schon zwei Hilfsmethoden vorgegeben, die Du vorher implementieren und testen solltest.

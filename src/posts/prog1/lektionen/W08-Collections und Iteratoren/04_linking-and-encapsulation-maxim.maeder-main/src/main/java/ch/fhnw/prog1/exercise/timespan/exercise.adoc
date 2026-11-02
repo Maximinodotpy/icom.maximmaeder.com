@@ -1,0 +1,52 @@
+# Invarianten & Preconditions für Zeitspannen
+
+Im Package `….timespan` findest Du einen ersten Entwurf einer Klasse TimeSpan für Objekte, welche eine Zeitspanne in Stunden plus Minuten speichern.
+
+Ergänze die Klasse so, dass folgende Invarianten klar ausgedrückt und gegenüber Client-Code durchgesetzt werden:
+
+- `totalMinutes` ≥ 0, d.h. Zeitspannen sind nie negativ. Definiere entsprechend sinnvolle Preconditions für den Konstruktor und drücke sie mittels `IllegalArgumentExceptions` aus.
+
+- `totalMinutes` ≥ old(`totalMinutes`), d.h. Zeitspannen können nur verlängert werden, nicht verkürzt. Definiere entsprechend sinnvolle Preconditions für die add-Methode und verwende wieder IllegalArgumentExceptions.
+
+- 0 ≤ `getMinutes` ≤ 59. Diese Invariante soll ohne weitere Preconditions umgesetzt werden. Wenn z.B. 30 Minuten zu einer Zeitspanne von 1 Stunde und 50 Minuten hinzugefügt werden, soll das Ergebnis 2 Stunden und 20 Minuten sein.
+
+Die Invarianten sind bewusst aus Client-Code-Sicht formuliert, d.h. sie betreffen nur das öffentlich beobachtbare Verhalten, nicht den internen Zustand (deshalb z.B. getMinutes und nicht minutes). Du darfst also die internen Details der Klasse beliebig ändern, solange die Invarianten «von aussen gesehen» eingehalten werden.
+
+```java
+public class TimeSpan {
+    private int hours;
+    private int minutes;
+
+    public TimeSpan(int hours, int minutes) {
+        // zero-initialization
+        add(hours, minutes); // reuse check and conversions in add()
+    }
+
+    public void add(int hours, int minutes) {
+        if (hours < 0 || minutes < 0) {
+            throw new IllegalArgumentException("no negative values permitted");
+        }
+        this.hours += hours;
+        this.minutes += minutes;
+        this.hours += this.minutes / 60; // convert surplus minutes to hours
+        this.minutes %= 60;              // keep only rest
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public int getMinutes() {
+        return minutes;
+    }
+
+    public int totalMinutes() {
+        return hours * 60 + minutes;
+    }
+
+    public String toString() {
+        return hours + "h " + minutes + "min";
+    }
+}
+```
+

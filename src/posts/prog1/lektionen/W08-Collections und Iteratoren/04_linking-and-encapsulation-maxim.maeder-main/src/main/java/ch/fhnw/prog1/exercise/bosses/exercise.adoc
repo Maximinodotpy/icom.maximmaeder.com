@@ -1,0 +1,47 @@
+# Bosses
+
+In dieser Übung übst Du nochmals die Verwendung von verknüpften Objekte, aber mit komplexeren Strukturen.
+
+Hier eine Klasse, die auf sich selbst verweist:
+```java
+public class Employee {
+    private final String name;
+    private Employee boss;
+    // ...
+}
+```
+
+Eine angestellte Person hat also einen Namen und eine Bossin oder einen Boss, also eine direkt vorgesetzte _Person_. Diese kann natürlich selbst wieder eine Boss-Person haben, usw. bis zum CEO, wo `boss` auf `null` gesetzt ist. In dieser Übung geht es nun darum, diese Hierarchie zu analysieren. Wir gehen davon aus, dass es keine _Zyklen_ in der Boss-Hierarchie gibt, d.h. von jeder Person kommt man durch wiederholtes Dereferenzieren von `boss` irgendwann zum `null`-Wert.
+
+- In der Code-Vorlage im Package ….bosses findest Du eine Vorlage für die Klasse Employee. Implementiere die Methode isSuperiorOf(other), welche zurückgeben soll, ob die Person, auf welche die Methode aufgerufen wird (this), eine vorgesetzte Person von other ist – entweder als direkte Bossin/direkter Boss oder als Bossin/Boss von deren Bossin/Boss, usw. Für den obigen Client-Code gelten z.B. folgende Fälle:
+
+```java
+headOfSales.isSuperiorOf(sara)     // true
+ceo.isSuperiorOf(sara)             // true
+headOfMarketing.isSuperiorOf(sara) // false
+```
+
+Wir definieren übrigens, dass jede Person auch als Vorgesetzte von sich selbst gilt:
+
+```java
+sara.isSuperiorOf(sara) // true
+```
+
+Das Problem lässt sich als sequentielle Suche durch die Kette von `Employee`-Objekten lösen, die bei `other` beginnt und durch die boss-Referenzen zusammenhängt. Wende die Denkweise der Schleifeninvarianten an, um eine saubere Lösung zu finden.
+
+- Die Methode `findCommonSuperiorWith(other)` geht noch einen Schritt weiter und findet den ersten gemeinsamen Vorgesetzten von zwei Personen (`this` und `other`). Im obigen Client-Code gelten z.B. folgende Fälle:
+```java
+walt.findCommonSuperiorWith(will)        // Web Team Leader
+walt.findCommonSuperiorWith(headOfSales) // CEO
+```
+
+Da jede Person ihre eigene Vorgesetzte ist, gelten z.B. auch:
+
+```
+sara.findCommonSuperiorWith(headOfSales) // Head of Sales
+sara.findCommonSuperiorWith(sara)        // Sara
+```
+
+Falls es keinen gemeinsamen Vorgesetzten gibt (z.B. wenn die beiden Personen in verschiedenen Firmen arbeiten), soll `null` zurückgegeben werden.
+
+Auch dieses Problem lässt sich elegant durch eine sequentielle Suche lösen.

@@ -1,0 +1,31 @@
+# Gekapselte Adresse-Klasse
+
+In dieser Übung schreibst Du eine sauber gekapselte Klasse Address, welche zum Beispiel in einem Webshop zum Speichern von Kundendaten eingesetzt werden könnte Für die Klasse sollen einige Invarianten gelten, z.B. dürfen keine negativen Hausnummern vorkommen.
+
+Eine formatierte Adresse sieht zum Beispiel so aus:
+```
+Bahnhofstrasse 6
+5210 Windisch
+```
+
+Die einzelnen Informationen sind wie folgt definiert:
+
+- `street`
++
+Typ `String`, ist nicht null und nicht leer (isEmpty).
+
+- `number`
++
+Typ `int`, ist positiv.
+
+- `zipCode`
++
+Typ `int`, ist positiv und vierstellig.
+
+- `city`
++
+Typ `String`, ist nicht `null` und nicht leer.
+
+a. Füge die benötigten Attribute zu `Address` im Package `….address` hinzu und zusätzlich einen Konstruktor mit Parametern für alle vier Informationen. Schreibe zusätzliche eine `format`-Methode, welche eine Adresse wie oben dargestellt formatiert (inklusive Zeilenumbruch).
+
+b. Ergänze Getter- und Setter-Methoden und stelle sicher, dass die oben genannten Invarianten eingehalten werden. Wenn der Konstruktor oder die Setter-Methoden mit ungültigen Argumenten aufgerufen werden, sollten sie eine `IllegalArgumentException` werfen.
