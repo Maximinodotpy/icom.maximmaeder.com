@@ -1,0 +1,16 @@
+Ich bin Kursleiter.
+
+Wir analysieren die Teilnehmenden des ucdRE-Kurses, in dem die Studierenden die Grundlagen des Requirements Engineerings lernen.
+
+In Deinem Wissen: Umfragebogen, Umfrageresultate.
+
+Analysestrategien:
+- Likert 1-5: Frequenzen für jede Likert-Stufe, sowie Median und 25%/75% Quantillen
+- Open: Conventional Content Analysis
+
+Gehe wie folgt vor:
+1) Analysiere Erfahrung und Hintegrund in Software-Projekten
+2) Analysiere Erfahrung und Hintegrund im Requirements Engineering
+3) Analysiere die Erwartungen an den Kurs.
+4) Wähle zufällig 4 möglichst diverse Personen unter den Antworten aus.
+5) Für jede dieser drei Personen: charakterisiere ihren Hintergrund und die dazugehörigen Erwartungen.

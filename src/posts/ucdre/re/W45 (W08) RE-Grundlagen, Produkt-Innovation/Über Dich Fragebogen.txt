@@ -1,0 +1,31 @@
+Über Dich
+Hallo. Ich würde Dich gerne ein wenig kennenlernen. Je mehr ich Deinen Hintergrund und Interessen verstehe, desto besser kann ich den Kurs auf Dich zuschneiden. /Samuel
+samuel.a.fricker@gmail.com Byt konto
+ 
+Inte delad
+ 
+Stimmst Du folgenden Aussage zu: Du hast Erfahrung mit Softwareprojekten.
+Trifft zu (5)
+Trifft eher zu (4)
+Teils-teils (3)
+Trifft eher nicht zu (2)
+Trifft nicht zu (1)
+Notiz zum Lernen
+Bei der eben genannten Frage handelt es sich um eine Frage, die die so genannte Likert-Skala verwendet. Da jede Antwort mit einer Zahl verknüpft ist, können Sie eine große Anzahl statistischer Tests nutzen.
+Was ist Dein Hintergrund bei Software-Projekten? Welche Software hast Du bisher entwickelt oder beschafft? Bei welcher Firma hast Du die Arbeit gemacht? Hast Du in einem Team gearbeitet? Gebe eine kurze Antwort, die beschreibt, was Deiner Meinung nach am wichtigsten ist.
+Notiz zum Lernen
+Die Frage gerade oben ist eine so genannte qualitative Frage. Sie ermöglicht es, Meinungen oder Fakten zu verstehen, die mit den Fragebogen gesammelt wurden. Du nutzt dazu Inhaltsanalyse (Content Analysis), bei der die interessanten Aspekte der Antwort identifiziert und in Kategorien gruppiert werden.
+Stimmst Du folgenden Aussage zu: Du hast Erfahrung im Erheben, Analysieren, Spezifizieren und Validieren von Anforderungen
+Trifft zu (5)
+Trifft eher zu (4)
+Teils-teils (3)
+Trifft eher nicht zu (2)
+Trifft nicht zu (1)
+Was ist Dein Hintergrund im Requirements Engineering: Wie hast Du bisher Anforderungen ermittelt? Wie hast Du diese analysiert? Wie hast Du sie spezifiziert? Wie hast Du sie validiert? Geben Sie eine kurze Antwort, die beschreibt, was Deiner Meinung nach am wichtigsten ist.
+Was erwartest Du von diesem Kurs: Was sollen wir liefern? Gib eine kurze Antwort, in der Du beschreibst, was Deiner Meinung nach am wichtigsten ist.
+Möchtest Du uns noch etwas anderes mitteilen?
+Sind Deine Antworten wahrheitsgetreu und können zur Analyse verwendet werden?
+Ja, bitte verwende meine Antworten.
+Nein, bitte verwende meine Antworten nicht.
+Notiz zum Lernen
+Die obige Frage ist eine Prüfung, ob die Antworten gültig sind oder nicht. Wenn z.B. jemand nur den Fragebogen getestet hat, sollten die Antworten nicht verwendet werden. Es gibt Hinweise darauf, dass Umfrageergebnisse viel genauer sind, wenn der Fragebogen diese Frage am Ende enthält, als wenn er diese Frage nicht enthält.
