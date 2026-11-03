@@ -3,11 +3,16 @@ title: "MGLI Lektion 7: Graphen"
 date: 2026-09-21
 published: true
 video:
+  - https://tube.switch.ch/videos/unIdm39GFA
 sources:
 Woche: "8"
 übungs_serie:
 schriftliche_notizen: "[[7-graphen-übungen]]"
+folien: "[[7-Graphen.pdf]]"
 ---
+
+![[gerichteter Graph]]
+
 ## Königsberger Brückenproblems
 
 ## Multimengen
@@ -15,9 +20,6 @@ schriftliche_notizen: "[[7-graphen-übungen]]"
 ![[Multimenge#^definition]]
 
 ![[Multimenge#^beispiel]]
-
-## Gerichtete Graphen
-![[gerichteter Graph]]
 
 ## Adjazenz
 

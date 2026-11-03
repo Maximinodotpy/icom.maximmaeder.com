@@ -15,7 +15,7 @@ aliases:
 >
 > Die Innenwinkel eines Dreiecks haben immer die Summe $180 \textdegree$.
 
-## Hilfslinien
+## Hilfslinien![[Dreieck 2026-11-03 16.14.42.excalidraw]]
 
 ![[Mittelsenkrechte]]
 
