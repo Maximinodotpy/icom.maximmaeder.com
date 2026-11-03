@@ -1,0 +1,39 @@
+== Lotterie
+
+Implementiere eine Lotterie, welche zuerst Lose verkauft, dann 6 Gewinnzahlen zieht und schliesslich Gewinne ausbezahlt. Verwende dabei _Collections_ aus dem _Java Collection Framework_.
+
+Die Lotterie besteht aus zwei Klassen, `Lottery` und `Ticket`. Die beiden Klassen arbeiten eng zusammen und können folgendermassen verwendet werden:
+
+[source,java]
+----
+Lottery lottery = new Lottery(42); // Zahlen 1 bis 42
+
+// wähle 6 Zahlen und kaufe ein Los:
+Ticket tic = lottery.buyTicket(new Integer[]{1, 42, 23, 8, 12, 37});
+
+// jetzt wird gezogen:
+lottery.draw();
+System.out.println("Gewinnzahlen: " + lottery.getWinningNumbers());
+
+// Los «kennt» jetzt die korrekten Zahlen und berechnet den Gewinn:
+System.out.println("Los " + tic.getId() + ":");
+System.out.println("Richtige: " + Arrays.toString(tic.getCorrectNumbers()));
+System.out.println(tic.getPrize() + " CHF gewonnen!");
+----
+
+Eine Besonderheit ist, dass der Client-Code selbst nicht direkt `Ticket`-Objekte erstellen kann – nur die `Lottery` kann das, da der Konstruktor von `Ticket` nicht `public` ist, sondern die Default-Sichtbarkeit "package-private" hat (und sich `Ticket` und `Lottery` im selben Package befinden). Zudem hat jedes `Ticket`-Objekt eine Referenz zur `Lottery`, welche das `Ticket` ausgestellt hat; dadurch kann ein `Ticket` die Gewinnzahlen der Lotterie abfragen und so die korrekten Zahlen und den Gewinn bestimmen.
+
+[loweralpha]
+. Die Code-Vorlage enthält bereits Teile der Klassen `Lottery` und `Ticket` und zudem ein fertiges Programm `LotteryApp`, mit dem man Lose kaufen und den Gewinn berechnen kann. Mache Dich mit dem vorhandenen Code vertraut.
++
+Implementiere dann die Methode `buyTicket` in `Lottery`. Diese erstellt ein `Ticket` mit einer neuen ID und den gegebenen Zahlen und gibt das Ticket zurück. Das erste Ticket bekommt die ID 1, das zweite die ID 2, usw. Die Methode muss zudem prüfen, dass die gegebenen Zahlen für das Ticket gültig sind, d. h. genau 6 Zahlen vorhanden sind, alle zwischen 1 und der Höchstzahl liegen, und auch 6 _verschiedene_ gewählt wurden. Die ersten zwei Tests in `LotteryTest` prüfen dieses Verhalten.
+
+. Implementiere die Methode `Lottery.draw`, welche die Ziehung durchführt, d. h. 6 zufällige, _verschiedene_ Gewinnzahlen auswählt und speichert. Diese können anschliessend mit `getWinningNumbers` abgefragt werden. Die nächsten drei Unit-Tests sollten damit durchlaufen.
+
+. Die Lotterie hat zwei Zustände: «vor der Ziehung» und «nach der Ziehung». Viele Methoden dürfen nur in einem der beiden Zuständen aufgerufen werden. Zum Beispiel darf `getWinningNumbers` erst nach der Ziehung aufgerufen werden; vorher wird eine `IllegalStateException` geworfen (_state_ = Zustand). Umgekehrt darf `draw` nach der Ziehung nicht noch einmal aufgerufen werden. Ähnliches gilt für `buyTicket`! Ergänze wo nötig die Methoden so, dass die nächsten drei Unit-Tests durchlaufen.
+
+. Zum Schluss musst Du noch den Konstruktor und drei Methoden in `Ticket` implementieren. Entscheide Dich für eine Datenstruktur in der die zum `Ticket` gehörigen Zahlen in einer Instanzvariablen gespeichert werden sollen und ergänze eine solche Variable.
++
+Implementiere dann `getNumbers` so, dass alle Zahlen des Tickets zurückgegebene werden. `getCorrectNumbers` soll eine Liste mit den korrekten Zahlen auf dem Los zurückgeben, also jene, welche zu den gezogenen Gewinnzahlen gehören.
++
+Aufgrund der Anzahl korrekter Zahlen soll `getPrize` schliesslich den Gewinn für dieses Los berechnen. Bei 0 korrekten Zahlen ist der Gewinn 0 Franken, bei einer einzigen Zahl 5 Franken. Für jede weitere korrekte Zahl verzwanzigfacht sich der Gewinn; bei einem "Sechser" kommt man somit auf 16'000'000 Franken.

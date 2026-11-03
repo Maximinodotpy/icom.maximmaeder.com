@@ -1,0 +1,32 @@
+Text-Analyse
+
+Programmiere eine Klasse `WordCounter` entsprechend dem nachfolgenden Muster.
+
+Objekte dieser Klasse sollen benutzt werden können, um das am häufigsten auftretende Wort in einem (grösseren) Text zu ermitteln.
+Mit der Methode `add` können nach und nach die Wörter eines Textes zu diesen Objekten hinzugefügt werden.
+
+Die `WordCounter`-Objekte müssen eine geeignete interne Datenstruktur unterhalten, um die relevante Information zu sammeln.
+Überlege, welche der Dir inzwischen bekannten _Collection_-Typen sich für die Aufgabe eignen.
+
+Die Methode `topWord` soll dann das am häufigsten vorkommende Wort zurückgeben.
+Bei gleicher Häufigkeit mehrerer Wörter einfach eines davon.
+
+[source,java]
+----
+public class WordCounter {
+
+    public void add(String word) {
+        // TODO: add `word` to your data structure
+    }
+
+    public String topWord() {
+        // TODO: return the word most frequently occurring in your data structure
+        return "";
+    }
+}
+----
+
+Du kannst Deine Lösung beispielsweise mit dem https://www.gutenberg.org/ebooks/100.txt.utf-8[Gesamtwerk von William Shakespeare,window=_blank] bei __Project Gutenberg__ testen. Diesen Text sowie ein Testprogramm findest Du in der aktuellen Code-Vorlage.
+
+_Falls Du eine zusätzliche Herausforderung suchst:_ +
+Programmiere eine zusätzliche Funktion `String topWordK(int k)` für den `WordCounter`, die das am `k`-häufigsten vorkommende Wort zurückgibt, oder ein `String`-Array mit den `k` häufigsten Wörtern.
