@@ -77,6 +77,47 @@ Bei einem ungerichteten (Multi-)Graphen können die Mengen, die eine Kante defin
 
 > [!abstract] Definition
 > Ein Graph heisst <span style='color: var(--custom-word-green, green)'>zusammenhängend</span>, wenn von jedem Knoten aus zu jedem anderen Knoten ein Weg existiert.
+>
+> ![[Graph 2026-11-04 08.19.54.excalidraw||100%]]
+>
+
+^zusammenhang
+## Isolation
+
+> [!abstract] Definition
+> In einem Graphen heisst ein Knoten <span style='color: var(--custom-word-green, green)'>isoliert</span>, wenn er den Grad 0 hat.
+
+^isolation
+
+## Isomorphismus von Graphen
+
+> [!abstract] Definition
+> #backlink-exclude
+
+> [!example]+ Beispiel
+> Content
+
+
+## Teilgraphen
+
+> [!abstract] Definition
+> #backlink-exclude
+
+> [!example]+ Beispiel
+> Content
+
+## Bäume
+
+> [!abstract] Definition
+> #backlink-exclude
+
+> [!example]+ Beispiele
+> Content
+
+### Prüfercode
+
+## Spannbäume
+
 
 
 

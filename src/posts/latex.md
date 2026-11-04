@@ -154,3 +154,28 @@ $$
 	\end{cases}
 \end{alignat*}
 $$
+
+## Matrix
+mit `matrix`, `pmatrix` (runde Klammern), `bmatrix` (eckige Klammern)
+```latex
+$$
+\begin{pmatrix}
+0 & 0 & 1 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 1 & 0 \\
+\end{pmatrix}
+$$
+```
+$$
+\begin{pmatrix}
+0 & 0 & 1 & 0 & 0 & 0 \\
+1 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 & 1 & 0 \\
+\end{pmatrix}
+$$

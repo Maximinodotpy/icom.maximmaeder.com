@@ -24,9 +24,19 @@ Existiert ein Weg, der alle Brücken genau einmal überquert?
 * Also müssen alle Zwischenknoten eine gerade Anzahl an Kanten haben.
 * Zu jedem Knoten in diesem Graphen führen eine ungerade Anzahl von Kanten. Deshalb existiert in diesem Graphen kein Eulerweg.
 
+## Eulerweg
+
 > [!abstract] Eulerbedienung für Eulerweg
 > In einem ungerichteten Graphen, in dem ein Eulerweg existiert, haben alle Knoten bis auf höchsten zwei (Start- und Endknoten des Weges) einen geraden Grad.
+>
+> Notwendige Bedingung für Eulerwege:
+> ein ungerichteter Graph kann nur einen Eulerweg besitzen, wenn
+> * er zusammenhängend ist (bis auf isolierte Knoten) und
+> * die Euelerbedingung erfüllt ist, d.h. höchsten 2 Knoten einen ungeraden Grad haben
 
+## Algorithmus von Hierholzer
+
+## Eulerkreis
 
 ## Multimengen
 
