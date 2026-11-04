@@ -25,7 +25,7 @@ folien: "[[7-Graphen.pdf]]"
 
 Existiert ein Weg, der alle Brücken genau einmal überquert?
 
-![[7-graphen 2026-11-03 19.26.25.excalidraw]]
+![[7-graphen_königsbergerbrückenproblem]]
 
 * Für jeden Weg, der in einen Knoten rein führt, muss eine Kante aus dem Knoten heraus führen (Ausser beim Endknoten)
 * Weil wir nicht mehr zum Start zurückkehren müssen, darf auch der Startknoten eine ungerade Anzahl an Kanten haben
@@ -60,10 +60,9 @@ Existiert ein Weg, der alle Brücken genau einmal überquert?
 
 ## Lernziele
 
-
 - [ ] ==🟢Sie verstehen die Fragestellung des Königsberger Brückenproblems.
-- [ ] Sie können den Unterschied einer Menge und einer Multimenge erklären.
-- [ ] Sie kennen die Definition von – einfachen Graphen, – Multigraphen und – gerichteten Graphen.
+- [ ] ==🟢Sie können den Unterschied einer Menge und einer Multimenge erklären.
+- [ ] ==🟢Sie kennen die Definition von – einfachen Graphen, – Multigraphen und – gerichteten Graphen.
 - [ ] Sie können geeignete Probleme mit Hilfe von Graphen modellieren.
 - [ ] Sie können anhand der Graphentheorie das Königsberger Brückenproblem untersuchen.
 - [ ] Sie kennen die Definition des Eulerwegs, die besagt, dass jede Kante in einem Weg genau einmal besucht wird.
