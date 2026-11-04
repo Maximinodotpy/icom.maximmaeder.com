@@ -16,7 +16,7 @@ aliases:
 >
 > Wird in einem Weg jede Kante des Graphens genau einmal besucht, heisst der Weg <span style='color: var(--custom-word-green, green)'>Eulerweg</span>.
 >
-> ![[gerichteter Graph 2026-11-03 17.53.59.excalidraw||100%]]
+> ![[Graphen Wege_beispiele||100%]]
 >
 > In einem Graphen ohne Mehrfachkanten zwischen zwei Knoten kann ein Weg auch eindeutig durch die Angabe einer Folge von Knoten angegeben werden.
 

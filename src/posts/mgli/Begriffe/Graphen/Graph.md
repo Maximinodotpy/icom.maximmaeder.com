@@ -84,5 +84,4 @@ Bei einem ungerichteten (Multi-)Graphen können die [[4-mengen|Mengen]], die ein
 
 > [!NOTE]- Sonstiges
 > [Gerichteter Graph – Wikipedia](https://de.wikipedia.org/wiki/Gerichteter_Graph)
->
 > ![[Pasted image 20261019134953.png]]
