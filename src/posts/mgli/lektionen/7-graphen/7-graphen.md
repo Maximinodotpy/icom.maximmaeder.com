@@ -11,9 +11,22 @@ schriftliche_notizen: "[[7-graphen-übungen]]"
 folien: "[[7-Graphen.pdf]]"
 ---
 
-![[gerichteter Graph]]
+![[Graph]]
 
 ## Königsberger Brückenproblems
+
+Existiert ein Weg, der alle Brücken genau einmal überquert?
+
+![[7-graphen 2026-11-03 19.26.25.excalidraw]]
+
+* Für jeden Weg, der in einen Knoten rein führt, muss eine Kante aus dem Knoten heraus führen (Ausser beim Endknoten)
+* Weil wir nicht mehr zum Start zurückkehren müssen, darf auch der Startknoten eine ungerade Anzahl an Kanten haben
+* Also müssen alle Zwischenknoten eine gerade Anzahl an Kanten haben.
+* Zu jedem Knoten in diesem Graphen führen eine ungerade Anzahl von Kanten. Deshalb existiert in diesem Graphen kein Eulerweg.
+
+> [!abstract] Eulerbedienung für Eulerweg
+> In einem ungerichteten Graphen, in dem ein Eulerweg existiert, haben alle Knoten bis auf höchsten zwei (Start- und Endknoten des Weges) einen geraden Grad.
+
 
 ## Multimengen
 

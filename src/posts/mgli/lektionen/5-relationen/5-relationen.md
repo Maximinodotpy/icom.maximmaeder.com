@@ -52,7 +52,7 @@ Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--cust
 
 **[[#^zahlenbeispiel|Natürliche Zahlen]]**
 ![[5-relationen_bipartiter_graph_zahlen]]
-Des weiteren können Relationen insbesondere homogene Relationen als [[gerichteter Graph]] dargestellt werden.
+Des weiteren können Relationen insbesondere homogene Relationen als [[Graph]] dargestellt werden.
 ## Eigenschaften
 
 Schauen wir uns die Eigenschaften einer [[#Binäre Relation|homogenen Relation]] an folgender [[4-mengen|Menge]] aus Elementen an.

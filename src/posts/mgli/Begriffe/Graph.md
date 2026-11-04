@@ -72,7 +72,12 @@ Bei einem ungerichteten (Multi-)Graphen können die Mengen, die eine Kante defin
 > In einem ungerichteten Graphen $G$ kann es nur eine gerade Anzahl von Knoten mit ungeraden Grad geben.
 >
 > **Begründung:**
-> Jede Kante trägt 2 zu der Summe aller Knotengerade bei. Also ist die Summe aller Knotengrade
+> Jede Kante trägt 2 zu der Summe aller Knotengrade bei. Also ist die Summe aller Knotengrade eine gerade Zahl. Wenn es nun eine ungerade Anzahl an Knoten mit ungeraden Grade geben würde, dann wäre die Summe der Kantengrade auch ungerade.
+## Zusammenhang
+
+> [!abstract] Definition
+> Ein Graph heisst <span style='color: var(--custom-word-green, green)'>zusammenhängend</span>, wenn von jedem Knoten aus zu jedem anderen Knoten ein Weg existiert.
+
 
 
 
