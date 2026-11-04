@@ -11,7 +11,15 @@ schriftliche_notizen: "[[7-graphen-übungen]]"
 folien: "[[7-Graphen.pdf]]"
 ---
 
-![[Graph]]
+## Graphen
+
+![[Graph#^definition]]
+
+![[Graph#^beispiel]]
+
+## Wege
+
+![[Graphen Wege]]
 
 ## Königsberger Brückenproblems
 
@@ -46,14 +54,14 @@ Existiert ein Weg, der alle Brücken genau einmal überquert?
 
 ## Adjazenz
 
-![[Adjazenz#^definition]]
+![[Graphen Adjazenz#^definition]]
 
-![[Adjazenz#^beispiel]]
+![[Graphen Adjazenz#^beispiel]]
 
 ## Lernziele
 
 
-- [ ] Sie verstehen die Fragestellung des Königsberger Brückenproblems.
+- [ ] ==🟢Sie verstehen die Fragestellung des Königsberger Brückenproblems.
 - [ ] Sie können den Unterschied einer Menge und einer Multimenge erklären.
 - [ ] Sie kennen die Definition von – einfachen Graphen, – Multigraphen und – gerichteten Graphen.
 - [ ] Sie können geeignete Probleme mit Hilfe von Graphen modellieren.

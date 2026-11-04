@@ -10,3 +10,13 @@ body {
 .hide-embedded-headers .markdown-embed :is(h1, h2, h3) {
 	display: none; 
 }
+
+.markdown-embed :first-child {
+	/* display: none;  */
+    /* background: pink; */
+}
+
+/* Hides the title/header bar of all embedded notes */
+.markdown-embed-title {
+  display: none !important;
+}

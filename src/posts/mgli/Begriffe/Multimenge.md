@@ -6,14 +6,14 @@ aliases:
   - Multimengen
 ---
 > [!abstract] Definition
-> Bla Bal Bla, def einer Multimenge
+> Im Gegensatz zu einer [[4-mengen|Menge]] kann eine Multimenge mehrere male dieselben Elemente enthalten.
+>
+> Diese ist unter anderem relevant bei [[7-graphen|Graphen]].
 
 ^definition
 
 > [!example]+ Beispiel
-> Content
+> Das folgende ist eine Multimenge wo die $2$ zwei mal vorkommt.
+> $$\{1, 2,2,4\}$$
 
 ^beispiel
-$$
-\{1, 2,2,4\}_b
-$$

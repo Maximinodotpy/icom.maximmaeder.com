@@ -113,7 +113,7 @@ y = 2x
 
 ![[Eigenschaften einer Funktion.base]]
 
-## Intervallschreibweise
+## [[Intervallschreibweise]]
 
 ![[Intervallschreibweise]]
 
@@ -169,7 +169,7 @@ Somit stellt sich die Frage: Wann ist die inverse [[5-relationen|Relation]] eine
 
 Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Funktion]] muss einerseits [[Injektivität|injektiv]] und [[Surjektivität|surjektiv]] (Also [[Bijektivität|bijektiv]]) sein damit man sie umkehren kann und sie immer noch eine Funktion ist.
 
-> [!abstract] Definition einer inversen Relation
+> [!abstract] Definition einer inversen [[5-relationen|Relation]]
 > Es sei $F: A \rightarrow B$ eine <u>[[Bijektivität#^definition|bijektive]]</u> Funktion. Dann ist <span style='color: var(--custom-word-green, green)'>$F^{-1}: B \rightarrow A$</span> eine Funktion, die sogenannte <span style='color: var(--custom-word-green, green)'>inverse Funktion zu $F$</span> oder <span style='color: var(--custom-word-green, green)'>Umkehrfunktion von $F$</span>.
 >
 > Die Umkehrfunktion wird bestimmt, in dem man die Gleichung $F(x) = y$ nach $x$ auflöst.
@@ -182,7 +182,7 @@ Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion
 > [!example]+ Beispiel 2
 > $F: \mathbb{R} \rightarrow \mathbb{R}$ mit $F(x) = 2 * x$ ist [[Bijektivität#^definition|bijektiv]].
 > Es ist $F^{-1}: \mathbb{R} \rightarrow \mathbb{R}$ mit $F^{-1}(y) = \frac{1}{2}y$
-### Winkelhalbierende
+### [[Winkelhalbierende]]
 
 Für eine Funktion $F$, deren [[Definitionsbereich]] und [[Wertebereich]] aus Zahlen bestehen, ergibt sich die Darstellung von $F^{-1}$ im Koordinatensystem aus der von $F$ durch Spiegelung an der ersten Winkelhalbierenden
 
