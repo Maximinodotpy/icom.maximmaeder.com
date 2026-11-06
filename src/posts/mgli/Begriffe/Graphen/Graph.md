@@ -68,7 +68,7 @@ Bei einem ungerichteten (Multi-)Graphen können die [[4-mengen|Mengen]], die ein
 
 ## Isomorphismus von Graphen
 
-![[Graphen Isomorphismus]]
+![[Graphen Isomorphismus#^definition]]
 
 ## Teilgraphen
 
