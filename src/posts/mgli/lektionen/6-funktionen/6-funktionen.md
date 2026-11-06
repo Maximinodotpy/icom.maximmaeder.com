@@ -9,6 +9,7 @@ Woche: "6"
 übungs_serie:
 schriftliche_notizen: "[[6-funktionen-übungen]]"
 cssclasses:
+folien:
 ---
 ## Definition der Funktion
 
