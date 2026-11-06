@@ -61,10 +61,9 @@ Bei einem ungerichteten (Multi-)Graphen können die [[4-mengen|Mengen]], die ein
 ## Zusammenhang
 
 ![[Graphen Zusammenhang]]
-
 ## Isolation
 
-![[Graphen Isolation]]
+![[Graphen Isolation#^definition]]
 
 ## Isomorphismus von Graphen
 
@@ -72,12 +71,15 @@ Bei einem ungerichteten (Multi-)Graphen können die [[4-mengen|Mengen]], die ein
 
 ## Teilgraphen
 
-![[Graphen Teilgraphen]]
+![[Graphen Teilgraphen#^definition]]
+
+![[Graphen Teilgraphen#^beispiel]]
 
 ## Bäume
 
-![[Graphen Baum]]
+![[Graphen Baum#^definition]]
 
+![[Graphen Baum#^beispiel]]
 ## Spannbäume
 
 ![[Graphen Spannbäume]]

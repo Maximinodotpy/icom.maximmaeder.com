@@ -3,4 +3,4 @@
 >
 > Oder in anderen Worten: Er ist mit keinem anderen Knoten verbunden.
 
-^isolation
+^definition

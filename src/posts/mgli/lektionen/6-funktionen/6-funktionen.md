@@ -176,6 +176,8 @@ Die ursprüngliche [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion
 > Die Umkehrfunktion wird bestimmt, in dem man die Gleichung $F(x) = y$ nach $x$ auflöst.
 >
 > so wird zb. $y = 5x - 2$ zu $x = \frac{x+2}{5}$
+>
+> Bei der Verknüpfung von Funktionen gilt $f^{-1} \circ g^{-1} = (g \circ f)^{-1}$
 
 > [!example]+ Beispiel 1
 > ![[6-funktionen_inverse_relation_beispiel||100%]]
