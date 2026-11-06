@@ -12,7 +12,7 @@ image: "#1a91db"
 >
 >![[Bijektivität_graphische_darstellung||100%]]
 >
->Somit ist also auch die [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Definitions- und Wertemenge]] gleich gross.
+>Somit ist also auch die [[1-Einführung Funktionen#^allgemeinedefinitioneinerfunktion|Definitions-, Werte und Bildmenge]] gleich gross.
 
 ^definition
 
