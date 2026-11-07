@@ -7,9 +7,9 @@ body {
     --custom-word-gesproche-blue: #51d1df;
 }
 
-.hide-embedded-headers .markdown-embed :is(h1, h2, h3) {
+/* .hide-embedded-headers .markdown-embed :is(h1, h2, h3) {
 	display: none; 
-}
+} */
 
 .markdown-embed :first-child {
 	/* display: none;  */
@@ -19,4 +19,8 @@ body {
 /* Hides the title/header bar of all embedded notes */
 .markdown-embed-title {
   display: none !important;
+}
+
+.markdown-embed .callout {
+    margin: 1rem 0 !important;
 }

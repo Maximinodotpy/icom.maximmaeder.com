@@ -2,10 +2,6 @@
 aliases:
   - graph
   - Graphen
-  - Knoten
-  - knoten
-  - Kanten
-  - kanten
 ---
 > [!abstract] Definition
 > Es sei $E$ eine endliche [[4-mengen|Menge]] von Knoten
@@ -79,11 +75,18 @@ Bei einem ungerichteten (Multi-)Graphen können die [[4-mengen|Mengen]], die ein
 
 ![[Graphen Baum#^definition]]
 
+![[Graphen Baum#^definitionblatt]]
+
 ![[Graphen Baum#^beispiel]]
-## Spannbäume
+
+![[Graphen Baum#Prüfercode]]
+
+## [[Graphen Spannbäume|Spannbäume]]
 
 ![[Graphen Spannbäume]]
 
-> [!NOTE]- Sonstiges
-> [Gerichteter Graph – Wikipedia](https://de.wikipedia.org/wiki/Gerichteter_Graph)
-> ![[Pasted image 20261019134953.png]]
+## Sonstiges
+
+[Gerichteter Graph – Wikipedia](https://de.wikipedia.org/wiki/Gerichteter_Graph)
+
+![[Pasted image 20261019134953.png]]
