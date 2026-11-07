@@ -1,3 +1,7 @@
+---
+aliases:
+  - Königsberger Brückenproblem
+---
 Existiert ein [[Graphen Wege|Weg]], der alle Brücken genau einmal überquert?
 
 ![[Graphen Königsberger Brückenproblem_visualisierung]]

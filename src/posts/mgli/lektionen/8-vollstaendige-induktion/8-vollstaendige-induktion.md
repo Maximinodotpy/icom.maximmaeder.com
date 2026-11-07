@@ -8,6 +8,16 @@ Woche: "9"
 übungs_serie:
 schriftliche_notizen: "[[8-vollstaendige-induktion-übungen]]"
 ---
+## Summenzeichen
+![[Summenzeichen]]
+
+## Produktzeichen
+![[Produktzeichen]]
+
+## Türme von Hanoi
+
+![[Türme von Hanoi]]
+
 ## Lernziele
 
 - [ ] Sie können die Laufzeit dieses Algorithmus für kleine Zahlenbeispiele berechnen und informell begründen, wie die Laufzeit für ein allgemeines n bestimmt werden kann.

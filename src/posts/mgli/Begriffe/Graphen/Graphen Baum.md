@@ -1,3 +1,11 @@
+---
+aliases:
+  - Prüfercode
+  - Baum
+  - Blatt
+  - Blätter
+  - Bäume
+---
 > [!abstract] Definition eines Baumes
 > Es sei $G = (V,E)$ ein ungerichteter [[Graph]] (kein Multigraph).
 > $G$ heisst <span style='color: var(--custom-word-green, green)'>Baum</span>, falls $G$ [[Graphen Zusammenhang|zusammenhängend]] ist und keinen Kreis enthält.

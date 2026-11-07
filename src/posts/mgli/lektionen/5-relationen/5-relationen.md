@@ -44,7 +44,7 @@ aliases:
 > Anstelle $xRy$ schreibt man bei dieser Relation $x \ge y$
 
 ^zahlenbeispiel
-### [[Bipartiter Graph]]
+### [[bipartiter Graph]]
 Die beiden Beispiel von eben lassen sich auch als <span style='color: var(--custom-word-green, green)'>[[bipartiter Graph]]</span> darstellen, das kann helfen das ganze zu visualisieren.
 
 **[[#^grossvaterbeispiel|Stammbaum]]**

@@ -79,7 +79,7 @@ y = 2x
 ![[Bildmenge#Beispiel]]
 ## Definition der [[Betragsfunktion]]
 
-![[mgli/Begriffe/Betragsfunktion#^definition]]
+![[Betragsfunktion#^definition]]
 
 ## Eigenschaften einer Funktion
 

@@ -3,5 +3,5 @@
 >
 > $p*c = a^2$ bzw. $q * c = b^2$
 >
-> ![[Kathetensatz 2026-10-29 11.49.00.excalidraw||100%]]
+> ![[Winkel Kathetensatz_visualisierung||100%]]
 

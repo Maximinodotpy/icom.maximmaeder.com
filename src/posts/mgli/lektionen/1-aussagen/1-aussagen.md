@@ -106,7 +106,7 @@ Damit können wir logische Formeln vereinfachen: zb.
 3. $A \lor 0$ -> Identitätsgesetz
 4. $A$
 ## Normalformen
-Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine [[logische Formel]] zu analysieren.
+Normalformen bringen logische Formeln in eine einheitliche Strukturen, welche es einfach machen eine [[Logische Formel]] zu analysieren.
 Aus Übersichtlichkeitsgründen schreiben wir für die Negation $\neg A$ lieber $\bar{A}$.
 ### Konjunktive Normalform
 Und-Verknüpfungen aus Oder-Verknüpfungen welcher wiederum aus Variablen und negierte Variablen bestehen.

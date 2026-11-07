@@ -8,6 +8,27 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:koma/Begriffe/Winkel  tag:#excalidraw ",
+      "color": {
+        "a": 1,
+        "rgb": 6684672
+      }
+    },
+    {
+      "query": "path:koma/Begriffe/Winkel  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:mgli/Begriffe/Graphen  tag:#excalidraw  ",
+      "color": {
+        "a": 1,
+        "rgb": 8543767
+      }
+    },
+    {
       "query": "path:mgli/Begriffe/Graphen  ",
       "color": {
         "a": 1,
@@ -15,30 +36,37 @@
       }
     },
     {
-      "query": "file:Graph",
+      "query": "path:Funktionen",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 5431473
       }
     },
     {
-      "query": "file:Funktionen",
+      "query": "tag:#excalidraw  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 5526612
+      }
+    },
+    {
+      "query": "path:mgli/Begriffe/Menge  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1.77097477421364,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -0.1,
+  "nodeSizeMultiplier": 1.76754126440361,
+  "lineSizeMultiplier": 2.42677514792899,
   "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 51,
-  "scale": 0.08150214675999667,
+  "centerStrength": 0.345297415135472,
+  "repelStrength": 8.00218000622859,
+  "linkStrength": 0.793755839302398,
+  "linkDistance": 30,
+  "scale": 0.1601970372981137,
   "close": false
 }

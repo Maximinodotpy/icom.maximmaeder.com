@@ -2,6 +2,8 @@
 aliases:
   - Eulerweg
   - Eulerwege
+  - Eulerbedingung
+  - Eulerbedingungen
 ---
 
 > [!abstract] Eulerbedienung für Eulerweg

@@ -52,7 +52,7 @@ Winkelmassysteme
 
 ### Winkel im Kreis
 Der <span style='color: var(--custom-word-green, green)'>Mittelpunktswinkel</span> eines Kreisbogens ist doppelt so groß wie einer der zugehörigen <span style='color: var(--custom-word-green, green)'>Umfangswinkel</span>.
-![[koma/Begriffe/zeichnungen/Winkel_(allgemein).md#^frame=AqJxRkpa||100%]]
+![[Winkel_(allgemein)#^frame=AqJxRkpa||100%]]
 
 #### Thales Kreis
 
