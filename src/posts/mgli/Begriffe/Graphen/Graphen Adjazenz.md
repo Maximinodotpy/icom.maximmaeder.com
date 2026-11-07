@@ -10,7 +10,7 @@
 ^definition
 
 > [!example]+ Beispiel einer Adjazenzmatrix
-> ![[Excalidraw/Adjazenz 2026-11-04 08.33.08.excalidraw.md#^frame=CtZICdN0||100%]]
+> ![[Graphen Adjazenz_matrix#^frame=CtZICdN0||100%]]
 >
 > So beschreiben die Zeilen von welchem [[Graphen Knoten|Knoten]] zu welchem [[Graphen Knoten|Knoten]] (die Spalten eine [[Graphen Kanten|Kante]] geht). Wäre der [[Graph]] nun ungerichtet, wäre die Matrix symmetrisch
 

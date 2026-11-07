@@ -9,7 +9,7 @@
 >
 > Isomorphe Graphen sind im Wesentlichen gleich, sie unterscheiden sich nur in der Benennung der Ecken
 >
-> ![[Graphen Isomorphismus 2026-11-06 11.16.50.excalidraw||100%]]
+> ![[Graphen Isomorphismus_beispiel||100%]]
 
 ^definition
 

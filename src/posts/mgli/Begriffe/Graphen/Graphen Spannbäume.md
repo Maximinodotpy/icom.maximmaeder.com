@@ -9,7 +9,7 @@ aliases:
 > Es sei $G = (V,E)$ ein ungerichteter zusammenhängender [[Graph]]. Ein Teilgraph $T$ heisst <span style='color: var(--custom-word-green, green)'>Spannbaum</span>, falls $T$ ein [[Graphen Baum|Baum]] ist und jeden [[Graphen Knoten|Knoten]] von $G$ enthält.
 
 > [!example]+ Beispiel
-> ![[Graphen Spannbäume 2026-11-07 11.59.29.excalidraw||100%]]
+> ![[Graphen Spannbäume_beispiel||100%]]
 
 > [!abstract] Definition gewichteter [[Graph]]
 > Ein [[Graph]] $G = (V,E)$ zusammen mit einer <span style='color: var(--custom-word-green, green)'>Gewichtsfunktion</span> $c : E \rightarrow \mathbb{R}$ heisst <span style='color: var(--custom-word-green, green)'>gewichteter [[Graph]]</span>.
@@ -21,7 +21,7 @@ aliases:
 > Ein Spannbaum $T$ heisst <span style='color: var(--custom-word-green, green)'>minimaler Spannbaum</span>, wenn die Summe der Kantengewichte minimal ist.
 
 > [!example]+ Beispiel
-> ![[Graphen Spannbäume 2026-11-07 12.09.17.excalidraw||100%]]
+> ![[Graphen Spannbäume_minimal||100%]]
 >
 > Es kann also durchaus auch mehrere minimale Spannbäume geben (die dann alle dieselbe minimale Kantengewichtsumme haben)
 

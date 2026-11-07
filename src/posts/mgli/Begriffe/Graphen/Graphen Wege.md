@@ -14,7 +14,7 @@ aliases:
 >
 > wobei $e_{j_l}$ eine Kante zwischen $v_{j_l}$ und $v_{j_{l+1}}$ ist, heisst <span style='color: var(--custom-word-green, green)'>Weg</span>.
 >
-> Wird in einem Weg jede Kante des Graphens genau einmal besucht, heisst der Weg <span style='color: var(--custom-word-green, green)'>Eulerweg</span>.
+> Wird in einem Weg jede Kante des Graphens genau einmal besucht, heisst der Weg [[Graphen Eulerweg]].
 >
 > ![[Graphen Wege_beispiele||100%]]
 >

@@ -4,7 +4,7 @@
 >
 > Äquivalent ist:
 > - $G$ ist ein Baum.
-> - Zwischen zwei beliebigen Knoten von $G$ existiert genau ein Weg
+> - Zwischen zwei beliebigen Knoten von $G$ existiert genau ein [[Graphen Wege|Weg]]
 > - $G$ ist zusammenhängend und $|E| = |V| - 1$ (Euler-Formel: die Menge der Kanten ist um eines kleiner als die Menge der Knoten)
 > - $G$ ist zusammenhängend und das Entfernen einer einzigen Kante hebet den Zusammenhang auf.
 > - $G$ hat hat keinen Kreis aber durch das Hinzufügen einer neuen Kante entsteht ein Kreis
@@ -64,5 +64,5 @@ Insbesondere gibt es damit auch $n^{n-2}$ verschiedene [[Graphen Spannbäume|Spa
 > [!example]+ Beispiel
 > Es gibt $3^{2-1} = 3$ verschiedene Bäume mit drei Knoten.
 >
-> ![[Graphen Baum 2026-11-07 11.48.14.excalidraw||100%]]
+> ![[Graphen Baum_varianten_beispiel||100%]]
 

@@ -8,7 +8,7 @@ image: "#1a91db"
 >
 > Heisst die [[6-funktionen|Funktion]] kann jeden $y$-Wert treffen.
 >
-> Also die [[6-funktionen#Bildmenge|Bildmenge]] ist gleich der [[6-funktionen|Wertemenge]]
+> Also die Bildmenge ist gleich der [[6-funktionen|Wertemenge]]
 >
 > graphisch hiesse das, dass bei jedem element auf der rechten Seite <u>mindestens</u> ein Pfeil ankommt.
 >
