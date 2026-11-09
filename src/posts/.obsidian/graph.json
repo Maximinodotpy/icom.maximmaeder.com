@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:koma/Begriffe/Winkel  tag:#excalidraw ",
@@ -67,6 +67,6 @@
   "repelStrength": 8.00218000622859,
   "linkStrength": 0.793755839302398,
   "linkDistance": 30,
-  "scale": 0.27074711072530067,
+  "scale": 1.4664842740461146,
   "close": false
 }
