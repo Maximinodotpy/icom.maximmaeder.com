@@ -12,6 +12,11 @@
 > Es ist etwa $|7| = 7$ oder $|-8| = 8$ oder $|0| = 0$. Wir bekommen damit also von jeder Zahl die Positive version davon (absoluten Betrag)
 >
 > Somit gilt also für die Bildmenge $f(\mathbb{Z}) = \mathbb{N}_0$
+>
+> ```desmos-graph
+> y=x\ \left\{x\ge0\right\}
+> y=-x\ \left\{x\ \le0\right\}
+> ```
 
 ^definition
 
