@@ -631,63 +631,49 @@
         "type": "split",
         "children": [
           {
-            "id": "4a9619ed75808a36",
+            "id": "0a658e5dfbfa6769",
             "type": "tabs",
             "children": [
               {
-                "id": "b208ff79d23adf51",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "prog1/probeprüfung midterms/Musterprüfung 1 Notizen.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Musterprüfung 1 Notizen"
-                }
-              },
-              {
-                "id": "4dcfc1288ac5176c",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "mgli/Spick PDF's/Zusammenfassung_Spick_Midterms.html V1.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "Zusammenfassung_Spick_Midterms.html V1"
-                }
-              },
-              {
-                "id": "57d64c1e0c946900",
+                "id": "5ca6ab8aa76d808d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "prog1/lektionen/W04-Objekte verbinden und kapseln/W04-Objekte verbinden und kapseln.md",
-                    "mode": "source",
-                    "source": true
-                  },
-                  "icon": "lucide-file",
-                  "title": "W04-Objekte verbinden und kapseln"
-                }
-              },
-              {
-                "id": "1d95eedf25d69b6d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "prog1/Spick Midterms.md",
+                    "file": "prog1/lektionen/W09-Rekursion/W09-Rekursion.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Spick Midterms"
+                  "title": "W09-Rekursion"
+                }
+              },
+              {
+                "id": "250655cc733b8a08",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/W09-Rekursion 2026-11-09 10.00.38.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "W09-Rekursion 2026-11-09 10.00.38.excalidraw"
+                }
+              },
+              {
+                "id": "063de8c706e8b97c",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "prog1/lektionen/W09-Rekursion/Drawing 2026-11-09 09.40.01.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-11-09 09.40.01.excalidraw"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -721,9 +707,9 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "Prüfercode",
                     "matchingCase": false,
-                    "explainSearch": false,
+                    "explainSearch": true,
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
@@ -749,7 +735,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 466.3000183105469
+        "width": 355.8999938964844,
+        "collapsed": true
       },
       "right": {
         "id": "bb5f7559b17672d2",
@@ -765,7 +752,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "mgli/lektionen/4-mengen/4-mengen-übungen.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -784,9 +770,8 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "mgli/lektionen/4-mengen/4-mengen-übungen.md",
                     "linksCollapsed": false,
-                    "unlinkedCollapsed": true
+                    "unlinkedCollapsed": false
                   },
                   "icon": "links-going-out",
                   "title": "Outgoing links"
@@ -827,7 +812,6 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "mgli/lektionen/4-mengen/4-mengen-übungen.md",
                     "followCursor": true,
                     "showSearch": false,
                     "searchQuery": ""
@@ -847,39 +831,17 @@
                 }
               },
               {
-                "id": "c54ab275c950ee59",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "0eea0a683ef6822f",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
                 "id": "a5171b296af144e5",
                 "type": "leaf",
                 "state": {
                   "type": "file-properties",
-                  "state": {
-                    "file": "prog1/Spick Midterms.md"
-                  },
+                  "state": {},
                   "icon": "lucide-info",
                   "title": "File properties"
                 }
               },
               {
-                "id": "5d186062fd8674c7",
+                "id": "bc228609f57f58f7",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -889,7 +851,7 @@
                 }
               },
               {
-                "id": "0e644c36acdea41c",
+                "id": "03a083bfe0d53873",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -899,87 +861,7 @@
                 }
               },
               {
-                "id": "e954f9a0d67d4bdd",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "f84b88449dac702f",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "847accd89074e8fa",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "498910db2d8896ee",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "282e0fa8c9e1e2f8",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "12f55f835c5773a1",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "412d1004ed50299c",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "999978cdb2946e9c",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "415319035708715e",
+                "id": "2b22e7b07d78f599",
                 "type": "leaf",
                 "state": {
                   "type": "Saved Queries View",
@@ -989,38 +871,103 @@
                 }
               },
               {
-                "id": "d72fbdff6a80e0d2",
+                "id": "edd1cf047d4fed7d",
                 "type": "leaf",
                 "state": {
-                  "type": "Saved Queries View",
+                  "type": "excalidraw-sidepanel",
                   "state": {},
-                  "icon": "feather-mouse-pointer",
-                  "title": "Saved Queries"
+                  "icon": "excalidraw-icon",
+                  "title": "Excalidraw Sidepanel"
                 }
               }
             ],
-            "currentTab": 6
+            "currentTab": 10
           }
         ],
         "direction": "horizontal",
-        "width": 451.0999755859375,
-        "collapsed": true
+        "width": 368.699951171875
       },
       "left-ribbon": {
         "hiddenItems": {
+          "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "workspaces:Manage workspace layouts": false,
           "graph:Open graph view": false,
+          "bases:Create new base": false,
           "obsidian-excalidraw-plugin:New drawing": false,
           "obsidian-git:Open Git source control": false,
           "math-plotter:Insert Function Plot": false,
-          "bases:Create new base": false
+          "omnisearch:Omnisearch": false
         }
       },
-      "active": "22b7e54043537512",
-      "mtime": "2026-10-21T18:37:01+02:00"
+      "floating": {
+        "id": "02752fdad6ab1895",
+        "type": "floating",
+        "children": [
+          {
+            "id": "50aead481ea6e9aa",
+            "type": "window",
+            "children": [
+              {
+                "id": "8f692b526b40ed6d",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "c25ef9efee20e26b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "mgli/lektionen/6-funktionen/6-funktionen.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "6-funktionen"
+                    }
+                  },
+                  {
+                    "id": "519d59d973a2d0b6",
+                    "type": "leaf",
+                    "state": {
+                      "type": "pdf",
+                      "state": {
+                        "file": "mgli/uebungen/serie06-loesung.pdf"
+                      },
+                      "icon": "lucide-file-text",
+                      "title": "serie06-loesung"
+                    }
+                  },
+                  {
+                    "id": "6f41181819eb1427",
+                    "type": "leaf",
+                    "state": {
+                      "type": "excalidraw",
+                      "state": {
+                        "file": "mgli/lektionen/6-funktionen/6-funktionen-übungen.md"
+                      },
+                      "icon": "excalidraw-icon",
+                      "title": "6-funktionen-übungen"
+                    }
+                  }
+                ],
+                "currentTab": 2
+              }
+            ],
+            "direction": "vertical",
+            "x": 394,
+            "y": 20,
+            "width": 747,
+            "height": 824,
+            "maximize": true,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "6f41181819eb1427",
+      "mtime": "2026-11-09T11:46:04+01:00"
     }
   },
   "active": "prog1 spick"
