@@ -14,7 +14,7 @@ aliases:
 > - $G$ ist ein Baum.
 > - Zwischen zwei beliebigen Knoten von $G$ existiert genau ein [[Graphen Wege|Weg]]
 > - $G$ ist zusammenhängend und $|E| = |V| - 1$ (Euler-Formel: die Menge der Kanten ist um eines kleiner als die Menge der Knoten)
-> - $G$ ist zusammenhängend und das Entfernen einer einzigen Kante hebet den Zusammenhang auf.
+> - $G$ ist zusammenhängend und das Entfernen einer einzigen Kante hebt den Zusammenhang auf.
 > - $G$ hat hat keinen Kreis aber durch das Hinzufügen einer neuen Kante entsteht ein Kreis
 
 ^definition

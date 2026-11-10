@@ -96,15 +96,15 @@ which looks like this
 | Befehl                         | Symbol                            | Bedeutung |
 | ------------------------------ | --------------------------------- | --------- |
 | `\sum`<br><br>`\sum_{10}^{11}` | $$\sum$$<br>$$\sum_{10}^{11}x+1$$ | Summe     |
-| `\prod`<br><br>`\prod_{x}^{5}` | $$\prod$$<br>$$\prod_{x}^{5}$$    | Produkt   |
+| `\prod`<br><br>`\prod_{x}^{5}` | $$\prod$$<br>$$\prod_{x}^{5}x$$   | Produkt   |
 $$\prod$$
 $$\sum$$
 
 ## Geometrie
 
-| Befehl        | Beispiel/Symbol | Bedeutung |
-| ------------- | --------------- | --------- |
-| `\textdegree` | $\textdegree$   | [[Winkel|Grad]]      |
+| Befehl        | Beispiel/Symbol | Bedeutung       |     |
+| ------------- | --------------- | --------------- | --- |
+| `\textdegree` | $\textdegree$   | [[Winkel Grad]] |     |
 
 
 ## Sonstiges
@@ -121,6 +121,7 @@ $$\sum$$
 | `\Theta`      | $\Theta$        | Theta gross |
 
 ### Mehrstufige Gleichung
+
 ```latex
 $$
 \begin{alignat*}{3}
@@ -136,6 +137,7 @@ x - y &= 0 &\quad & \\
 \end{alignat*}
 $$
 ## Gleichungssysteme
+
 ```latex
 $$
 \begin{alignat*}{3}
@@ -156,7 +158,9 @@ $$
 $$
 
 ## Matrix
+
 mit `matrix`, `pmatrix` (runde Klammern), `bmatrix` (eckige Klammern)
+
 ```latex
 $$
 \begin{pmatrix}
