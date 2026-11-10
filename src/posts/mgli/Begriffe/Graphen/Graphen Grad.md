@@ -4,6 +4,10 @@
 > ![[Graphen Grad_beispiel||100%]]
 >
 > Die Anzahl der Knoten mit ungeradem Grad ist hier jeweils gerade. Das gilt immer.
+>
+> Bei einem gerichteten (Multi-)Graphen kann respektive muss man die eingehenden und ausgehenden Kanten mit $deg_{in}$ und $deg_{out}$ deklarieren.
+>
+> ![[Graphen Grad_gerichtetes beispiel||100%]]
 
 ^definitiongrad
 
