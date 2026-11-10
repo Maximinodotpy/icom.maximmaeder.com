@@ -93,10 +93,10 @@ which looks like this
 | `\overline{A \cup B}` | $\overline{A \cup B}$ | [[4-mengen#^komplement\|Komplement]]                                                  |
 | `\circ`               | $R \circ S$           | Komposition/Verknüpfung                                                               |
 ## Set of Terms
-| Befehl                         | Symbol                         | Bedeutung |
-| ------------------------------ | ------------------------------ | --------- |
-| `\sum`<br><br>`\sum_{10}^{11}` | $$\sum$$<br>$$\sum_{10}^{11}$$ | Summe     |
-| `\prod`<br><br>`\prod_{x}^{5}` | $$\prod$$<br>$$\prod_{x}^{5}$$ | Produkt   |
+| Befehl                         | Symbol                            | Bedeutung |
+| ------------------------------ | --------------------------------- | --------- |
+| `\sum`<br><br>`\sum_{10}^{11}` | $$\sum$$<br>$$\sum_{10}^{11}x+1$$ | Summe     |
+| `\prod`<br><br>`\prod_{x}^{5}` | $$\prod$$<br>$$\prod_{x}^{5}$$    | Produkt   |
 $$\prod$$
 $$\sum$$
 
